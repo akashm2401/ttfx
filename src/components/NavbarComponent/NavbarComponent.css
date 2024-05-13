@@ -1,0 +1,34 @@
+.navbar{
+    background-color: #111827 !important;
+    color: #FFFFFF;
+}
+
+#brand-logo {
+    width: 14rem;
+}
+
+.navbar a,  .nav-link  {
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    color: #8236FD;
+    /* color: #0d6efd;    ; */
+}
+
+.active {
+    color: #ABABB9 !important;
+}
+
+ul {
+    margin-left: 4rem;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.navbar-toggler-icon{
+    background-image: url('../../assets/ico/hamburger.png') !important;
+}
