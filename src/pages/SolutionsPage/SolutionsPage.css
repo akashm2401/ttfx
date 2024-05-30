@@ -1,0 +1,72 @@
+.product-container {
+    /* display: flex; */
+    align-items: center;
+    /* align-content: center; */
+    /* justify-items: center; */
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.product-download-box {
+    height: 100%;
+}
+
+.product-download-box .card {
+    height: 200px;
+}
+
+.product-download-box p {
+    text-align: justify;
+}
+
+.product-download-box-link button,
+.product-download-box-name button {
+    color: #111827;
+    border-color: #111827;
+    font-size: 0.6rem;
+}
+
+.product-download-box-name {
+    font-size: 0.9rem;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .product-info-box .p-heading-line, p{
+        margin: 0 !important;
+    }
+
+    .product-info-box .p-heading-line {
+        font-size: 1rem;
+    }
+
+    .product-info-box p {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .product-info-box .p-heading-line, p{
+        margin: 0 !important;
+    }
+
+    .product-info-box .p-heading-line {
+        font-size: 1rem;
+    }
+
+    .product-info-box p {
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 992px) {}

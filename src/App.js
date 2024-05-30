@@ -2,26 +2,31 @@ import './App.css';
 import NavbarComponent from './components/NavbarComponent/NavbarComponent';
 import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage/AboutPage';
+import SolutionsPage from './pages/SolutionsPage/SolutionsPage'
+import ContactUsPage from './pages/ContactUsPage/ContactUsPage'
+import FooterComponent from './components/FooterComponent/FooterComponent';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
       <header className="app-header">
         <NavbarComponent/>
       </header>
       <main>
-        <BrowserRouter>
           <Routes>
             <Route path='' index element={<HomePage/>} />
+            <Route path='/solutions' element={<SolutionsPage/>}/>
             <Route path='/about' element={<AboutPage/>}/>
+            <Route path='/contact-us' element={<ContactUsPage/>}/>
           </Routes>
-        </BrowserRouter>
       </main>
       <footer>
-        
+        <FooterComponent/>
       </footer>
     </div>
+    </BrowserRouter>
   );
 }
 

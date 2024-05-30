@@ -1,0 +1,157 @@
+.about-page-img-container {
+    /* height: 100vh; */
+    padding: 20px;
+    background-image: url('../../assets/img/about1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-page-img-container h2 {
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.about-page-img-container p {
+    color: white;
+    text-align: justify;
+}
+
+.about-page-img-container-info {
+    display: flex;
+    line-height: 1.8rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-info-container {
+    background-color: #F3F4F6;
+}
+
+.about-info-heading h4 {
+    font-size: 2rem;
+}
+
+.about-info-content p {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+
+.about-info-content-heading {
+    font-size: 1.1rem !important;
+    color: #0e0741ce;
+    font-weight: 700;
+    /* color: red; */
+}
+
+.about-insights-container {
+    background-color: #111827;
+}
+
+.about-insights-data-item p {
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.about-insights-data-item p:first-child {
+    font-size: 2rem;
+}
+
+.about-member-info-box {
+    box-shadow: 1px 1px 8px;
+    border-radius: 8px;
+}
+
+.about-more-info h6 {
+    font-size: 2rem;
+}
+
+.about-more-info p {
+    font-size: 0.8rem;
+}
+
+.about-social-links {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .about-page-img-container h2 {
+        font-size: 1rem;
+    }
+
+    .about-page-img-container p {
+        font-size: 0.6rem;
+        line-height: 0.8rem;
+    }
+
+    /*  */
+    .about-info-heading h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .about-info-content p {
+        font-size: 1rem;
+    }
+
+    /*  */
+    .about-members .container h4{
+        font-size: 1rem;
+    }
+
+    .about-members .container p{
+        width: 100% !important;
+        font-size: 0.8rem;
+    }
+
+    /*  */
+    .about-more-info h6 {
+        font-size: 1rem;
+    }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .about-page-img-container h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-page-img-container p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    /*  */
+    .about-info-heading h4 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    /*  */
+    .about-members .container h4{
+        font-size: 1.5rem;
+    }
+
+    .about-members .container p{
+        width: 100% !important;
+        font-size: 1rem;
+    }
+
+    /*  */
+    .about-more-info h6 {
+        font-size: 1.5rem;
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 992px) {}

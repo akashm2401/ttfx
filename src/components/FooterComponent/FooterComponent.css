@@ -1,0 +1,107 @@
+.footer-container {
+    background-color: #111827;
+}
+
+.footer-container-main-links{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 4rem;
+    /* height: 100px; */
+    /* background-color: aqua; */
+}
+
+.footer-container-main-col {
+    /* height: 100px; */
+    width: 100%;
+    /* background-color: red; */
+}
+
+.footer-container-main-col-heading h4{
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.footer-container-main-col-links ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container-main-col-links ul a{
+    text-decoration: none;
+    color: #FFFFFF;
+    line-height: 2rem;
+    font-size: 0.8rem;
+}
+
+.footer-container-main-col-links ul a:hover{
+    color: #0050fc;
+    text-decoration: underline 1px solid;
+}
+
+.footer-container-main-info{
+    text-align: center;
+    color: #cccccc;
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+}
+
+.footer-copyrights-container{
+    padding: 1rem;
+    width: 100%;
+    background-color: #111827;
+}
+
+.footer-copyrights-container p{
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 320px) and (max-width: 479px){  
+    .footer-container-main-links{
+        flex-wrap: wrap;
+        row-gap: 20px;
+        /* text-align: center; */
+    }
+
+    .footer-container-main-col-links {
+        margin-left: 40px;
+    }
+
+    .footer-container-main-info {
+        line-height: 1rem;
+    }
+
+    .footer-container-main-info p {
+        margin: 0;
+    }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+    .footer-container-main-links{
+        flex-wrap: wrap;
+        row-gap: 20px;
+        /* text-align: center; */
+    }
+
+    .footer-container-main-col-links {
+        margin-left: 40px;
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 992px){ 
+
+}
+  

@@ -1,18 +1,24 @@
-.navbar{
+.navbar {
     background-color: #111827 !important;
     color: #FFFFFF;
+    height: 5rem;
 }
 
 #brand-logo {
     width: 14rem;
 }
 
-.navbar a,  .nav-link  {
+.navbar a,
+.nav-link {
     color: #FFFFFF;
     font-weight: 500;
 }
 
-.navbar a:hover{
+.nav-link:focus {
+    color: #FFFFFF;
+}
+
+.navbar a:hover {
     color: #8236FD;
     /* color: #0d6efd;    ; */
 }
@@ -21,14 +27,105 @@
     color: #ABABB9 !important;
 }
 
-ul {
-    margin-left: 4rem;
+.navbar ul {
+    margin-left: 3rem;
+    font-size: 1rem;
 }
 
-.nav-item{
+.nav-item {
     margin-right: 1rem;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     background-image: url('../../assets/ico/hamburger.png') !important;
 }
+
+.active {
+    font-weight: bold;
+    color: #8236FD !important; /* Customize as needed */
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 320px) and (max-width: 479px){  
+    #brand-logo {
+        width: 10rem;
+    }
+
+    .navbar {
+        z-index: 1;
+        height: auto;
+        padding: 15px;
+    } 
+
+    .navbar ul {
+        font-size: 1rem;
+    }
+
+    .navbar ul li {
+        border-bottom: 1px solid hsla(0, 0%, 100%, .1);
+        padding-left: 5px;
+        padding-bottom: 0;
+    }
+
+    .navbar .wp-button {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+    .navbar {
+        z-index: 1;
+        height: auto;
+        padding: 15px;
+    } 
+
+    .navbar ul {
+        font-size: 1.5rem;
+    }
+    
+    .navbar ul li {
+        border-bottom: 1px solid hsla(0, 0%, 100%, .1);
+        padding-left: 5px;
+        padding-bottom: 0;
+    }
+    
+    .navbar .wp-button {
+        position: absolute;
+        top: 15px;
+        right: 80px;
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+    .navbar {
+        z-index: 1;
+        height: auto;
+        padding: 15px;
+    } 
+    
+    .navbar ul {
+        font-size: 1.5rem;
+    }
+    
+    .navbar ul li {
+        border-bottom: 1px solid hsla(0, 0%, 100%, .1);
+        padding-left: 5px;
+        padding-bottom: 0;
+    }
+    
+    .navbar .wp-button {
+        position: absolute;
+        top: 15px;
+        right: 80px;
+    }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 992px){ 
+
+}
+  
