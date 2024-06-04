@@ -15,9 +15,9 @@ export default function FooterComponent() {
                     </div>
                     <div className="footer-container-main-col-links">
                       <ul>
-                        <li><Link>Home</Link></li>
-                        <li><Link>Register Back Office</Link></li>
-                        <li><Link>Downloads</Link></li>
+                        <li><Link to={'/'}>Home</Link></li>
+                        <li><Link to={'/'}>Register Back Office</Link></li>
+                        <li><Link to={'/solutions'}>Downloads</Link></li>
                       </ul>
                     </div>
                   </div>
