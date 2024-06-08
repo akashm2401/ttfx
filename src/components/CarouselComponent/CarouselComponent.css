@@ -23,6 +23,12 @@
     background-size: cover;
 }
 
+.carousel-item .img img{
+    height: 100%;
+    width: 100%;
+    /* background-size: contain; */
+}
+
 .carousel-item .info {
     /* width: calc(100% - 18rem); */
     /* background: rgba(14, 7, 65, 0.507); */
