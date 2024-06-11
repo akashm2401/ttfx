@@ -4,7 +4,7 @@ import CarouselComponent from '../../components/CarouselComponent/CarouselCompon
 import FeaturesComponent from '../../components/FeaturesComponent/FeaturesComponent'
 import ToolsViewComponent from '../../components/ToolsViewComponent/ToolsViewComponent'
 import ReviewComponet from '../../components/ReviewComponent/ReviewComponet'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 
 export default function HomePage() {
   // const navigate = Navigate(); 
@@ -15,16 +15,20 @@ export default function HomePage() {
   }
   return (
     <>
-      <div className="overlay-screen">
-        <div className="overlay-effect">
-          <div className="container">
-            <div className="text-center info">
-              {/* <img src={logo} alt="brandname" width={300}/> */}
-              <h2>  Next Generation C.L.O.B.</h2>
-              <p>"OUR MISSION AT TRUE TRADE IS TO DELIVER A TRULY TRANSPARENT TRADING VENUE, BASED ON LOW COST TRANSACTION FEES, 'ZERO' MARKUP SWAP, THE BEST RAW PRICING FOR ALL INSTRUMENTS AND NEVER TAKE A POSITION AGAINST OUR CLIENTS"</p>
+      <div className="main-screen-overlay">
 
-              <button type="button" className="btn btn-outline-primary" onClick={gotToAbout}>Learn more</button>
+        <div className="main-screen row p-0 m-0">
+          <div className="left col-12 col-sm-9 col-lg-9 p-0 m-0">
+            <div className="">
+              <h4>Next Generation C.L.O.B.</h4>
+            
+              <p className='text-justify'>Our mission at true trade is to deliver a truly transparent trading venue, based on low cost transaction fees, 'zero' markup swap, the best raw pricing for all instruments and never take a position against our clients</p>
+              
+              <Link to={'/about'} className="btn btn-sm btn-outline-primary" >Learn more</Link>
             </div>
+          </div>
+          <div className="right col-0 col-sm-3 col-lg-3 p-0 m-0">
+            {/* <img src={require('../../assets/images/img123-removebg-preview.png')} alt="" /> */}
           </div>
         </div>
       </div>

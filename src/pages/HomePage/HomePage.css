@@ -84,8 +84,83 @@
 }
 
 
+/* After change 2 */
+.main-screen-overlay {
+    background-color: rgb(6, 6, 61);
+    /* background-color; */
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+.main-screen {
+    /* background-color: #001A77; */
+    background-image: url('../../assets/images/image-bg.jpg');
+    height: calc(100vh - 58px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000 !important;
+}
+
+.main-screen .right{
+    /* background-image: url('../../assets/images/image5-removebg-preview.png');
+    height: calc(100vh - 58px);
+    background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* mix-blend-mode: multiply; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.main-screen .right img {
+    height: 80%;
+    width: 90%;
+    /* margin: auto; */
+}
+
+.main-screen .left{
+    margin: auto;
+    /* padding-inline: 40px; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.main-screen .left div{
+    margin: 100px;
+    /* margin-top: 80px; */
+}
+
+.main-screen .left h4{
+    color: #FFF;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: Inter, sans-serif;
+}
+
+.main-screen .left p {
+    text-transform: small;
+    color: #FFF;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    margin-bottom: 10px;
+    /* font-weight: 600; */
+    font-family: Inter, sans-serif;
+    /* text-align: justify; */
+}
+
+.main-screen .left p:first-letter {
+    text-transform: capitalize;
+}
+
+
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-width: 320px) and (max-width: 479px){  
+    .overlay-screen  {
+        min-height: auto;
+        height: max-content;
+    }
     .overlay-screen .info{
         width: 100%;
         margin-top: 0;
@@ -120,6 +195,23 @@
     .home-about-section .home-about-right-section .home-about-section-desc{
         font-size: 1rem;
     }
+
+    .main-screen .left {
+        align-items: center;
+    }
+
+    .main-screen .left div {
+        margin: 30px;
+    }
+
+    .main-screen .left h4 {
+        font-size: 2rem;
+    }
+
+    .main-screen .left p {
+        font-size: 1rem;
+        line-height: 2rem;
+    }
 }
 
 /* SMARTPHONES LANDSCAPE */
@@ -133,7 +225,7 @@
     }
 
      /*  */
-     .home-about-section {
+    .home-about-section {
         flex-wrap: wrap;
     }
 
@@ -143,6 +235,24 @@
 
     .home-about-right-section h4{
         font-size: 1.5rem;
+    }
+
+
+    .main-screen .left {
+        align-items: center;
+    }
+
+    .main-screen .left div {
+        margin: 30px;
+    }
+
+    .main-screen .left h4 {
+        font-size: 2.5rem;
+    }
+
+    .main-screen .left p {
+        font-size: 1.2rem;
+        line-height: 2.2rem;
     }
 }
 
@@ -159,6 +269,10 @@
 
     .home-about-right-section h4{
         font-size: 1.5rem;
+    }
+
+    .main-screen .left div {
+        margin: 40px;
     }
 }
 

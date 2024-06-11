@@ -1,10 +1,17 @@
-.navbar {
-    background-color: #111827 !important;
+/* .navbar {
+    background-color: #141a27 !important;
     color: #FFFFFF;
     height: 5rem;
+} */
+
+.navbar {
+    background-color: #141a27 !important;
+    color: #FFFFFF;
+    height: 76px;
+    font-family: Inter, sans-serif;
 }
 
-#brand-logo {
+/* #brand-logo {
     width: 14rem;
 }
 
@@ -12,6 +19,24 @@
 .nav-link {
     color: #FFFFFF;
     font-weight: 500;
+} */
+#brand-logo {
+    width: 10rem;
+    display: inline-block;
+    padding: 10px 10px 10px;
+    margin-left: 30px;
+    height: 45px;
+}
+
+.navbar a,
+.nav-link {
+    /* color: #FFFFFF;
+    font-weight: 500; */
+    box-shadow: revert;
+    font-size: .85rem;
+    line-height: 1.4375rem;
+    font-weight: 600;
+    color: #fff;
 }
 
 .nav-link:focus {
