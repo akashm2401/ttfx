@@ -1,0 +1,59 @@
+#legal-page {
+    /* height: calc(100vh - 76px); */
+    width: 100%;
+    /* background-color: aqua; */
+    /* overflow: auto; */
+}
+
+.legal-page-nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 76px;    
+    width: 20%;
+    height: 100%;
+    /* border-right: 1px solid #d5d2d2; */
+}
+
+.legal-page-nav ul li{
+    cursor: pointer;
+    padding: 16px 8px;
+    border-bottom: 1px solid #d5d2d2;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.legal-page-nav ul li a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}
+
+.legal-page-nav ul li a:hover{
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+}
+
+.legal-page-nav-menu-active {
+    border-right: 4px solid blue;
+}
+
+.legal-page-main-screen {
+    border-left: 1px solid #d5d2d2;
+    width: 80%;
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 320px) and (max-width: 479px) {}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 992px) {}
