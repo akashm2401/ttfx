@@ -238,8 +238,13 @@
     }
 
 
+    .main-screen-overlay{
+        height: max-content;
+    }
+
     .main-screen .left {
         align-items: center;
+        height: max-content;
     }
 
     .main-screen .left div {
