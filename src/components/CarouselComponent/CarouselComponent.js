@@ -1,5 +1,7 @@
 import React from 'react'
 import './CarouselComponent.css'
+import { Link } from "react-router-dom";
+
 // import homeScreen from '../../../assets/img/home-screen.png'
 export default function CarouselComponent() {
     return (
@@ -13,7 +15,7 @@ export default function CarouselComponent() {
                         <div className="col-sm-12 col-md-8 info" >
                             <h4>Lorem ipsum</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum quo velit, possimus architecto quod vero at, distinctio iusto praesentium incidunt quis sapiente ratione! Odio corporis ipsum quo eligendi, in animi!</p>
-                            <button className="btn btn-sm btn-outline-primary">Learn more</button>
+                            <Link to={'/contact-us'} className="btn btn-sm btn-outline-primary">Learn more</Link>
                         </div>
                     </div>   
                 </div>

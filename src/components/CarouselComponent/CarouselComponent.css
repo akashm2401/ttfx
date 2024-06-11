@@ -32,7 +32,8 @@
 .carousel-item .info {
     /* width: calc(100% - 18rem); */
     /* background: rgba(14, 7, 65, 0.507); */
-background: linear-gradient(370deg, rgba(14, 7, 65, 0.959) 0%, rgba(130, 54, 253, 0.815) 32%, rgba(17, 24, 39, 0.849) 100%);
+    background: #15B4BD;
+    opacity: 0.7;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -52,7 +53,7 @@ background: linear-gradient(370deg, rgba(14, 7, 65, 0.959) 0%, rgba(130, 54, 253
     margin: 1rem;
 }
 
-.carousel-item .info button {
+.carousel-item .info a {
     width: max-content;
 }
 
@@ -131,5 +132,20 @@ background: linear-gradient(370deg, rgba(14, 7, 65, 0.959) 0%, rgba(130, 54, 253
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 992px){ 
 
+}
+
+/* After changes */
+.overlay {
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.8; */
+    background-color: black;
+    opacity: 0.1;
+    position: relative;
+    z-index: -1;
+}
+
+.overlay-inner{
+    z-index: 10;
 }
   
