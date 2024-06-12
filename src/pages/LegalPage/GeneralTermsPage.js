@@ -296,6 +296,128 @@ export default function GeneralTermsPage() {
 
 
       </div>
+      <br />
+      <div className="heading">
+        <h5>5. Our Price</h5>
+      </div>
+      <br />
+      <div className="text">
+        <p>5.1 During Market Hours, we will quote two prices for the Market: a higher price (“Our Offer Price”) and a lower price (“Our Bid Price”); together these prices are known as “Our Price” for a Market. Our Price is determined by reference to the price of the Underlying Instrument which is quoted on external securities exchanges or dealing facilities that we select at our discretion in line with our regulatory obligations. For Trades executed when the relevant exchange or dealing facility is closed or where there is no exchange or dealing facility, Our Price will reflect what we consider the market price of the Underlying Instrument is at that time. Subject to our regulatory obligation to provide best execution, Our Prices and how we calculate Our Prices are determined in our absolute discretion and any changes are effective immediately. If during Market Hours Our Price for any Market is not available on the Trading Platform, please call Client Management to obtain a quote.</p>
+        <br />
+        <p>5.2 We will accept a Trade only on the basis of a current Our Price. You may not be able to enter into Trades at Our Price where Our Price is described as “indication only” or “indicative” or “invalid” (or words or messages to the same effect).</p>
+        <br />
+        <p>5.3 We provide quotes for Our Prices on a best-efforts basis. If a Market Disruption Event or an Event Outside of Our Control occurs, we may not be able to provide a quote for Our Price or execute Trades during Market Hours.</p>
+        <br />
+        <p>5.4 The difference between Our Bid Price and Our Offer Price is “Our Spread”. For certain Products, Our Spread may contain an element of charge or commission for us. For some Markets Our Spreads change frequently and there is no limit to how large any such changes may be. You acknowledge that when you close a Trade, Our Spread may be larger or smaller than Our Spread when the Trade was opened, even for markets where Our Spread is fixed.</p>
+        <br />
+        <p>5.5 Unless otherwise stated in the relevant Supplemental Terms, we will provide you with best execution as defined by the LFSA Rules. Please read our Trade and Order Execution Policy which sets out the basis upon which we seek to provide best execution.</p>
+        <br />
+        <p>5.6 If your Account has Price Tolerance, Markets where Price Tolerance applies will be set out in the Market Information. Price Tolerance will only apply to instructions to Trade for immediate execution. Where applicable, you may change the Price Tolerance via the Trading Platform before you place a Trade. If, before we have executed your Trade, Our Price moves unfavorably away from our quoted price but remains within the specified Price Tolerance, your Trade will be executed at the current Our Price. If, before we have executed your Trade, Our Price moves in your favor (irrespective of the specified Price Tolerance), we will execute the Trade at the current Our Price.</p>
+      </div>
+      <br />
+
+      <div className="heading">
+        <h5>6. Closing Trades</h5>
+      </div>
+      <br />
+      <div className="text">
+        <p>6.1 If you have an Account with hedging enabled, you can close an open Trade by selecting that specific trade and closing it. If you open an opposing Trade in the same market for the same quantity, both the original Trade and the opposing Trade will be displayed as open, and you will also see the legally binding net position where those Trades offset each other.</p>
+        <br />
+        <p>6.2 If you have an Account without hedging enabled, you can close an open Trade either by selecting that Trade and closing it, or by opening a Trade in the opposing direction.</p>
+        <br />
+        <p>6.3 For some Accounts, if you enter into a closing Trade in the same Market with a greater Quantity but in the same expiry as the Open Position it offsets, then the original Open Position will be closed and a new Open Position will be created for the Quantity by which the new Trade exceeds the original Open Position.</p>
+        <br />
+        <p>6.4 You will usually be able to close an Open Position during Market Hours. However, we reserve the right to reject any Trade in accordance with clause 4.4. As a consequence, you may not be able to close the Open Position and your Losses may be unlimited until such time as you are able to close the Open Position. Where you inadvertently close an Open Position and promptly notify us of this error, at your request we may (in certain, exceptional circumstances, acting at our sole discretion and as a gesture of goodwill) allow you to take a new Open Position equivalent to the terms of the original Open Position duly closed by you in error, with such new Open Position being reported to the applicable regulatory authorities as such in the normal course of business.</p>
+        <br />
+        <p>6.5 Unless Open Positions are closed in accordance with this clause 6, rolled over in accordance with clause 7, or are terminated, voided, or otherwise closed in accordance with this Agreement, they will remain open until their expiry (if they have an expiry date or event) or will remain open indefinitely if they do not. On the expiry date (or event, if such expiration is dependent upon an event) the Open Position will be closed and settled at Our Price at the time the Open Position is closed.</p>
+        <br />
+        <p>6.6 Where we exercise our rights in accordance with this Agreement to close any of your Open Positions, we will, subject to any obligations that we may have under applicable laws and regulations, do so at a time and date determined by us in our reasonable discretion.</p>
+        <br />
+      </div>
+      <br />
+
+      <div className="heading">
+        <h5>7. Rollover</h5>
+      </div>
+      <br />
+      <div className="text">
+        <p>7.1 We may allow Open Positions to be rolled in accordance with your instructions.</p>
+        <br />
+        <p>7.2 If we agree to roll over an Open Position, then the original Open Position is closed and becomes due for settlement at Our Price at the time the Open Position is closed, and a new Trade will be entered into to establish a new Open Position in the relevant Market. The times at which we will close Open Positions which are rolled over are stated in the Market Information. We will send you a contract note in respect of the Trade establishing the new Open Position as described in clause 12.</p>
+      </div>
+      <br />
+
+      <div className="heading">
+        <h5>8. Orders</h5>
+      </div>
+      <br />
+      <div className="text">
+        <p>
+
+          8.1 The range of different Order types which we accept shall be decided by us in our absolute discretion. Certain types of Orders, such as Guaranteed Stop Loss Orders, may only be available for a limited range of Markets.
+        </p>
+        <br />
+
+        <p>
+
+          8.2 The types of Orders we accept, and which types of Orders attach to specific Open Positions or other Orders (“Attached Orders”) are detailed on our Trading Platform. We may at our discretion limit the Quantity of any Trade and Orders we accept without notice. It is your responsibility to understand the features of an Order and how the Order will operate before you place it. Before you place an Order for the first time, we recommend that you read the trading examples on our website so that you fully understand the features of the Order type.
+        </p>
+        <br />
+
+        <p>
+
+          8.3 We endeavor to fill Orders at the first Our Price reasonably available to us after the price specified is reached or at the occurrence of the event or condition specified in the Order. However, we may not be able to execute Orders if there is an Event Outside of Our Control in relation to an Underlying Instrument. For all Orders other than Guaranteed Stop Loss Orders, we may not be able to execute your Order at the price level you specify. We will endeavor to execute your Order at Our Price nearest to your specified price.
+        </p>
+
+        <br />
+        <p>
+
+          8.4 We may, without limitation, set a minimum price range between the current Our Price and the price or level of any Stop Orders, Guaranteed Stop Loss Orders and Limit Orders and we reserve the right not to accept any Orders which are less than this minimum price range.
+        </p>
+        <br />
+
+        <p>
+
+          8.5 Orders will be “Good until Cancelled” (“GTC”) unless you specify at the time of placing the relevant Order that it is only “Good for the Day” (“GFD”) or “Good for the Time” (“GFT”). Unless an Order is cancelled or ceases to have effect, we will regard it as valid and execute it when Our Price reaches the price you specify, or the specified event or condition occurs.
+        </p>
+        <br />
+
+        <p>
+
+          8.6 Subject to clause 8.7 below, you can only cancel or amend an Order if we have not acted upon it. You may, with our consent (which will not be unreasonably withheld), cancel or amend an Order at any time before we act upon it. Changes to Orders may be made on the Trading Platform or by calling Client Management.
+        </p>
+        <br />
+
+        <p>
+
+          8.7 If you have a Limited Risk Account, a Guaranteed Stop Loss Order cannot be cancelled by you at any time. It will only be cancelled if you close the corresponding Open Position. You may, however, amend a Guaranteed Stop Loss Order in accordance with clause 8.6 above.
+        </p>
+        <br />
+
+        <p>
+
+          8.8 When you place an Order to close an Open Position (a “Closing Order”):
+          8.8.1 if you close the Open Position before the Closing Order is executed, we will treat this as an instruction to cancel the Closing Order; and
+          8.8.2 if you close only a portion of the Open Position before the Closing Order is executed, we will treat the Order as an Order to close only the portion of the Open Position that remains open.
+        </p>
+        <br />
+
+        <p>
+
+          8.9 We offer Guaranteed Stop Loss Orders for a limited range of Markets. For these Markets:
+          8.9.1 the Market Information states if a Guaranteed Stop Loss Order is available.
+          8.9.2 we may charge a premium payment for each Guaranteed Stop Loss Order. The rate or price of this payment is stated in the Market Information.
+          8.9.3 we will accept your Guaranteed Stop Loss Order only during Market Hours.
+          8.9.4 we will execute a Guaranteed Stop Loss Order at the price you specify, when that price level is reached; and
+          8.9.5 we may make available and set minimum and maximum Quantities for Guaranteed Stop Loss Orders which are different from the minimum and maximum Quantities which apply to other types of Order.
+        </p>
+        <br />
+        <p>
+
+          8.10 Guaranteed Stop Loss Orders are not available for ISCA Accounts or MetaTrader Accounts.
+        </p>
+
+      </div>
     </div>
   )
 }
