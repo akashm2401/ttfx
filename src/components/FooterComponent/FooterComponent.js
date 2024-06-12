@@ -54,9 +54,9 @@ export default function FooterComponent() {
                     </div>
                     <div className="footer-container-main-col-links">
                       <ul>
-                        <li><Link>Terms of Service</Link></li>
-                        <li><Link>Terms of Use</Link></li>
-                        <li><Link>Privacy Policy</Link></li>
+                        <li><Link to={'/legal/general-terms'}>Terms of Service</Link></li>
+                        <li><Link to={'/legal/risk-disclosure-notice'}>Risk Diclosure</Link></li>
+                        {/* <li><Link>Privacy Policy</Link></li> */}
                       </ul>
                     </div>
                   </div>
