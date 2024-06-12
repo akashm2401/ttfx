@@ -5,7 +5,7 @@
 } */
 
 .navbar {
-    background-color: #141a27 !important;
+    background-color:#1c2842 !important;
     color: #FFFFFF;
     height: 76px;
     font-family: Inter, sans-serif;
@@ -159,7 +159,7 @@
 /* After chnages */
 .wp-button {
     position: fixed;
-    bottom: 40px;
+    bottom: 20px;
     right: 0px;
     z-index: 20;
     background-color: transparent;
