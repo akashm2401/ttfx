@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: #111827;
+    background-color: #1c2842 ;
 }
 
 .footer-container-main-links{
@@ -20,13 +20,14 @@
     font-size: 1.2rem;
     color: #FFFFFF;
     font-weight: 700;
+    padding: 10px;
 }
 
 .footer-container-main-col-links ul{
     text-decoration: none;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
 }
 
 .footer-container-main-col-links ul a{
@@ -51,7 +52,7 @@
 .footer-copyrights-container{
     padding: 1rem;
     width: 100%;
-    background-color: #111827;
+    background-color: #1c2842 ;
 }
 
 .footer-copyrights-container p{
