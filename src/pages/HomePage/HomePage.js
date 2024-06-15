@@ -4,16 +4,27 @@ import CarouselComponent from '../../components/CarouselComponent/CarouselCompon
 import FeaturesComponent from '../../components/FeaturesComponent/FeaturesComponent'
 import ToolsViewComponent from '../../components/ToolsViewComponent/ToolsViewComponent'
 import ReviewComponet from '../../components/ReviewComponent/ReviewComponet'
-import { useNavigate, Link, } from 'react-router-dom'
+import { useNavigate, Link, useLocation} from 'react-router-dom'
 // import { useEffect } from 'react'
 
 export default function HomePage() {
   // const navigate = Navigate(); 
   const navigate = useNavigate();
 
+  const location = useLocation();
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.getElementById(location.hash.substring(1));
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'end' });
+      }
+    }
+  }, [location]);
 
   const gotToAbout = () => {
     navigate('/about')
@@ -63,7 +74,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div className="container my-5">
+      <div id='review-break' className="container my-5">
         <ReviewComponet/>
       </div>
     </>
