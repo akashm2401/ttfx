@@ -1,7 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./SolutionsPage.css";
 
 export default function SolutionsPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const products = {
     101: {
       name: "MT4 pcClient Termina",

@@ -1,7 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './AboutPage.css'
 
 export default function AboutPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <>
       <div className="about-page">
@@ -77,9 +81,14 @@ export default function AboutPage() {
                 <div className="about-member-info-box p-5 text-center">
                   <p className="about-member-name">Michael Frey</p>
                   <p className="about-member-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium optio sequi et ea accusamus aliquid cupiditate neque.</p>
-                  <p className="about-member-socials">
+                  {/* <p className="about-member-socials">
                     Lorem ipsum dolor sit.
-                  </p>
+                  </p> */}
+                  <div className='d-flex px-5 my-4 justify-content-around'>
+                    <i><img src={require('../../assets/ico/linkedin.png')} alt="" /></i>
+                    <i><img src={require('../../assets/ico/facebook.png')} alt="" height={32} /></i>
+                    <i><img src={require('../../assets/ico/twitter.png')} alt="" /></i>
+                  </div>
                 </div>
               </div>
 
@@ -87,9 +96,14 @@ export default function AboutPage() {
                 <div className="about-member-info-box p-5 text-center">
                   <p className="about-member-name">Michael Frey</p>
                   <p className="about-member-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium optio sequi et ea accusamus aliquid cupiditate neque.</p>
-                  <p className="about-member-socials">
+                  {/* <p className="about-member-socials">
                     Lorem ipsum dolor sit.
-                  </p>
+                  </p> */}
+                  <div className='d-flex px-5 my-4 justify-content-around'>
+                    <i><img src={require('../../assets/ico/linkedin.png')} alt="" /></i>
+                    <i><img src={require('../../assets/ico/facebook.png')} alt="" height={32} /></i>
+                    <i><img src={require('../../assets/ico/twitter.png')} alt="" /></i>
+                  </div>
                 </div>
               </div>
 
@@ -97,9 +111,14 @@ export default function AboutPage() {
                 <div className="about-member-info-box p-5 text-center">
                   <p className="about-member-name">Michael Frey</p>
                   <p className="about-member-info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium optio sequi et ea accusamus aliquid cupiditate neque.</p>
-                  <p className="about-member-socials">
+                  {/* <p className="about-member-socials">
                     Lorem ipsum dolor sit.
-                  </p>
+                  </p> */}
+                  <div className='d-flex px-5 my-4 justify-content-around'>
+                    <i><img src={require('../../assets/ico/linkedin.png')} alt="" /></i>
+                    <i><img src={require('../../assets/ico/facebook.png')} alt="" height={32} /></i>
+                    <i><img src={require('../../assets/ico/twitter.png')} alt="" /></i>
+                  </div>
                 </div>
               </div>
 
@@ -114,6 +133,14 @@ export default function AboutPage() {
 
               <div className="about-social-links text-center my-3">
                 <p>Follow us to get the latest news</p>
+                <div className='d-flex px-5 my-4 justify-content-around'
+                    style={{"width": "40%", "margin": "auto"}}
+                  >
+                  <i><img src={require('../../assets/ico/linkedin.png')} alt="" /></i>
+                  <i><img src={require('../../assets/ico/facebook.png')} alt="" height={32} /></i>
+                  <i><img src={require('../../assets/ico/twitter.png')} alt="" /></i>
+                  <i><img src={require('../../assets/ico/instagram.png')} alt="" height={32} /></i>
+                </div>
               </div>
             </div>
           </div>
