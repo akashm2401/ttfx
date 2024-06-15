@@ -1,3 +1,6 @@
+.body{
+    font-family: Inter, sans-serif;;
+}
 .headeing h4{
     font-size: 2rem;
     color: #0e0741ce;
@@ -39,7 +42,9 @@
 }
 
 .feature-box-right{
-    width: 50%;
+    width: 40%;
+    display: flex;
+    justify-items: center;
 }
 
 .feature-box-right img{
@@ -50,18 +55,25 @@
 }
 
 .feature-box .feature-box-heading h5 {
-    font-size: 1rem;
-    color: #111827dc;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    color: #141a27
 }
 
 .feature-box .feature-box-heading .feature-box-tagline{
     font-size: 2rem;
+    line-height: 3rem;
+    font-family: Inter, sans-serif;
+    /* font-weight: 400; */
+    color: #141a27
 }
 
-.feature-box .feature-box-description {
-    font-size: 1.2rem;
+.feature-box .feature-box-description p {
     text-align: justify;
-    line-height: 2rem;
+    font-size: 1.1875rem;
+    line-height: 1.6875rem
 }
 
 
