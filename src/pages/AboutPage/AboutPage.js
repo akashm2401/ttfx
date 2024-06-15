@@ -134,7 +134,7 @@ export default function AboutPage() {
               <div className="about-social-links text-center my-3">
                 <p>Follow us to get the latest news</p>
                 <div className='d-flex px-5 my-4 justify-content-around'
-                    style={{"width": "40%", "margin": "auto"}}
+                    style={{"width": "50%", "margin": "auto"}}
                   >
                   <i><img src={require('../../assets/ico/linkedin.png')} alt="" /></i>
                   <i><img src={require('../../assets/ico/facebook.png')} alt="" height={32} /></i>
