@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import mapImage from "../../assets/img/map-loc.png";
 import "./ContactUsPage.css";
 import { TbMap2 } from "react-icons/tb";
@@ -6,6 +6,10 @@ import ContectUsForm from "../../components/ContactForm/js/ContactUsForm";
 import { BiSupport } from "react-icons/bi";
 
 export default function ContactUsPage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div>
       <div className="container-fluid main-container">

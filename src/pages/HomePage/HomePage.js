@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import './HomePage.css'
 import CarouselComponent from '../../components/CarouselComponent/CarouselComponent'
 import FeaturesComponent from '../../components/FeaturesComponent/FeaturesComponent'
 import ToolsViewComponent from '../../components/ToolsViewComponent/ToolsViewComponent'
 import ReviewComponet from '../../components/ReviewComponent/ReviewComponet'
-import { useNavigate, Link } from 'react-router-dom'
+import { useNavigate, Link, } from 'react-router-dom'
+// import { useEffect } from 'react'
 
 export default function HomePage() {
   // const navigate = Navigate(); 
   const navigate = useNavigate();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const gotToAbout = () => {
     navigate('/about')

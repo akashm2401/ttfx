@@ -6,6 +6,11 @@ import RiskDisclosurePage from './RiskDisclosurePage';
 import { Routes, Route, useLocation, Link } from 'react-router-dom';
 
 export default function LegalPage() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     const location = useLocation();
     const [isExpand, setIsExpand ]= useState(false);
 

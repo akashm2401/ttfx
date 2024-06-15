@@ -2,6 +2,8 @@ import React from 'react';
 import './LegalCommon.css'
 
 export default function GeneralTermsPage() {
+  
+
   return (
     // <div>GeneralTermsPage</div>
     <div className="legal-info-container">
