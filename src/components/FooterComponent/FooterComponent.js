@@ -19,7 +19,7 @@ export default function FooterComponent() {
                       <Link to={"/"}>Home</Link>
                     </li>
                     <li>
-                      <Link to={"/"}>Register Back Office</Link>
+                      <Link to={"http://ttbo.ttprofx.com/#users.users.public-registration!groupId=-2365783785779775287"}>Register Back Office</Link>
                     </li>
                     <li>
                       <Link to={"/solutions"}>Downloads</Link>
@@ -41,7 +41,7 @@ export default function FooterComponent() {
                       <Link to={"/contact-us"}>Contact us</Link>
                     </li>
                     <li>
-                      <Link>Reviews</Link>
+                      <Link to={"/#review-break"}>Reviews</Link>
                     </li>
                   </ul>
                 </div>
@@ -60,7 +60,7 @@ export default function FooterComponent() {
                       <Link>Help desk</Link>
                     </li>
                     <li>
-                      <Link>Back Office</Link>
+                      <Link to={'http://ttbo.ttprofx.com/'}>Back Office</Link>
                     </li>
                   </ul>
                 </div>
