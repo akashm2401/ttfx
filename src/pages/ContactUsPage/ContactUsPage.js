@@ -14,9 +14,9 @@ export default function ContactUsPage() {
     <div>
       <div className="container-fluid main-container">
         <div className="row" style={{ marginTop: "80px" }}>
-          <div className="col-md-4" style={{ marginLeft: "17%" }}>
-            <div className="col-md-12">
-              <div className="col-md-12 map-logo">
+          <div className="col-12 col-md-4" style={{ marginLeft: "17%" }}>
+            <div className="col-12 col-md-12">
+              <div className="col-12 col-md-12 map-logo">
                 <TbMap2 size={36} color="#67a1d4" />
               </div>
 
@@ -24,7 +24,7 @@ export default function ContactUsPage() {
             </div>
 
             <div className="row">
-              <div className="col-sm-6 col-md-12">
+              <div className="col-12  col-md-12">
                 <p>
                   Office Suite 1652 Level16(A),
                   <br /> Main Office Tower <br />
@@ -34,16 +34,16 @@ export default function ContactUsPage() {
                   Labuan F.T
                 </p>
               </div>
-              <div className="col-sm">
+              {/* <div className="col-sm">
                 <hr className="divider"></hr>
-              </div>
+              </div> */}
 
-              <div class="v2-col-sm-12">
+              <div class="col-12 ">
                 <h4 className="heading-add">Enquiries Only</h4>
                 <div className="row">
-                  <div className="col-sm-6 heading-label">Email</div>
+                  <div className="col-6 heading-label">Email</div>
                   {/* <dt>Email</dt> */}
-                  <div className="col-sm-6 label-values">
+                  <div className="col-6  ">
                     <a href=""></a>
                     <a href="">
                       <strong>ps@saxomarkets.com</strong>
@@ -52,8 +52,8 @@ export default function ContactUsPage() {
                 </div>
 
                 <div className="row">
-                  <div className="col-sm-6 heading-label">Phone</div>
-                  <div className="col-sm-6 label-values">
+                  <div className="col-6  heading-label">Phone</div>
+                  <div className="col-6  ">
                     <a href=""></a>
                     <a href="">
                       <strong>+65 6303 7788</strong>
@@ -63,7 +63,7 @@ export default function ContactUsPage() {
                 <hr class="v2-divider v2-mav20"></hr>
               </div>
 
-              <div class="v2-col-sm-12">
+              <div class="col-12 ">
                 <h4></h4>
                 <div class="v2-mab30" data-qa="supportcentersection">
                   <div class="rte--output">
@@ -80,7 +80,7 @@ export default function ContactUsPage() {
             </div>
           </div>
 
-          <div className="col-md-5 map-image-class">
+          <div className="col-12 col-md-5 map-image-class">
             {/* <h2>Our Location</h2> */}
             <div style={{ position: "relative" }}>
               <img
