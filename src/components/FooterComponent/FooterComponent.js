@@ -63,7 +63,7 @@ export default function FooterComponent() {
                 <div className="footer-container-main-col-links">
                   <ul>
                     <li>
-                      <Link>FAQ</Link>
+                      <Link to={'/faq'}>FAQ</Link>
                     </li>
                     <li>
                       <Link onClick={() => openWhatsApp(message, myPhoneNumber)}>Help desk</Link>
