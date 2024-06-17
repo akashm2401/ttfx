@@ -21,8 +21,8 @@ export default function ToolsViewComponent() {
                     </div>
                 </div>
                 <div className="tools-main my-5">
-                    <div className="devices">
-                        <div className="mobile"></div>
+                    <div className="devices text-center">
+                        {/* <div className="mobile"></div> */}
                         <div className="laptop"></div>
                     </div>
                 </div>

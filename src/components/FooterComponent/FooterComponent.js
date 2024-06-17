@@ -19,7 +19,7 @@ export default function FooterComponent() {
                       <Link to={"/"}>Home</Link>
                     </li>
                     <li>
-                      <Link to={"http://ttbo.ttprofx.com/#users.users.public-registration!groupId=-2365783785779775287"}>Register Back Office</Link>
+                      <Link to={"http://ttbo.ttprofx.com/#users.users.public-registration!groupId=-2365783785779775287"}>New user registration</Link>
                     </li>
                     <li>
                       <Link to={"/solutions"}>Downloads</Link>
