@@ -22,7 +22,7 @@ body {
 
 .container {
     margin: 0 auto;
-    padding: 4rem;
+    padding: 2rem;
     width: 100%;
     max-width: 1200px; /* Or any width you prefer */
 }
@@ -151,4 +151,8 @@ body {
 
 .accordion-button:not(.collapsed) {
     background-color: #FFFFFF !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
 }
