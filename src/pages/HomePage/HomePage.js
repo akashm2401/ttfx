@@ -74,7 +74,7 @@ export default function HomePage() {
         </div>
       </div>
 
-      <div id='review-break' className="container my-5">
+      <div id='review-break' className="container">
         <ReviewComponet/>
       </div>
     </>

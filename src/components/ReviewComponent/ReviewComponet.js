@@ -59,7 +59,7 @@ export default function ReviewComponet() {
 
     return (
         <>
-            <div className="container" style={{ 'margin': '5rem 0' }}>
+            <div className="container">
                 <h4 className='text-center my-2'>WHAT USERS SAYS</h4>
                 {/* <div className="review-container" ref={carouselRef}>
                 <button className="prev" onClick={goPrev}>&lt; Prev</button>

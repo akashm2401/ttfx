@@ -122,10 +122,10 @@
 } */
 
 .cards{
-    display: flex;
+    /* display: flex; */
     align-items: center;
-    justify-items: center;
-    justify-content: center;
+    /* justify-items: center; */
+    justify-content: space-between;
 }
 
 .queries-card{

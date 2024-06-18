@@ -5,14 +5,15 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function NavbarComponent() {
   const location = useLocation();
-
+  
+  const myPhoneNumber = "+60196508002";
+  const message = "Hello";
+  
   function openWhatsApp(message, phoneNumber) {
     const whatsappMessage = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
     window.open(whatsappMessage, "_blank");
   }
 
-  const myPhoneNumber = "+60196508002";
-  const message = "Hello";
 
   return (
     <div>

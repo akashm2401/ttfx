@@ -13,8 +13,8 @@ export default function ContactUsPage() {
   return (
     <div>
       <div className="container-fluid main-container">
-        <div className="row" style={{ marginTop: "80px" }}>
-          <div className="col-12 col-md-4" style={{ marginLeft: "17%" }}>
+        <div className="row" style={{ marginTop: "50px" }}>
+          <div className="col-12 col-md-4" style={{ margin: "auto" }}>
             <div className="col-12 col-md-12">
               <div className="col-12 col-md-12 map-logo">
                 <TbMap2 size={36} color="#67a1d4" />
@@ -41,10 +41,9 @@ export default function ContactUsPage() {
               <div class="col-12 ">
                 <h4 className="heading-add">Enquiries Only</h4>
                 <div className="row">
-                  <div className="col-6 heading-label">Email</div>
+                  <div className="col-5 heading-label">Email</div>
                   {/* <dt>Email</dt> */}
-                  <div className="col-6  ">
-                    <a href=""></a>
+                  <div className="col-7  ">
                     <a href="">
                       <strong>ps@saxomarkets.com</strong>
                     </a>
@@ -52,8 +51,8 @@ export default function ContactUsPage() {
                 </div>
 
                 <div className="row">
-                  <div className="col-6  heading-label">Phone</div>
-                  <div className="col-6  ">
+                  <div className="col-5  heading-label">Phone</div>
+                  <div className="col-7  ">
                     <a href=""></a>
                     <a href="">
                       <strong>+65 6303 7788</strong>
@@ -67,12 +66,12 @@ export default function ContactUsPage() {
                 <h4></h4>
                 <div class="v2-mab30" data-qa="supportcentersection">
                   <div class="rte--output">
-                    <snall>
+                    <small>
                       All enquiries should be addressed via the above channels.
                       For meetings at our office, please contact us via the
                       relevant channels above in advance to schedule an
                       appointment.&nbsp;{" "}
-                    </snall>
+                    </small>
                   </div>
                 </div>
                 <hr class="v2-divider v2-mav20"></hr>
@@ -112,8 +111,8 @@ export default function ContactUsPage() {
             <div className="queries-card-heding">
               <h2>Other Inquiries</h2>
             </div>
-            <div className="cards">
-              <div className="col-md-4 card-main">
+            <div className="cards row">
+              <div className="col-6 card-main">
                 <div className="card">
                   <BiSupport size={64} />
                   <h5 className="card-title">Complaints</h5>
@@ -125,7 +124,7 @@ export default function ContactUsPage() {
                   </a>
                 </div>
               </div>
-              <div className="col-md-4 card-main">
+              <div className="col-6 card-main">
                 <div className="card">
                   <BiSupport size={64} />
                   <h5 className="card-title">Support</h5>

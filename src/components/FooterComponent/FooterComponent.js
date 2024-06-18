@@ -3,6 +3,15 @@ import "./FooterComponent.css";
 import { Link } from "react-router-dom";
 
 export default function FooterComponent() {
+  
+  function openWhatsApp(message, phoneNumber) {
+    const whatsappMessage = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+    window.open(whatsappMessage, "_blank");
+  }
+
+  const myPhoneNumber = "+60196508002";
+  const message = "Hello";
+
   return (
     <>
       <div className="pt-5 footer-container">
@@ -19,7 +28,7 @@ export default function FooterComponent() {
                       <Link to={"/"}>Home</Link>
                     </li>
                     <li>
-                      <Link to={"http://ttbo.ttprofx.com/#users.users.public-registration!groupId=-2365783785779775287"}>Register Back Office</Link>
+                      <Link to={"http://ttbo.ttprofx.com/#users.users.public-registration!groupId=-2365783785779775287"}>New user registration</Link>
                     </li>
                     <li>
                       <Link to={"/solutions"}>Downloads</Link>
@@ -54,10 +63,10 @@ export default function FooterComponent() {
                 <div className="footer-container-main-col-links">
                   <ul>
                     <li>
-                      <Link>FAQ</Link>
+                      <Link to={'/faq'}>FAQ</Link>
                     </li>
                     <li>
-                      <Link>Help desk</Link>
+                      <Link onClick={() => openWhatsApp(message, myPhoneNumber)}>Help desk</Link>
                     </li>
                     <li>
                       <Link to={'http://ttbo.ttprofx.com/'}>Back Office</Link>
