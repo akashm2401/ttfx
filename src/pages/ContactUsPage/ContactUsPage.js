@@ -106,13 +106,13 @@ export default function ContactUsPage() {
         </div>
       </div>
       <div className="card-form">
-        <div className=".container queries-card">
+        <div className="container queries-card">
           <div className="row">
             <div className="queries-card-heding">
               <h2>Other Inquiries</h2>
             </div>
             <div className="cards row">
-              <div className="col-6 card-main">
+              <div className="col-12 col-md-6 d-flex justify-content-center card-main">
                 <div className="card">
                   <BiSupport size={64} />
                   <h5 className="card-title">Complaints</h5>
@@ -124,7 +124,7 @@ export default function ContactUsPage() {
                   </a>
                 </div>
               </div>
-              <div className="col-6 card-main">
+              <div className="col-12 col-md-6 d-flex justify-content-center card-main">
                 <div className="card">
                   <BiSupport size={64} />
                   <h5 className="card-title">Support</h5>
