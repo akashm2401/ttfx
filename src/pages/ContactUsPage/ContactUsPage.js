@@ -81,11 +81,11 @@ export default function ContactUsPage() {
 
           <div className="col-12 col-md-5 map-image-class">
             {/* <h2>Our Location</h2> */}
-            <div style={{ position: "relative" }}>
+            <div className="d-flex justify-content-center" style={{ position: "relative" }}>
               <img
                 src={mapImage}
                 alt="Map"
-                style={{ width: "80%", height: "auto" }}
+                style={{ width: "80%", height: "auto", marginBottom: '10px',  borderRadius: '30px 10px', textAlign: 'center'}}
               />
               <a
                 href="https://maps.app.goo.gl/xcLfKw3jcDVJAc1e8"
@@ -112,7 +112,7 @@ export default function ContactUsPage() {
               <h2>Other Inquiries</h2>
             </div>
             <div className="cards row">
-              <div className="col-12 col-md-6 d-flex justify-content-center card-main">
+              <div className="col-12 col-md-6 m-0 p-0 d-flex justify-content-center card-main">
                 <div className="card">
                   <BiSupport size={64} />
                   <h5 className="card-title">Complaints</h5>
@@ -124,7 +124,7 @@ export default function ContactUsPage() {
                   </a>
                 </div>
               </div>
-              <div className="col-12 col-md-6 d-flex justify-content-center card-main">
+              <div className="col-12 col-md-6 m-0 p-0 d-flex justify-content-center card-main">
                 <div className="card">
                   <BiSupport size={64} />
                   <h5 className="card-title">Support</h5>
