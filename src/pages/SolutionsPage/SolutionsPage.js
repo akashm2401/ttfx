@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./SolutionsPage.css";
 
 export default function SolutionsPage() {
@@ -10,16 +10,15 @@ export default function SolutionsPage() {
     101: {
       name: "MT4 pcClient Termina",
       info: {
-        description:
-          "For questions about sales, please contact our sales team.",
-        link: "",
+        description: "description about A",
+        link: "https://ttprofx.com/truetradepro4setup.exe",
       },
     },
     102: {
-      name: "MT4 MacOS Terminal",
+      name: "MT4 iOS Terminal",
       info: {
         description: "Description of Product B",
-        link: "",
+        link: "https://download.mql5.com/cdn/mobile/mt4/ios?server=TrueTradePro-Demo,TrueTradePro-Live",
       },
     },
     103: {
@@ -31,18 +30,17 @@ export default function SolutionsPage() {
     },
 
     104: {
-      name: "MT4 pcClient Termina",
+      name: "MT4 MacOS Terminal",
       info: {
-        description:
-          "For questions about sales, please contact our sales team.",
-        link: "",
+        description: "description about A",
+        link: "https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/MetaTrader4.dmg",
       },
     },
     105: {
-      name: "MT4 MacOS Terminal",
+      name: "MT4 Android Terminal",
       info: {
         description: "Description of Product B",
-        link: "",
+        link: "https://download.mql5.com/cdn/mobile/mt4/android?server=TrueTradePro-Demo,TrueTradePro-Live",
       },
     },
     106: {
@@ -56,7 +54,6 @@ export default function SolutionsPage() {
 
   return (
     <div>
-
       <div className="product-container my-4 py-5">
         <h4 className="text-center mb-1">Downloads</h4>
         <p className="text-center mb-5">Please select your download</p>
@@ -85,21 +82,45 @@ export default function SolutionsPage() {
         <div className="row m-0 p-0">
           <div className="col-12 col-sm-12 col-md-12 col-lg-7 pb-5">
             <div className="product-info-box">
-              <h4><i className="me-3"><img src={require('../../assets/ico/star.png')} alt="star img" style={{ 'height': '30px' }} /></i>Mt4</h4>
-              <div className="p-heading-line ms-5 my-2">Download the True Trade Pro MetaTrader Terminal</div>
-              <p className=" text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quibusdam deleniti numquam non. Tempora commodi a mollitia reiciendis tempore incidunt cumque atque autem totam ad labore eligendi similique in libero molestiae deserunt, voluptas hic? Vel aliquid voluptates nesciunt ratione sint? Accusamus, doloremque inventore. Exercitationem tenetur suscipit doloribus enim, sit nostrum?</p>
+              <h4>
+                <i className="me-3">
+                  <img
+                    src={require("../../assets/ico/star.png")}
+                    alt="star img"
+                    style={{ height: "30px" }}
+                  />
+                </i>
+                Mt4
+              </h4>
+              <div className="p-heading-line ms-5 my-2">
+                Download the True Trade Pro MetaTrader Terminal
+              </div>
+              <p className=" text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                quibusdam deleniti numquam non. Tempora commodi a mollitia
+                reiciendis tempore incidunt cumque atque autem totam ad labore
+                eligendi similique in libero molestiae deserunt, voluptas hic?
+                Vel aliquid voluptates nesciunt ratione sint? Accusamus,
+                doloremque inventore. Exercitationem tenetur suscipit doloribus
+                enim, sit nostrum?
+              </p>
             </div>
           </div>
 
           <div className="col-12 col-sm-12 col-md-12 col-lg-5 p-4">
             <div className=" product-download-box">
-              <div className="row py-2 justify-content-between align-items-center" style={{ 'height': '100%' }}>
+              <div
+                className="row py-2 justify-content-between align-items-center"
+                style={{ height: "100%" }}
+              >
                 <div className="col-12 col-sm-6  mb-2">
                   <div className="product-download-box-name">
                     MT4 PC Client Terminal
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">Download</button>
+                    <button className="btn btn-sm btn-outline-primary">
+                      Download
+                    </button>
                   </div>
                 </div>
 
@@ -108,7 +129,9 @@ export default function SolutionsPage() {
                     MT4 PC Client Terminal
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">Download</button>
+                    <button className="btn btn-sm btn-outline-primary">
+                      Download
+                    </button>
                   </div>
                 </div>
 
@@ -117,7 +140,9 @@ export default function SolutionsPage() {
                     MT4 PC Client Terminal
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">Download</button>
+                    <button className="btn btn-sm btn-outline-primary">
+                      Download
+                    </button>
                   </div>
                 </div>
 
@@ -126,10 +151,11 @@ export default function SolutionsPage() {
                     MT4 PC Client Terminal
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">Download</button>
+                    <button className="btn btn-sm btn-outline-primary">
+                      Download
+                    </button>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
@@ -138,18 +164,44 @@ export default function SolutionsPage() {
 
           <div className="col-12 col-sm-12 col-md-12 col-lg-7 pb-5 pb-5">
             <div className="product-info-box">
-              <h4><i className="me-3"><img src={require('../../assets/ico/pen.png')} alt="star img" style={{ 'height': '30px' }} /></i>Custom</h4>
-              <div className="p-heading-line ms-5 my-2">Download the True Trade Pro MetaTrader Terminal</div>
-              <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quibusdam deleniti numquam non. Tempora commodi a mollitia reiciendis tempore incidunt cumque atque autem totam ad labore eligendi similique in libero molestiae deserunt, voluptas hic? Vel aliquid voluptates nesciunt ratione sint? Accusamus, doloremque inventore. Exercitationem tenetur suscipit doloribus enim, sit nostrum?</p>
+              <h4>
+                <i className="me-3">
+                  <img
+                    src={require("../../assets/ico/pen.png")}
+                    alt="star img"
+                    style={{ height: "30px" }}
+                  />
+                </i>
+                Custom
+              </h4>
+              <div className="p-heading-line ms-5 my-2">
+                Download the True Trade Pro MetaTrader Terminal
+              </div>
+              <p className="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                quibusdam deleniti numquam non. Tempora commodi a mollitia
+                reiciendis tempore incidunt cumque atque autem totam ad labore
+                eligendi similique in libero molestiae deserunt, voluptas hic?
+                Vel aliquid voluptates nesciunt ratione sint? Accusamus,
+                doloremque inventore. Exercitationem tenetur suscipit doloribus
+                enim, sit nostrum?
+              </p>
             </div>
           </div>
 
           <div className="col-12 col-sm-12 col-md-12 col-lg-5 p-4">
             <div className=" product-download-box">
-              <div className="row py-2 justify-content-between align-items-center" style={{ 'height': '100%' }}>
+              <div
+                className="row py-2 justify-content-between align-items-center"
+                style={{ height: "100%" }}
+              >
                 <div className="col-12 col-sm-12 col-md-6 mb-2">
                   <div className="product-download-box-name">
-                    <img src={require('../../assets/img/metatrader-4-logo.png')} alt="metatrader-logo" style={{ 'height': '60px' }} />
+                    <img
+                      src={require("../../assets/img/metatrader-4-logo.png")}
+                      alt="metatrader-logo"
+                      style={{ height: "60px" }}
+                    />
                   </div>
                   <div className="product-download-box-link">
                     {/* <button className="btn btn-sm btn-outline-primary">Web Trader</button> */}
@@ -158,7 +210,12 @@ export default function SolutionsPage() {
 
                 <div className="col-12 col-sm-12 col-md-6 mb-2">
                   <div className="product-download-box-name">
-                    <button className="btn btn-sm btn-outline-primary" style={{ 'fontSize': '1rem' }}>Web Trader</button>
+                    <button
+                      className="btn btn-sm btn-outline-primary"
+                      style={{ fontSize: "1rem" }}
+                    >
+                      Web Trader
+                    </button>
                   </div>
                   <div className="product-download-box-link">
                     {/* <button className="btn btn-sm btn-outline-primary">Web Trader</button> */}
@@ -172,21 +229,45 @@ export default function SolutionsPage() {
 
           <div className="col-12 col-sm-12 col-md-12 col-lg-7 pb-5">
             <div className="product-info-box">
-              <h4><i className="me-3"><img src={require('../../assets/ico/iphone.png')} alt="star img" style={{ 'height': '30px' }} /></i>Documents</h4>
-              <div className="p-heading-line ms-5 my-2">Please see Documents for Download</div>
-              <p className="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quibusdam deleniti numquam non. Tempora commodi a mollitia reiciendis tempore incidunt cumque atque autem totam ad labore eligendi similique in libero molestiae deserunt, voluptas hic? Vel aliquid voluptates nesciunt ratione sint? Accusamus, doloremque inventore. Exercitationem tenetur suscipit doloribus enim, sit nostrum?</p>
+              <h4>
+                <i className="me-3">
+                  <img
+                    src={require("../../assets/ico/iphone.png")}
+                    alt="star img"
+                    style={{ height: "30px" }}
+                  />
+                </i>
+                Documents
+              </h4>
+              <div className="p-heading-line ms-5 my-2">
+                Please see Documents for Download
+              </div>
+              <p className="text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                quibusdam deleniti numquam non. Tempora commodi a mollitia
+                reiciendis tempore incidunt cumque atque autem totam ad labore
+                eligendi similique in libero molestiae deserunt, voluptas hic?
+                Vel aliquid voluptates nesciunt ratione sint? Accusamus,
+                doloremque inventore. Exercitationem tenetur suscipit doloribus
+                enim, sit nostrum?
+              </p>
             </div>
           </div>
 
           <div className="col-12 col-sm-12 col-md-12 col-lg-5 p-4">
             <div className=" product-download-box">
-              <div className="row py-2 justify-content-between align-items-center" style={{ 'height': '100%' }}>
+              <div
+                className="row py-2 justify-content-between align-items-center"
+                style={{ height: "100%" }}
+              >
                 <div className="col-12 col-sm-12 col-md-6">
                   <div className="product-download-box-name">
                     Client Application
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">Download</button>
+                    <button className="btn btn-sm btn-outline-primary">
+                      Download
+                    </button>
                   </div>
                 </div>
 
@@ -195,22 +276,18 @@ export default function SolutionsPage() {
                     Customer Compliant
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">Download</button>
+                    <button className="btn btn-sm btn-outline-primary">
+                      Download
+                    </button>
                   </div>
                 </div>
-
               </div>
             </div>
           </div>
 
           <hr />
-
         </div>
       </div>
-
-
-
-
     </div>
   );
 }
