@@ -29,6 +29,10 @@
     text-align: justify;
 }
 
-.legal-info-container p ul li{
-    list-style: disc;
+.legal-info-container ul li{
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
 }
