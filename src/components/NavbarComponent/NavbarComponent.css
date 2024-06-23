@@ -5,10 +5,13 @@
 } */
 
 .navbar {
-    background-color:#1c2842 !important;
-    color: #FFFFFF;
-    height: 76px;
+
+    background-color: rgb(255, 255, 255) !important;
+    color: #1c2842;
     font-family: Inter, sans-serif;
+    height: 76px;
+    border-bottom: 1px #0000006e solid;
+
 }
 
 /* #brand-logo {
@@ -32,11 +35,12 @@
 .nav-link {
     /* color: #FFFFFF;
     font-weight: 500; */
+
     box-shadow: revert;
+    color: #051478;
     font-size: .85rem;
-    line-height: 1.4375rem;
     font-weight: 600;
-    color: #fff;
+    line-height: 1.4375rem;
 }
 
 .nav-link:focus {
@@ -44,7 +48,7 @@
 }
 
 .navbar a:hover {
-    color: #8236FD;
+    color: #4073ec;
     /* color: #0d6efd;    ; */
 }
 
@@ -61,13 +65,17 @@
     margin-right: 1rem;
 }
 
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
     background-image: url('../../assets/ico/hamburger.png') !important;
+} */
+
+.icon-toggler:active {
+    border: 10px #FFFFFF solid !important    ;
 }
 
 .active {
     font-weight: bold;
-    color: #8236FD !important; /* Customize as needed */
+    color: #4073ec   !important; /* Customize as needed */
 }
 
 /* SMARTPHONES PORTRAIT */
