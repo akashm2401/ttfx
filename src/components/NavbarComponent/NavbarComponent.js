@@ -2,18 +2,18 @@ import React from "react";
 import "./NavbarComponent.css";
 import logo from "../../assets/img/logo.png";
 import { Link, useLocation } from "react-router-dom";
+import { FiAlignJustify } from "react-icons/fi";
 
 export default function NavbarComponent() {
   const location = useLocation();
-  
+
   const myPhoneNumber = "+60196508002";
   const message = "Hello";
-  
+
   function openWhatsApp(message, phoneNumber) {
     const whatsappMessage = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
     window.open(whatsappMessage, "_blank");
   }
-
 
   return (
     <div>
@@ -31,7 +31,9 @@ export default function NavbarComponent() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon"></span>
+            {/* <span className="navbar-toggler-icon"> */}
+            <FiAlignJustify size={30} className="icon-toggler" />
+            {/* </span> */}
           </button>
           <div
             className="collapse navbar-collapse justify-content-end"
@@ -61,7 +63,7 @@ export default function NavbarComponent() {
                   Solutions
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className={
                     location.pathname === "/markets"
@@ -72,7 +74,7 @@ export default function NavbarComponent() {
                 >
                   Markets
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <Link
                   className={
