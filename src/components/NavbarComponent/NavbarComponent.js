@@ -63,18 +63,18 @@ export default function NavbarComponent() {
                   Solutions
                 </Link>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <Link
                   className={
-                    location.pathname === "/markets"
+                    location.pathname === "/clients"
                       ? "active nav-link"
                       : "nav-link"
                   }
-                  to="#"
+                  to="clients"
                 >
-                  Markets
+                  Clients
                 </Link>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <Link
                   className={
