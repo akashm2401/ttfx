@@ -2,6 +2,9 @@ import React from 'react';
 import './ReviewComponent.css'
 import { useState, useRef, useEffect } from 'react';
 // import { querySelectorAll }
+import client1 from '../../assets/img/client1.jpeg';
+import client2 from '../../assets/img/client2.jfif'
+import client3 from '../../assets/img/client3.png';
 
 export default function ReviewComponet() {
 
@@ -9,17 +12,17 @@ export default function ReviewComponet() {
         { 
             review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium eum inventore aspernatur explicabo distinctio, commodi laboriosam sint. Quia, mollitia quis, quae accusamus recusandae culpa eaque ducimus laborum eos modi non.", 
             name: 'Jhon Doe', 
-            imgPath: '../../assets/img/client1.jpeg' 
+            imgPath: client1 
         },
         { 
             review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium eum inventore aspernatur explicabo distinctio, commodi laboriosam sint. Quia, mollitia quis, quae accusamus recusandae culpa eaque ducimus laborum eos modi non.", 
             name: 'Jhon Boe', 
-            imgPath: '../../assets/img/client3.jpeg' 
+            imgPath: client2 
         },
         { 
             review: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium eum inventore aspernatur explicabo distinctio, commodi laboriosam sint. Quia, mollitia quis, quae accusamus recusandae culpa eaque ducimus laborum eos modi non.", 
             name: 'Jhon Doe', 
-            imgPath: '../../assets/img/client3.jpeg' 
+            imgPath: client3 
         }
 
         // Add more reviews as needed
@@ -61,70 +64,13 @@ export default function ReviewComponet() {
         <>
             <div className="container">
                 <h4 className='text-center my-2'>WHAT USERS SAYS</h4>
-                {/* <div className="review-container" ref={carouselRef}>
-                <button className="prev" onClick={goPrev}>&lt; Prev</button>
-                <div id='review1' className="client-reviews">
-                    <div className="client-photo text-center mb-2">
-                        <img src={require('../../assets/img/client1.jpeg')} alt="" />
-                    </div>
-                    <div className="client-name">
-                        <p> Jhon Doe </p>
-                    </div>
-                    <div className="client-review">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem fuga voluptatem reprehenderit tempora perferendis omnis dolorem? Repellat, iure quidem!
-                        </p>
-                    </div>
-                </div>
-                <div id='review2' className="client-reviews">
-                    <div className="client-photo text-center mb-2">
-                        <img src={require('../../assets/img/client3.png')} alt="" />
-                    </div>
-                    <div className="client-name">
-                        <p> Jhon Doe </p>
-                    </div>
-                    <div className="client-review">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem fuga voluptatem reprehenderit tempora perferendis omnis dolorem? Repellat, iure quidem!
-                        </p>
-                    </div>
-                </div>
-                <div id='review3' className="client-reviews">
-                    <div className="client-photo text-center mb-2">
-                        <img src={require('../../assets/img/client1.jpeg')} alt="" />
-                    </div>
-                    <div className="client-name">
-                        <p> Jhon Doe </p>
-                    </div>
-                    <div className="client-review">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem fuga voluptatem reprehenderit tempora perferendis omnis dolorem? Repellat, iure quidem!
-                        </p>
-                    </div>
-                </div>
-                <div id='review4' className="client-reviews">
-                    <div className="client-photo text-center mb-2">
-                        <img src={require('../../assets/img/client3.png')} alt="" />
-                    </div>
-                    <div className="client-name">
-                        <p> Jhon Doe </p>
-                    </div>
-                    <div className="client-review">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quidem fuga voluptatem reprehenderit tempora perferendis omnis dolorem? Repellat, iure quidem!
-                        </p>
-                    </div>
-                </div>
-                <button className="next" onClick={goNext}>&gt; Next</button>
-            </div> */}
-
                 <div className="review-carousel">
                     <button className="prev" onClick={goPrev}>&lt;</button>
                     <div className="client-reviews" ref={carouselRef}>
                         {reviews.map((review, index) => (
                             <div className="client-review p-5" key={index}>
                                 <div className="client-photo mb-2">
-                                    <img src={require(`../../assets/img/client1.jpeg`)} alt="profile-photo" />
+                                    <img src={review.imgPath} alt="profile-photo" />
                                 </div>
                                 <div className="client-name mb-4">
                                     {review.name}

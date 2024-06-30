@@ -133,7 +133,7 @@ export default function FeaturesComponent() {
           </div>
           <div className="feature-box-right">
             <img
-              src={require("../../assets/images/graphs.jpg")}
+              src={require("../../assets/img/fix.jpg")}
               alt="feature1"
             />
           </div>
@@ -163,7 +163,7 @@ export default function FeaturesComponent() {
           </div>
           <div className="feature-box-right">
             <img
-              src={require("../../assets/img/feature4.jpg")}
+              src={require("../../assets/img/customizable.jpg")}
               alt="feature1"
             />
           </div>
@@ -191,7 +191,7 @@ export default function FeaturesComponent() {
           </div>
           <div className="feature-box-right">
             <img
-              src={require("../../assets/img/feature3.webp")}
+              src={require("../../assets/img/clo.jpg")}
               alt="feature1"
             />
           </div>
@@ -219,7 +219,7 @@ export default function FeaturesComponent() {
           </div>
           <div className="feature-box-right">
             <img
-              src={require("../../assets/img/feature4.jpg")}
+              src={require("../../assets/img/fast.jpg")}
               alt="feature1"
             />
           </div>
