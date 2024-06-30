@@ -69,7 +69,7 @@ export default function HomePage() {
 
       <div className="home-about-section container my-5">
         <div className="home-about-left-section">
-          <img src={require("../../assets/img/home-about-img.webp")} alt="" />
+          <img width={500} src={require("../../assets/img/about1.jpg")} alt="" />
         </div>
         <div className="home-about-right-section">
           <h4>About True Trade Pro</h4>
