@@ -76,7 +76,8 @@ export default function FeaturesComponent() {
               </h6>
             </div>
             <div className="feature-summary-description">
-              100% Transparency Standards, Equal Opportunity Infrastructure, and
+              100% Transparency Standards, Equal Opportunity 
+              Infrastructure, and
               Next Generation Technology
             </div>
           </div>
@@ -116,9 +117,9 @@ export default function FeaturesComponent() {
 
         <div ref={featureRefs.feature1} id="#feature1" className="feature-box">
           <div className="feature-box-left">
-            <div className="feature-box-heading my-5">
+            <div className="feature-box-heading my-2">
               <h5>F.I.X. 4.2 / 4.4</h5>
-              <p className="feature-box-tagline my-4">
+              <p className="feature-box-tagline my-1">
                 Financial Information eXchange (FIX®) Protocol
               </p>
             </div>
@@ -144,9 +145,9 @@ export default function FeaturesComponent() {
           className="feature-box feature-box-reverse"
         >
           <div className="feature-box-left">
-            <div className="feature-box-heading my-5">
+            <div className="feature-box-heading my-2">
               <h5>Customizable</h5>
-              <p className="feature-box-tagline my-4">
+              <p className="feature-box-tagline my-1">
                 100% Transparency Standards, Equal Opportunity Infrastructure,
                 and Next Generation Technology
               </p>
@@ -171,9 +172,9 @@ export default function FeaturesComponent() {
 
         <div ref={featureRefs.feature3} className="feature-box">
           <div className="feature-box-left">
-            <div className="feature-box-heading my-5">
+            <div className="feature-box-heading my-2">
               <h5>Central Limit Order Book</h5>
-              <p className="feature-box-tagline my-4">
+              <p className="feature-box-tagline my-1">
                 Understanding the Central Limit Order Book (CLOB)
               </p>
             </div>
@@ -202,9 +203,9 @@ export default function FeaturesComponent() {
           className="feature-box feature-box-reverse"
         >
           <div className="feature-box-left">
-            <div className="feature-box-heading my-5">
+            <div className="feature-box-heading my-2">
               <h5>FAST</h5>
-              <p className="feature-box-tagline my-4">
+              <p className="feature-box-tagline my-1">
                 Ultra Low Latency Access for Optimal Trade Execution
               </p>
             </div>
