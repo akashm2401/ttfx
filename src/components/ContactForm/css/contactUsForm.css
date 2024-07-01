@@ -44,7 +44,7 @@ body, html {
 /*---------------------------------------------*/
 a {
 	font-family: Montserrat-Regular;
-	font-size: 14px;
+	font-size: 18px;
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
@@ -69,7 +69,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Montserrat-Regular;
+	/* font-family: Montserrat-Regular; */
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;

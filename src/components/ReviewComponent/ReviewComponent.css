@@ -102,9 +102,11 @@
 }
 
 .client-review .client-comment {
-    font-size: 0.8rem;
+    font-size: 1rem;
     text-align: center;
 }
+
+
 
 /* ANimation */
 /* #review1 {
