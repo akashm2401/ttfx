@@ -115,7 +115,7 @@ export default function FeaturesComponent() {
           </div>
         </div>
 
-        <div ref={featureRefs.feature1} id="#feature1" className="feature-box">
+        <div ref={featureRefs.feature1} id="#feature1" className="feature-box mb-2">
           <div className="feature-box-left">
             <div className="feature-box-heading my-2">
               <h5>F.I.X. 4.2 / 4.4</h5>
@@ -142,7 +142,7 @@ export default function FeaturesComponent() {
 
         <div
           ref={featureRefs.feature2}
-          className="feature-box feature-box-reverse"
+          className="feature-box feature-box-reverse mb-2"
         >
           <div className="feature-box-left">
             <div className="feature-box-heading my-2">
@@ -170,7 +170,7 @@ export default function FeaturesComponent() {
           </div>
         </div>
 
-        <div ref={featureRefs.feature3} className="feature-box">
+        <div ref={featureRefs.feature3} className="feature-box mb-2">
           <div className="feature-box-left">
             <div className="feature-box-heading my-2">
               <h5>Central Limit Order Book</h5>
@@ -200,7 +200,7 @@ export default function FeaturesComponent() {
 
         <div
           ref={featureRefs.feature4}
-          className="feature-box feature-box-reverse"
+          className="feature-box feature-box-reverse mb-2"
         >
           <div className="feature-box-left">
             <div className="feature-box-heading my-2">

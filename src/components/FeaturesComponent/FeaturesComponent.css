@@ -28,7 +28,7 @@
 }
 
 .feature-summary .feature-summary-item .feature-summary-description {
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .feature-box {
@@ -212,4 +212,11 @@
 /* TABLET LANDSCAPE / DESKTOP */
 @media only screen and (min-width: 992px){ 
 
+}
+
+
+/* Fonts style fixes */
+.features-main h6, p{
+    /* font-size: ; */
+    font-style: Inter,sans-serif !important;
 }
