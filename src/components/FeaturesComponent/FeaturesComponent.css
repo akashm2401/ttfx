@@ -11,6 +11,10 @@
     column-gap: 2rem;
 }
 
+.feature-summary .feature-summary-item {
+    width: 25%;
+}
+
 .feature-summary .feature-summary-item .feature-summary-heading a {
     color: #4073D9;
     text-decoration: none;
