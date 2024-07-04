@@ -5,7 +5,7 @@
 }
 
 .legal-info-container .heading h3{
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     font-weight: 400;
 }
 
@@ -13,13 +13,13 @@
     /* padding: 10px; */
     /* border-radius: 5px; */
     margin-top: 20px;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     font-weight: 400;
     /* background-color: aliceblue; */
 }
 
 .legal-info-container .heading h5 {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     padding: 10px;
     border-radius: 5px;
     background-color: rgb(226, 235, 235);
@@ -31,7 +31,7 @@
 
 .legal-info-container ul li{
     font-family: Montserrat-Regular;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height: 1.7;
     color: #666666;
     margin: 0px;

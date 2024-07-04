@@ -25,11 +25,11 @@
 .product-download-box-name button {
     color: #111827;
     border-color: #111827;
-    font-size: 0.6rem;
+    /* font-size: 0.6rem; */
 }
 
 .product-download-box-name {
-    font-size: 0.9rem;
+    /* font-size: 0.9rem; */
 }
 
 .product-container .cards {
@@ -44,11 +44,11 @@
     }
 
     .product-info-box .p-heading-line {
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 
     .product-info-box p {
-        font-size: 0.8rem;
+        /* font-size: 0.8rem; */
         text-align: justify;
     }
 }
@@ -60,11 +60,11 @@
     }
 
     .product-info-box .p-heading-line {
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 
     .product-info-box p {
-        font-size: 0.8rem;
+        /* font-size: 0.8rem; */
         text-align: justify;
     }
 

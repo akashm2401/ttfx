@@ -56,7 +56,7 @@ export default function HomePage() {
       </div>
       <div className="carousel-screen">
         <div className="container-lg my-3">
-          <CarouselComponent />
+          {/* <CarouselComponent /> */}
         </div>
       </div>
       {/* <hr/> */}

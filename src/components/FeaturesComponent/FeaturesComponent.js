@@ -2,6 +2,10 @@ import React from "react";
 import "./FeaturesComponent.css";
 import { Link } from "react-router-dom";
 import { useRef, useEffect } from "react";
+import feature1Img from "../../assets/img/fix.jpg";
+import feature2Img from "../../assets/img/customizable.jpg";
+import feature3Img from "../../assets/img/clo.jpg";
+import feature4Img from "../../assets/img/fast.jpg";
 
 export default function FeaturesComponent() {
   const featureRefs = {
@@ -11,15 +15,57 @@ export default function FeaturesComponent() {
     feature4: useRef(null),
   };
 
-  // useEffect(() => {
-  //     // Ensure refs are not null before accessing their properties
-  //     Object.keys(featureRefs).forEach(key => {
-  //         if (featureRefs[key].current) {
-  //             const offsetTop = featureRefs[key].current.offsetTop;
-  //             console.log(`${key}: ${offsetTop}`);
-  //         }
-  //     });
-  // }, []);
+  const featuresData = [
+    {
+      id: "feature1",
+      featureRef: featureRefs.feature1,
+      heading: "F.I.X. 4.2 / 4.4",
+      tagLine: "Financial Information eXchange (FIX®) Protocol",
+      description: `The Financial Information eXchange (FIX®) Protocol has
+                revolutionized the trading environment, proving fundamental in
+                facilitating many of the electronic trading trends that have
+                emerged over the past decade.`,
+      imgPath: feature1Img
+    },
+    {
+      id: "feature2",
+      featureRef: featureRefs.feature2,
+      heading: "Customizable",
+      tagLine: `100% Transparency Standards, Equal Opportunity Infrastructure,
+                and Next Generation Technology`,
+      description: `We are committed to pioneering 100% transparency standards,
+                fostering equal opportunity infrastructure, and integrating
+                next-generation technology. These initiatives shape a more
+                equitable and advanced future, ensuring that everyone benefits
+                from cutting-edge advancements and fair practices.`,
+      imgPath: feature2Img
+    },
+    {
+      id: "feature3",
+      featureRef: featureRefs.feature3,
+      heading: "Central Limit Order Book",
+      tagLine: "Understanding the Central Limit Order Book (CLOB)",
+      description: `A Central Limit Order Book (CLOB) is a common trading system
+                used in financial markets to match buy and sell orders for
+                various financial instruments, such as stocks, bonds,
+                commodities, and derivatives. This centralized electronic system
+                aggregates and displays all outstanding limit orders for a
+                particular asset at any given time, ensuring transparency and
+                efficiency in trading.`,
+      imgPath: feature3Img
+    },
+    {
+      id: "feature4",
+      featureRef: featureRefs.feature4,
+      heading: "FAST",
+      tagLine: "Ultra Low Latency Access for Optimal Trade Execution",
+      description: `TRUE TRADE delivers ultra-low latency access from our servers,
+                which are strategically located in major liquidity hubs. This
+                ensures consistently minimal latency, providing the best
+                possible fill on your orders for an optimal trading experience.`,
+      imgPath: feature4Img
+    }
+  ] 
 
   useEffect(() => {
     // Ensure refs are not null before accessing their properties
@@ -115,32 +161,34 @@ export default function FeaturesComponent() {
           </div>
         </div>
 
-        <div ref={featureRefs.feature1} id="#feature1" className="feature-box mb-2">
+      {featuresData.map((feature, index) => (
+        <div key={index} 
+            ref={feature.featureRef} 
+            id={feature.id} 
+            className={`feature-box mb-2 ${index%2!==0 ? "feature-box-reverse" : ""}`}>
           <div className="feature-box-left">
             <div className="feature-box-heading my-2">
-              <h5>F.I.X. 4.2 / 4.4</h5>
+              <h5>{feature.heading}</h5>
               <p className="feature-box-tagline my-1">
-                Financial Information eXchange (FIX®) Protocol
+                {feature.tagLine}
               </p>
             </div>
             <div className="feature-box-description">
               <p>
-                The Financial Information eXchange (FIX®) Protocol has
-                revolutionized the trading environment, proving fundamental in
-                facilitating many of the electronic trading trends that have
-                emerged over the past decade.
+                {feature.description}
               </p>
             </div>
           </div>
           <div className="feature-box-right">
             <img
-              src={require("../../assets/img/fix.jpg")}
+              src={feature.imgPath}
               alt="feature1"
             />
           </div>
         </div>
+      ))}
 
-        <div
+        {/* <div
           ref={featureRefs.feature2}
           className="feature-box feature-box-reverse mb-2"
         >
@@ -224,7 +272,7 @@ export default function FeaturesComponent() {
               alt="feature1"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

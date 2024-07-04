@@ -32,11 +32,11 @@
     margin-top: 20px;
     margin-bottom: 20px;
     height: 1px;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 .heading-add{
-    font-size: 16px;    
+    /* font-size: 16px;     */
     font-weight: bold;
 }
 
@@ -55,7 +55,7 @@
     margin: 0;
     text-align: right;
     padding: 0 0 5px;
-    font-size: .875rem;
+    /* font-size: .875rem; */
     line-height: 1.25rem;
 }
 
@@ -67,7 +67,7 @@
     margin: 0;
     padding: 0;
     margin-bottom: 1.875rem;
-    font-size: .875rem;
+    /* font-size: .875rem; */
     line-height: 1.25rem;
 }
 
@@ -85,7 +85,7 @@
     font-family: sans-serif;
     word-wrap: break-word;
     color: #141d27;
-    font-size: .875rem;
+    /* font-size: .875rem; */
     line-height: 1.25rem;
     margin: 0px;
     padding-top: 2px;
@@ -97,7 +97,7 @@
 }
 
 .label-values{
-    font-size: 14px;
+    /* font-size: 14px; */
     font-family: sans-serif;
     text-align: right;
     /* margin-bottom: 10px; */
@@ -111,7 +111,7 @@
 }
 
 .map-logo-name{
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     line-height: 1.9375rem;
     font-family: Inter, sans-serif;
     margin-bottom: 15px;
