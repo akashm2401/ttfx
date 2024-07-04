@@ -13,7 +13,7 @@ export default function SolutionsPage() {
       info: {
         description: "Enter your name and fill details to get acces of demo.",
         linkTitle: "Demo",
-        link: "https://ttprofx.com/truetradepro4setup.exe",
+        link: "https://demofix.ttprofx.com:2228/login/index.html",
       }
     },
     {
@@ -22,7 +22,7 @@ export default function SolutionsPage() {
       info: {
         description: "Acces the live clobber",
         linkTitle: "Live here!",
-        link: "https://ttprofx.com/truetradepro4setup.exe",
+        link: "https://fix.ttprofx.com:2218/login/index.html",
       },
     },
     {
