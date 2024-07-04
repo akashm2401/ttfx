@@ -17,7 +17,7 @@
 }
 
 .footer-container-main-col-heading h4{
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     color: #FFFFFF;
     font-weight: 700;
     padding: 10px;
@@ -34,7 +34,7 @@
     text-decoration: none;
     color: #FFFFFF;
     line-height: 2rem;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
 }
 
 .footer-container-main-col-links ul a:hover{
@@ -45,7 +45,7 @@
 .footer-container-main-info{
     text-align: center;
     color: #cccccc;
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     line-height: 0.8rem;
 }
 

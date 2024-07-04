@@ -44,7 +44,7 @@ body, html {
 /*---------------------------------------------*/
 a {
 	font-family: Montserrat-Regular;
-	font-size: 18px;
+	/* font-size: 18px; */
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
@@ -70,7 +70,7 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
 	/* font-family: Montserrat-Regular; */
-	font-size: 14px;
+	/* font-size: 14px; */
 	line-height: 1.7;
 	color: #666666;
 	margin: 0px;
@@ -185,7 +185,7 @@ iframe {
 .contact1-form-title {
   display: block;
   font-family: Montserrat-ExtraBold;
-  font-size: 24px;
+  /* font-size: 24px; */
   color: #333333;
   line-height: 1.2;
   text-align: center;
@@ -223,7 +223,7 @@ textarea.input1 + .shadow-input1 {
   width: 100%;
   background: #e6e6e6;
   font-family: Montserrat-Bold;
-  font-size: 15px;
+  /* font-size: 15px; */
   line-height: 1.5;
   color: #666666;
 }
@@ -277,7 +277,7 @@ textarea.input1 + .shadow-input1 {
   border-radius: 25px;
   background: #57b846;
   font-family: Montserrat-Bold;
-  font-size: 15px;
+  /* font-size: 15px; */
   line-height: 1.5;
   color: #fff;
   display: -webkit-box;
@@ -393,7 +393,7 @@ textarea.input1 + .shadow-input1 {
 
   font-family: Montserrat-Medium;
   color: #c80000;
-  font-size: 13px;
+  /* font-size: 13px; */
   line-height: 1.4;
   text-align: left;
 
@@ -412,7 +412,7 @@ textarea.input1 + .shadow-input1 {
   display: block;
   position: absolute;
   color: #c80000;
-  font-size: 15px;
+  /* font-size: 15px; */
   top: 50%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);

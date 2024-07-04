@@ -8,7 +8,7 @@
 
     background-color: rgb(255, 255, 255) !important;
     color: #1c2842;
-    font-family: Inter, sans-serif;
+    /* font-family: Inter, sans-serif; */
     height: 76px;
     border-bottom: 1px #0000006e solid;
 
@@ -38,7 +38,7 @@
 
     box-shadow: revert;
     color: #051478;
-    font-size: .85rem;
+    /* font-size: .85rem; */
     font-weight: 600;
     line-height: 1.4375rem;
 }
@@ -58,7 +58,7 @@
 
 .navbar ul {
     /* margin-left: 3rem; */
-    font-size: 1rem;
+    /* font-size: 1rem; */
 }
 
 .nav-item {
@@ -92,7 +92,7 @@
     } 
 
     .navbar ul {
-        font-size: 1rem;
+        /* font-size: 1rem; */
     }
 
     .navbar ul li {
@@ -121,7 +121,7 @@
     } 
 
     .navbar ul {
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
     }
     
     .navbar ul li {
@@ -150,7 +150,7 @@
     } 
     
     .navbar ul {
-        font-size: 1.5rem;
+        /* font-size: 1.5rem; */
     }
     
     .navbar ul li {
