@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./AboutPage.css";
+import "./AboutPage.scss";
 
 export default function AboutPage() {
   useEffect(() => {
@@ -7,7 +7,7 @@ export default function AboutPage() {
   }, []);
 
   return (
-    <>
+    <div className="about-comp">
       <div className="about-page">
         <div className="row m-0 about-page-img-container">
           <div className="col-0 col-lg-6"></div>
@@ -130,7 +130,7 @@ export default function AboutPage() {
                   {/* <p className="about-member-socials">
                     Lorem ipsum dolor sit.
                   </p> */}
-                  <div className="d-flex px-5 my-4 justify-content-around">
+                  <div className="d-flex px-2 my-2 justify-content-around">
                     <i>
                       <img
                         src={require("../../assets/ico/linkedin.png")}
@@ -277,6 +277,6 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
