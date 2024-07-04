@@ -92,9 +92,9 @@ export default function FeaturesComponent() {
       <div className="headeing">
         <h4 className="text-center">Features</h4>
       </div>
-      <div className="features-main container px-4 my-4">
-        <div className="feature-summary">
-          <div className="feature-summary-item">
+      <div className="features-main container px-4 my-2">
+        <div className="row feature-summary">
+          <div className="col-6 col-lg-3 feature-summary-item">
             <div className="feature-summary-heading">
               <h6>
                 <Link
@@ -110,7 +110,7 @@ export default function FeaturesComponent() {
             </div>
           </div>
 
-          <div className="feature-summary-item">
+          <div className="col-6 col-lg-3 feature-summary-item">
             <div className="feature-summary-heading">
               <h6>
                 <Link
@@ -128,7 +128,7 @@ export default function FeaturesComponent() {
             </div>
           </div>
 
-          <div className="feature-summary-item">
+          <div className="col-6 col-lg-3 feature-summary-item">
             <div className="feature-summary-heading">
               <h6>
                 <Link
@@ -144,7 +144,7 @@ export default function FeaturesComponent() {
             </div>
           </div>
 
-          <div className="feature-summary-item">
+          <div className="col-6 col-lg-3 feature-summary-item">
             <div className="feature-summary-heading">
               <h6>
                 <Link
@@ -165,8 +165,8 @@ export default function FeaturesComponent() {
         <div key={index} 
             ref={feature.featureRef} 
             id={feature.id} 
-            className={`feature-box mb-2 ${index%2!==0 ? "feature-box-reverse" : ""}`}>
-          <div className="feature-box-left">
+            className={`row feature-box mb-2 ${index%2!==0 ? "feature-box-reverse" : ""}`}>
+          <div className="col-md-6 col-lg-6 feature-box-left">
             <div className="feature-box-heading my-2">
               <h5>{feature.heading}</h5>
               <p className="feature-box-tagline my-1">
@@ -179,7 +179,7 @@ export default function FeaturesComponent() {
               </p>
             </div>
           </div>
-          <div className="feature-box-right">
+          <div className="col-md-6 col-lg-6 feature-box-right">
             <img
               src={feature.imgPath}
               alt="feature1"

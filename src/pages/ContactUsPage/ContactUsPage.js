@@ -38,7 +38,7 @@ export default function ContactUsPage() {
                 <hr className="divider"></hr>
               </div> */}
 
-              <div class="col-12 ">
+              <div className="col-12 ">
                 <h4 className="heading-add">Enquiries Only</h4>
                 <div className="row">
                   <div className="col-5 heading-label">Email</div>
@@ -59,13 +59,13 @@ export default function ContactUsPage() {
                     </a>
                   </div>
                 </div>
-                <hr class="v2-divider v2-mav20"></hr>
+                <hr className="v2-divider v2-mav20"></hr>
               </div>
 
-              <div class="col-12 ">
+              <div className="col-12 ">
                 <h4></h4>
-                <div class="v2-mab30" data-qa="supportcentersection">
-                  <div class="rte--output">
+                <div className="v2-mab30" data-qa="supportcentersection">
+                  <div className="rte--output">
                     <small>
                       All enquiries should be addressed via the above channels.
                       For meetings at our office, please contact us via the
@@ -74,12 +74,12 @@ export default function ContactUsPage() {
                     </small>
                   </div>
                 </div>
-                <hr class="v2-divider v2-mav20"></hr>
+                <hr className="v2-divider v2-mav20"></hr>
               </div>
             </div>
           </div>
 
-          <div className="col-12 col-md-5 map-image-class">
+          <div className="col-12 col-md-5 map-image-className">
             {/* <h2>Our Location</h2> */}
             <div className="d-flex justify-content-center" style={{ position: "relative" }}>
               <img
@@ -140,7 +140,7 @@ export default function ContactUsPage() {
           </div>
         </div>
 
-        <div class="row m-0 p-0">
+        <div className="row m-0 p-0">
           <ContectUsForm />
         </div>
       </div>

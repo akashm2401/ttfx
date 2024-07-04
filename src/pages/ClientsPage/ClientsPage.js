@@ -46,22 +46,22 @@ export default function ClientsPage() {
                         <li>Hedge funds & Money Managers</li>
                     </ul>
 
-                    <section class="client-category mt-4">
+                    <section className="client-category mt-4">
                         <h3>Professionals</h3>
                         <p>True Trade provides professional clients with flexibility within its API offering, competitive pricing and dedicated customer service. Additionally, MetaTrader 5 customers can use our proprietary bridge or integrate with available bridge providers.</p>
                     </section>
 
-                    <section class="client-category">
+                    <section className="client-category">
                         <h3>Small to Mid-Market Institutions</h3>
                         <p>True Trade's offering will keep liquidity costs low parallel to growth with no compromise to quality of service. Where potential clients would experience delays in onboarding and integration with other providers True Trade has the expertise and infrastructure to onboard with utmost efficiency.</p>
                     </section>
 
-                    <section class="client-category">
+                    <section className="client-category">
                         <h3>Brokers</h3>
                         <p>Having worked for Forex and CFD brokers for many years True Trade's management team understands the challenges these providers face. With competitive pricing, various trading solutions, and our matched principal model True Trade is the ideal partner for brokers.</p>
                     </section>
 
-                    <section class="client-category">
+                    <section className="client-category">
                         <h3>Hedge Funds & Money Managers</h3>
                         <p>True Trade's highly <Link to={'/solutions'} >sophisticated trading solutions</Link> and competitive pricing appeal to hedge funds and money managers. The ability to monitor trading in real time coupled with True Trade's dedicated customer service team benefit this market segment.</p>
                     </section>
