@@ -8,24 +8,25 @@ import FooterComponent from './components/FooterComponent/FooterComponent';
 import LegalPage from './pages/LegalPage/LegalPage';
 import FAQPage from './pages/FAQPage/FAQPage';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import useImageLoader from './CustomHooks/useImageLoader';
 import ClientsPage from './pages/ClientsPage/ClientsPage';
 import SpinnerComponent from './components/SpinnerComponent/SpinnerComponent';
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  const [imageUrls, setImageUrls] = useState([
+    // Add your image URLs here
+    "../../assets/img/homepagebaneercopy.jpg"
+    // Add all images that need to be loaded
+  ]);
 
-  useEffect(() => {
-    const handleLoad = () => setLoading(false);
-    window.addEventListener('load', handleLoad);
-    return () => window.removeEventListener('load', handleLoad);
-  }, []);
+  const loaded = useImageLoader(imageUrls);
 
   return (
     <BrowserRouter>
     <div className="App">
-      {loading && <SpinnerComponent />} {/* Show spinner while loading */}
-      {!loading && ( /* Show content after loading is done */
+      {!loaded && <SpinnerComponent />} {/* Show spinner while loading */}
+      {loaded && ( /* Show content after loading is done */
         <>
         <header className="app-header">
           <NavbarComponent/>
