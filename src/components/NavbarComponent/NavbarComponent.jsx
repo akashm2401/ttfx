@@ -1,5 +1,5 @@
 import React from "react";
-import "./NavbarComponent.css";
+import "./NavbarComponent.scss";
 import logo from "../../assets/img/logo.png";
 import { Link, useLocation } from "react-router-dom";
 import { FiAlignJustify } from "react-icons/fi";

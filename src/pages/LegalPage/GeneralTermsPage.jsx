@@ -1,5 +1,5 @@
 import React from 'react';
-import './LegalCommon.css'
+import './LegalCommon.scss';
 
 export default function GeneralTermsPage() {
 
