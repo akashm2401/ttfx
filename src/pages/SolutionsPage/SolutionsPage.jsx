@@ -6,67 +6,78 @@ export default function SolutionsPage() {
     window.scrollTo(0, 0);
   }, []);
 
-  const products = {
-    101: {
-      name: "MT4 pcClient Termina",
+  const products = [
+    {
+      id: 101,
+      name: "Clobber Demo",
       info: {
-        description: "description about A",
+        description: "Enter your name and fill details to get acces of demo.",
+        linkTitle: "Demo",
+        link: "https://ttprofx.com/truetradepro4setup.exe",
+      }
+    },
+    {
+      id: 102,
+      name: "Clobber Live",
+      info: {
+        description: "Acces the live clobber",
+        linkTitle: "Live here!",
         link: "https://ttprofx.com/truetradepro4setup.exe",
       },
     },
-    102: {
+    {
+      id: 103,
+      name: "MT4 pcClient Termina",
+      info: {
+        description: "Description",
+        linkTitle: "Download here!",
+        link: "https://ttprofx.com/truetradepro4setup.exe",
+      },
+    },
+    {
+      id: 104,
       name: "MT4 iOS Terminal",
       info: {
-        description: "Description of Product B",
+        description: "Description",
+        linkTitle: "Download here!",
         link: "https://download.mql5.com/cdn/mobile/mt4/ios?server=TrueTradePro-Demo,TrueTradePro-Live",
       },
     },
-    103: {
-      name: "Product C",
-      info: {
-        description: "Description of Product C",
-        link: "",
-      },
-    },
-
-    104: {
+    {
+      id: 105,
       name: "MT4 MacOS Terminal",
       info: {
-        description: "description about A",
+        description: "Description ",
+        linkTitle: "Download here!",
         link: "https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/MetaTrader4.dmg",
       },
     },
-    105: {
+    {
+      id: 106,
       name: "MT4 Android Terminal",
       info: {
-        description: "Description of Product B",
+        description: "Description",
+        linkTitle: "Download here!",
         link: "https://download.mql5.com/cdn/mobile/mt4/android?server=TrueTradePro-Demo,TrueTradePro-Live",
-      },
-    },
-    106: {
-      name: "Product C",
-      info: {
-        description: "Description of Product C",
-        link: "",
-      },
-    },
-  };
+      }
+    }
+  ];
 
   return (
     <div className="product">
-      <div className="product-container my-4 py-5">
+      <div className="product-container my-4 py-2">
         <h4 className="text-center mb-1">Downloads</h4>
-        <p className="text-center mb-5">Please select your download</p>
+        <p className="text-center mb-2">Please select your download</p>
         <div className="container">
           <div className="row">
-            {Object.keys(products).map((id) => (
-              <div className="cards col-sm-12 col-md-6 col-lg-4" key={id}>
+            {products.map((product, index) => (
+              <div className="cards col-sm-12 col-md-6 col-lg-6" key={index}>
                 <div className="card-main">
                   <div className="card">
-                    <h5 className="card-title">{products[id].name}</h5>
-                    <p className="card-text">{products[id].info.description}</p>
-                    <a className="underline-link" href={products[id].info.link}>
-                      Download here!
+                    <h5 className="card-title">{product.name}</h5>
+                    <p className="card-text">{product.info.description}</p>
+                    <a className="underline-link" href={product.info.link}>
+                      {product.info.linkTitle}
                     </a>
                   </div>
                 </div>
@@ -78,9 +89,9 @@ export default function SolutionsPage() {
 
       <hr />
 
-      <div className="product-container-2 container my-5">
+      <div className="product-container-2 container my-2">
         <div className="row m-0 p-0">
-          <div className="col-12 col-sm-12 col-md-12 col-lg-7 pb-5">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-7 pb-3">
             <div className="product-info-box">
               <h4>
                 <i className="me-3">
@@ -95,7 +106,7 @@ export default function SolutionsPage() {
               <div className="p-heading-line ms-5 my-2">
                 Download the True Trade Pro MetaTrader Terminal
               </div>
-              <p className=" text-justify">
+              <p className="text-justify">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
                 quibusdam deleniti numquam non. Tempora commodi a mollitia
                 reiciendis tempore incidunt cumque atque autem totam ad labore
@@ -107,13 +118,13 @@ export default function SolutionsPage() {
             </div>
           </div>
 
-          <div className="col-12 col-sm-12 col-md-12 col-lg-5 p-4">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-5 px-4 pb-3">
             <div className=" product-download-box">
               <div
-                className="row py-2 justify-content-between align-items-center"
+                className="row py-2 justify-content-between"
                 style={{ height: "100%" }}
               >
-                <div className="col-12 col-sm-6  mb-2">
+                <div className="col-12 col-sm-6  mb-3">
                   <div className="product-download-box-name">
                     MT4 PC Client Terminal
                   </div>
@@ -124,7 +135,7 @@ export default function SolutionsPage() {
                   </div>
                 </div>
 
-                <div className="col-12 col-sm-6  mb-2">
+                <div className="col-12 col-sm-6  mb-3">
                   <div className="product-download-box-name">
                     MT4 PC Client Terminal
                   </div>
@@ -135,7 +146,7 @@ export default function SolutionsPage() {
                   </div>
                 </div>
 
-                <div className="col-12 col-sm-6  mb-2">
+                <div className="col-12 col-sm-6  mb-3">
                   <div className="product-download-box-name">
                     MT4 PC Client Terminal
                   </div>
@@ -146,7 +157,7 @@ export default function SolutionsPage() {
                   </div>
                 </div>
 
-                <div className="col-12 col-sm-6  mb-2">
+                <div className="col-12 col-sm-6  mb-3">
                   <div className="product-download-box-name">
                     MT4 PC Client Terminal
                   </div>
@@ -162,7 +173,7 @@ export default function SolutionsPage() {
 
           <hr />
 
-          <div className="col-12 col-sm-12 col-md-12 col-lg-7 pb-5 pb-5">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-7 pb-3">
             <div className="product-info-box">
               <h4>
                 <i className="me-3">
@@ -189,13 +200,13 @@ export default function SolutionsPage() {
             </div>
           </div>
 
-          <div className="col-12 col-sm-12 col-md-12 col-lg-5 p-4">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-5 px-4 pb-3">
             <div className=" product-download-box">
               <div
-                className="row py-2 justify-content-between align-items-center"
+                className="row py-2 justify-content-between"
                 style={{ height: "100%" }}
               >
-                <div className="col-12 col-sm-12 col-md-6 mb-2">
+                <div className="col-12 col-sm-6 mb-3">
                   <div className="product-download-box-name">
                     <img
                       src={require("../../assets/img/metatrader-4-logo.png")}
@@ -208,7 +219,7 @@ export default function SolutionsPage() {
                   </div>
                 </div>
 
-                <div className="col-12 col-sm-12 col-md-6 mb-2">
+                <div className="col-12 col-sm-6 mb-3">
                   <div className="product-download-box-name">
                     <button
                       className="btn btn-sm btn-outline-primary"
@@ -227,7 +238,7 @@ export default function SolutionsPage() {
 
           <hr />
 
-          <div className="col-12 col-sm-12 col-md-12 col-lg-7 pb-5">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-7 pb-3">
             <div className="product-info-box">
               <h4>
                 <i className="me-3">
@@ -254,13 +265,13 @@ export default function SolutionsPage() {
             </div>
           </div>
 
-          <div className="col-12 col-sm-12 col-md-12 col-lg-5 p-4">
+          <div className="col-12 col-sm-12 col-md-12 col-lg-5 px-4 pb-3">
             <div className=" product-download-box">
               <div
-                className="row py-2 justify-content-between align-items-center"
+                className="row py-2 justify-content-between"
                 style={{ height: "100%" }}
               >
-                <div className="col-12 col-sm-12 col-md-6">
+                <div className="col-12 col-sm-6 mb-3">
                   <div className="product-download-box-name">
                     Client Application
                   </div>
@@ -271,7 +282,7 @@ export default function SolutionsPage() {
                   </div>
                 </div>
 
-                <div className="col-12 col-sm-12 col-md-6">
+                <div className="col-12 col-sm-6 mb-3">
                   <div className="product-download-box-name">
                     Customer Compliant
                   </div>

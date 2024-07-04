@@ -98,7 +98,7 @@ export default function FeaturesComponent() {
             <div className="feature-summary-heading">
               <h6>
                 <Link
-                  to="#F.I.X."
+                  // to="#F.I.X."
                   onClick={() => handleScrollToFeature("feature1")}
                 >
                   F.I.X. 4.2 / 4.4
@@ -114,7 +114,6 @@ export default function FeaturesComponent() {
             <div className="feature-summary-heading">
               <h6>
                 <Link
-                  to="#Customizable"
                   onClick={() => handleScrollToFeature("feature2")}
                 >
                   Customizable
@@ -132,7 +131,6 @@ export default function FeaturesComponent() {
             <div className="feature-summary-heading">
               <h6>
                 <Link
-                  to="#C.L.O.B"
                   onClick={() => handleScrollToFeature("feature3")}
                 >
                   Central Limit Order Book
