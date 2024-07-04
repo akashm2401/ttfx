@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import mapImage from "../../assets/img/map-loc.png";
-import "./ContactUsPage.css";
+import "./ContactUsPage.scss";
 import { TbMap2 } from "react-icons/tb";
 import ContectUsForm from "../../components/ContactForm/js/ContactUsForm";
 import { BiSupport } from "react-icons/bi";
@@ -11,7 +11,7 @@ export default function ContactUsPage() {
   }, []);
   
   return (
-    <div>
+    <div className="contact-comp">
       <div className="container-fluid main-container">
         <div className="row" style={{ marginTop: "50px" }}>
           <div className="col-12 col-md-4" style={{ margin: "auto" }}>
@@ -27,10 +27,10 @@ export default function ContactUsPage() {
               <div className="col-12  col-md-12">
                 <p>
                   Office Suite 1652 Level16(A),
-                  <br /> Main Office Tower <br />
-                  Financial Park <br />
+                  Main Office Tower <br />
+                  Financial Park,
                   Complex Labuan <br />
-                  Jalan Merdeka 87000 <br />
+                  Jalan Merdeka 87000,
                   Labuan F.T
                 </p>
               </div>
@@ -106,7 +106,7 @@ export default function ContactUsPage() {
         </div>
       </div>
       <div className="card-form">
-        <div className="container queries-card">
+        {/* <div className="container queries-card">
           <div className="row">
             <div className="queries-card-heding">
               <h2>Other Inquiries</h2>
@@ -138,7 +138,7 @@ export default function ContactUsPage() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="row m-0 p-0">
           <ContectUsForm />
