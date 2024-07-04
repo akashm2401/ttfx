@@ -185,7 +185,7 @@ export default function RiskDisclosurePage() {
         <br />
         <p>
 
-          Despite the risks, cryptocurrencies have gained popularity as an alternative asset class and have the potential to revolutionize various industries through blockchain technology. However, it's essential for investors to conduct thorough research and understand the risks before investing in cryptocurrencies.
+          Despite the risks, cryptocurrencies have gained popularity as an alternative asset className and have the potential to revolutionize various industries through blockchain technology. However, it's essential for investors to conduct thorough research and understand the risks before investing in cryptocurrencies.
         </p>
       </div>
 

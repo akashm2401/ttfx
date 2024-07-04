@@ -215,6 +215,19 @@
         background-color: #111827;
         border-color: #111827;
     }
+
+    .home-about-section {
+        .btn-outline-primary {
+            color: #111827;
+            border-color: #111827;
+            padding: 5px 25px;
+        }
+
+        .btn-outline-primary:hover {
+            color: #FFF;
+        }
+    
+    }
 }
 
 
@@ -240,9 +253,9 @@
             flex-wrap: wrap;
         }
         
-        .home-about-left-section img {
-            width: 100%;
-        }
+        // .home-about-left-section img {
+        //     width: 100%;
+        // }
         
         .main-screen .left {
             align-items: center;

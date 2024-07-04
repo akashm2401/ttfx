@@ -89,19 +89,19 @@ export default function AboutPage() {
           <div className="container px-5">
             <div className="row about-insights-data justify-content-evenly">
               <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2 about-insights-data-item">
-                <p>1,200,000</p>
+                <p className='fs-9'>1,200,000</p>
                 <p>Clients worldwide</p>
               </div>
               <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2 about-insights-data-item">
-                <p>100+ bn</p>
+                <p className='fs-9'>100+ bn</p>
                 <p>USD client assets</p>
               </div>
               <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-2 about-insights-data-item">
-                <p>260,000</p>
+                <p className='fs-9'>260,000</p>
                 <p>Daily executed trades</p>
               </div>
               <div className="col-12 col-sm-6 mb-2 col-md-4 col-lg-3 about-insights-data-item">
-                <p>30+ years</p>
+                <p className='fs-9'>30+ years</p>
                 <p>Experience in the industry</p>
               </div>
             </div>

@@ -770,12 +770,12 @@ export default function GeneralTermsPage() {
       </div>
 
       <br />
-      <div class="heading">
+      <div className="heading">
         <h5>14. Manifest Error</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>
           14.1 A Manifest Error is an error, omission or misquote (including any misquote by our dealer) which by fault of either of us or any third party is materially and clearly incorrect when considering market conditions and quotes in Markets or Underlying Instruments which prevailed at that time. It may include, but is not limited to, an incorrect price, date, time, Market or currency pair, financing calculation, rebate, commission or any error or lack of clarity of any information, source, commentator, official result, or pronouncement.
         </p>
@@ -799,12 +799,12 @@ export default function GeneralTermsPage() {
       </div>
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>15. Events Outside Our Control and Market Disruption Events</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div classNameName="text">
         <p>15.1 We may determine that a situation or an exceptional market condition exists which constitutes an Event Outside Our Control and/or a Market Disruption Event.</p>
         <br />
         <p>15.2 If we determine that an Event Outside Our Control or Market Disruption Event has occurred, we may take any of the steps referred to in clause 15.3 with immediate effect. We will take reasonable steps to notify you of any action we take before we take any action to the extent practicable. If it is not practicable to give you prior notice, we will notify you at the time or promptly after taking any such action.</p>
@@ -830,12 +830,12 @@ export default function GeneralTermsPage() {
 
       <br />
 
-      <div class="heading">
+      <div classNameName="heading">
         <h5>16. Events of Default and Similar Circumstances</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div classNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameNameName="text">
         <p>16.1 The following shall constitute Events of Default:</p>
         <ul>
           <li>16.1.1 an Insolvency Event occurs in relation to you.</li>
@@ -892,12 +892,12 @@ export default function GeneralTermsPage() {
 
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>17. Netting and Set Off, CIL Trigger Events and Clearing House Defaults</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div classNameName="text">
         <p>17.1 The Agreement and all Trades under it shall form part of a single agreement between us and you. You and we both acknowledge that we enter into the Agreement and any Trades under it in reliance upon the fact that these are part of a single agreement between us.</p>
         <br />
         <p>17.2 Without prejudice to our right to require immediate payment from you under the terms of this Agreement, but subject to the application of clauses 17.6 and 17.7 and applicable laws and regulations we will, at any time, have the right to:</p>
@@ -934,12 +934,12 @@ export default function GeneralTermsPage() {
       </div>
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>18. Currency Conversions and Valuations</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>18.1 Where we are entitled to do so under this Agreement (including in connection with our rights under clauses 16 and 17) we may convert sums denominated in one currency to another currency. We may also perform a notional currency conversion where this is required for valuation purposes.</p>
         <br />
         <p>18.2 Unless we have agreed otherwise, we will automatically convert any Cash, Realized Profits and Losses, adjustments, fees, and charges that are denominated in another currency to your Base Currency before applying them to your Account.</p>
@@ -951,12 +951,12 @@ export default function GeneralTermsPage() {
         <p>18.5 If we have exercised our rights in connection with clauses 16 and/or 17 or you have made a payment to us in a different currency from that in which you were obliged to pay us, we may pass on to you all commission or other charges which we incur in any currency conversion we carry out.</p>
       </div>
       <br />
-      <div class="heading">
+      <div className="heading">
         <h5>19. Corporate Actions and other events affecting Underlying Instruments</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div classNameNameNameNameNameNameNameNameNameNameNameName="text">
         <p>19.1 When a Corporate Action or an Insolvency Event occurs in relation to any Underlying Instrument and/or its issuer we may, acting in a commercially reasonable manner, adjust your Open Positions and/or Orders to reflect those actions and to put you in a position as close as possible to that of a direct holder of the Underlying Instrument. In the case of adjustments to Open Positions held in a Centrally Cleared Market, corresponding adjustments will be made (where appropriate) to the corresponding CCP Transactions.</p>
         <br />
         <p>19.2 The actions we may take pursuant to clause 19.1 include, but are not limited to:</p>
@@ -981,12 +981,12 @@ export default function GeneralTermsPage() {
       </div>
 
       <br />
-      <div class="heading">
+      <div className="heading">
         <h5>20. Representations and Warranties</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>20.1 Representations and warranties are personal statements, assurances or undertakings given by you to us on which we rely when we deal with you. You make the following representations and warranties at the time you enter into this Agreement and every time you place a Trade or give us any other instruction:</p>
         <ul>
           <li>20.1.1 all information that you supply to us (whether in the Application Form or otherwise) is true, accurate and not misleading in any material respect.</li>
@@ -1007,12 +1007,12 @@ export default function GeneralTermsPage() {
       </div>
 
       <br />
-      <div class="heading">
+      <div className="heading">
         <h5>21. Market Abuse</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div classNameName="text">
         <p>21.1 When you execute a Trade with us, we may buy or sell on securities exchanges or directly from or to other financial institutions shares or units in the relevant Underlying Instrument or financial instruments related to that Underlying Instrument. The result is that when you place Trades with us your Trades can have an impact on the external market for that Underlying Instrument in addition to the impact it might have on Our Price. This creates a possibility of market abuse, and the purpose of this clause is to prevent such abuse.</p>
         <br />
         <p>21.2 You represent and warrant to us at the time you enter into the Agreement and every time you enter into a Trade or give us any other instruction that:</p>
@@ -1045,12 +1045,12 @@ export default function GeneralTermsPage() {
       </div>
       <br />
 
-      <div class="heading">
+      <div classNameNameNameNameNameNameNameName="heading">
         <h5>22. Your Right to Cancel</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>22.1 You are entitled to cancel this Agreement by giving us notice in writing within a 14-day cancellation period. You need not give any reason for the cancellation and the right to cancel applies even if you have already received services from us before the cancellation period expires.</p>
         <br />
         <p>22.2 The period for cancellation begins on the date the Agreement starts to apply to you.</p>
@@ -1065,12 +1065,12 @@ export default function GeneralTermsPage() {
       </div>
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>23. Complaints and Disputes</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div classNameNameNameName="text">
         <p>23.1 If you wish to raise any complaint or dispute you should contact us as soon as practicable. If we identify a Dispute, we will notify you as soon as possible.</p>
         <br />
         <p>23.2 Please keep your own record of dates or times of Trades and other issues as that will help us to investigate any complaints or disputes. It may be difficult or not reasonably possible for us to locate records/tapes in relation to Trades and other issues in the absence of information about the dates and times of any Trades or other issues in Dispute.</p>
@@ -1090,12 +1090,12 @@ export default function GeneralTermsPage() {
       </div>
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>24. Intellectual Property</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>24.1 Our Website, including the Trading Platform, and any and all Information, software applications, documentation and other information, data, and materials which we may supply or make available to you, either directly or through a third-party service provider or licensor (collectively “Our Materials”) are and will remain our property or that of our third-party service providers or licensors.</p>
         <br />
         <p>24.2 All copyrights, trademarks, design rights and other intellectual property rights in Our Materials, including without limitation all updates, modifications, compilations and enhancements, and all derivative works based on any of Our Materials, are and will remain our property (or those of our third-party service providers or licensors as applicable).</p>
@@ -1120,12 +1120,12 @@ export default function GeneralTermsPage() {
       </div>
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>25. Website and System Use</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>25.1 We will use reasonable endeavors to ensure that our website, mobile services, and our systems can normally be accessed for use in accordance with this Agreement. However all or any of these may fail to work properly or at all or our premises may suffer from power failure. On this basis:</p>
         <ul>
           <li>25.1.1 we do not warrant that they will always be accessible or usable.</li>
@@ -1170,12 +1170,12 @@ export default function GeneralTermsPage() {
       </div>
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>26. Limitation of Liability</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>26.1 Nothing in this Agreement shall exclude or limit our liability for death or personal injury caused by our negligence or for fraud or fraudulent misrepresentation or for liability that cannot be excluded under any applicable laws or the requirements of any regulator.</p>
         <br />
         <p>26.2 Subject to clause 26.1, we shall not be liable for:</p>
@@ -1206,12 +1206,12 @@ export default function GeneralTermsPage() {
 
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>27. Your money</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p><strong>Retail Clients</strong></p>
         <p>27.1 As a Retail Client, any money which you have transferred or transfer to us, or which has been transferred to us, which is to be held by us on your behalf, is Client Money within the meaning of the Client Money Rules, and will be held by us on trust for you at all times and for this purpose. In accordance with the requirements of the Client Money Rules, Client Money must be and will be segregated from our own money. In the event of our insolvency, Client Money will be excluded from the assets available to our creditors.</p>
         <br />
@@ -1285,12 +1285,12 @@ export default function GeneralTermsPage() {
 
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>28. Tax</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>28.1 You are responsible for the payment of all taxes that may arise in relation to your Trades. Where, as a result of your trading, there is a tax charge under the Financial Transaction Tax regime, stamp duty, transfer tax, dividend tax, withholding tax or other taxes or duties due in any jurisdiction, we reserve the right to pass these on to you. We may elect to do so by withholding any such amounts from your Realized Profits. You may find additional information with respect to our practices in a Market on our Website or by calling Client Management.</p>
         <br />
 
@@ -1301,12 +1301,12 @@ export default function GeneralTermsPage() {
       </div>
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>29. Amendments and Termination</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>29.1 We may amend or replace any clause or part of the Agreement in whole or in part by giving you written notification of the changes. Amendments to this Agreement will not be valid and binding unless they are expressly agreed by us in writing. We will only make changes for good reason including but not limited to:</p>
         <ul>
           <li>29.1.1 making them clearer or more favorable to you.</li>
@@ -1334,12 +1334,12 @@ export default function GeneralTermsPage() {
 
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>30. General Provisions Relating to the Agreement</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>30.1 A court or regulatory authority may decide that a part or clause of this Agreement is not enforceable. If this happens then the relevant part of the Agreement will be given no effect and will not be considered part of the Agreement. This will not invalidate any other clause or part of the Agreement.</p>
         <br />
 
@@ -1357,22 +1357,22 @@ export default function GeneralTermsPage() {
 
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>31. Telephone Recording</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>We will record all telephone and electronic communications that result or may result in the placing and/or conclusion of a Trade or an Order. A copy of any such telephone recording or electronic communications will be available to you on request for a minimum period of 5 years from the date of the recording.</p>
       </div>
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>32. Notices</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>This clause 32 does not apply when:</p>
         <p>32.1.1 you place Orders and execute Trades pursuant to this Agreement, in which case communications shall be handled pursuant to clauses 4 and 12.</p>
         <p>32.1.2 we provide notice of changes to Margin Requirements, Margin Factors or Margin Multipliers pursuant to clause 10; or</p>
@@ -1382,7 +1382,7 @@ export default function GeneralTermsPage() {
         <p>You must send notices by letter to Client Management at Our Address.</p>
         <p>Unless specifically agreed otherwise in these General Terms, any notice given by us to you or by you to us will be deemed given and received if:</p>
         <p>32.5.1 delivered by hand to Our Address in these General Terms or to your last known home or work address: at the time of delivery.</p>
-        <p>32.5.2 sent by first class post on a Business Day: the next Business Day or second Business Day after posting if not sent on a Business Day.</p>
+        <p>32.5.2 sent by first className post on a Business Day: the next Business Day or second Business Day after posting if not sent on a Business Day.</p>
         <p>32.5.3 sent by air mail from outside the United Kingdom: the second Business Day after posting (or the fourth Business Day after posting if not sent on a Business Day).</p>
         <p>32.5.4 sent by fax before 4pm on a Business Day: one hour after a “transmission complete” report is received. If sent by fax at any other time: at 9 am on the next Business Day; and/or</p>
         <p>32.5.5 sent by email before 4pm on a Business Day: one hour after sending. If sent by email at any other time: 9:00 am on the next Business Day.</p>
@@ -1392,12 +1392,12 @@ export default function GeneralTermsPage() {
       </div>
       <br />
 
-      <div class="heading">
+      <div className="heading">
         <h5>33. Governing Law, Jurisdiction and Language</h5>
       </div>
       <br />
 
-      <div class="text">
+      <div className="text">
         <p>33.1 The Agreement and our relations before we entered into this Agreement shall be governed by and construed in accordance with English Law.</p>
         <p>33.2 Subject to clause 33.3 and clause 33.4, the Courts of England and Wales will have exclusive jurisdiction over any claim or matter arising under or in connection with the Agreement and the legal relationships established by the Agreement.</p>
         <p>33.3 Subject to clause 33.4, we shall be entitled to take proceedings against you in any other competent jurisdiction, and the taking of proceedings in any one or more jurisdictions will not preclude the taking of proceedings in any other jurisdictions, whether concurrently or not, to the extent permitted by the law of such other jurisdiction.</p>

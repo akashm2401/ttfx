@@ -68,11 +68,11 @@ export default function HomePage() {
           <ToolsViewComponent />
         </div>
 
-        <div className="home-about-section container my-5">
-          <div className="home-about-left-section">
-            <img width={500} src={require("../../assets/img/about1.jpg")} alt="" />
+        <div className="row home-about-section container my-5">
+          <div className="col-md-6 col-lg-6 home-about-left-section">
+            <img style={{width: "100%", borderRadius: "8px"}} src={require("../../assets/img/about1.jpg")} alt="" />
           </div>
-          <div className="home-about-right-section">
+          <div className="col-md-6 col-lg-6 home-about-right-section">
             <h4>About True Trade Pro</h4>
             <p className="home-about-section-tag-line my-2">
               Lorem ipsum dolor sit amet.
@@ -84,13 +84,13 @@ export default function HomePage() {
               reiciendis iusto quasi debitis.
             </p>
 
-            <button type="button" className="btn btn-outline-primary">
+            <button onClick={navigate('/about')} type="button" className="btn btn-outline-primary">
               Dicover True Trade Pro
             </button>
           </div>
         </div>
 
-        <div id="review-break" className="container">
+        <div id="review-break" className="container p-0">
           <ReviewComponet />
         </div>
       </div>

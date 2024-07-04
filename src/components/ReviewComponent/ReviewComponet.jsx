@@ -86,7 +86,7 @@ export default function ReviewComponet() {
                 <div className="review-insights my-5">
                     <div className="count-insights">
                         <div className="count">
-                            <span>260,000+</span>
+                            <span className='fs-9'>260,000+</span>
                         </div>
                         <div className="count-title">
                             <span>Daily trades</span>
@@ -95,16 +95,16 @@ export default function ReviewComponet() {
 
                     <div className="count-insights">
                         <div className="count">
-                            <span>1,200,000+</span>
+                            <span className='fs-9'>1,200,000+</span>
                         </div>
                         <div className="count-title">
-                            <span>Clients</span>
+                            <span >Clients</span>
                         </div>
                     </div>
 
                     <div className="count-insights">
                         <div className="count">
-                            <span>100+ bn</span>
+                            <span className='fs-9'>100+ bn</span>
                         </div>
                         <div className="count-title">
                             <span>USD client assets</span>
@@ -113,7 +113,7 @@ export default function ReviewComponet() {
 
                     <div className="count-insights">
                         <div className="count">
-                            <span>17+ bn</span>
+                            <span className='fs-9'>17+ bn</span>
                         </div>
                         <div className="count-title">
                             <span>USD daily trade volume</span>
