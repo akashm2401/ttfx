@@ -1,0 +1,287 @@
+.review-component {
+
+    .review-carousel {
+        position: relative;
+        width: 80%;
+        max-width: 800px;
+        overflow: hidden;
+        /* border: 1px solid #ccc; */
+        box-shadow: 0 0 10px #ccc;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+
+    .review-carousel .client-reviews {
+        display: flex;
+        transition: transform 2s ease-in-out;
+        /* transition: translate-x 2s ease-in-out; */
+    }
+
+    .review-carousel .client-review {
+        min-width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        text-align: center;
+        /* background-color: #f0f0f0; */
+        /* border-right: 1px solid #ccc; */
+        transition: transform 2s ease-in-out;
+    }
+
+    .review-carousel button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0, 0, 0, 0.1);
+        color: white;
+        border: none;
+        padding: 5px;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+    .review-carousel button.prev {
+        left: 0;
+    }
+
+    .review-carousel button.next {
+        right: 0;
+    }
+
+    .review-carousel button:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .client-review .client-photo img {
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    .client-review .client-name {
+        color: #ccc;
+    }
+
+    .client-review .client-comment {
+        /* font-size: 1rem; */
+        text-align: center;
+    }
+
+
+
+    /* ANimation */
+    /* #review1 {
+    position: relative;
+    animation-name: review1;
+    animation-duration: 20s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(.14, .75, .2, 1.01);
+    animation-iteration-count: infinite;
+    }
+    
+    #review2 {
+        position: relative;
+        bottom: 18rem;
+        animation-name: review2;
+        animation-duration: 20s;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-timing-function: cubic-bezier(.14, .75, .2, 1.01);
+        animation-iteration-count: infinite;
+        }
+        
+        #review3 {
+            position: relative;
+            bottom: 34.9rem;
+            animation-name: review3;
+            animation-duration: 20s;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+            animation-timing-function: cubic-bezier(.14, .75, .2, 1.01);
+            animation-iteration-count: infinite;
+            }
+            
+            #review4 {
+                position: relative;
+                bottom: 54rem;
+                animation-name: review4;
+                animation-duration: 20s;
+                animation-direction: normal;
+                animation-fill-mode: forwards;
+                animation-timing-function: cubic-bezier(.14, .75, .2, 1.01);
+                animation-iteration-count: infinite;
+                } */
+
+    @keyframes review1 {
+        0% {
+            right: 0rem;
+        }
+
+        20% {
+            right: 0rem;
+        }
+
+        40% {
+            right: 48rem;
+        }
+
+        60% {
+            right: 48rem;
+        }
+
+        80% {
+            right: 48rem;
+        }
+
+        100% {
+            right: 48rem;
+        }
+    }
+
+    @keyframes review2 {
+        0% {
+            right: -48rem;
+        }
+
+        20% {
+            right: -48rem;
+        }
+
+        40% {
+            right: 0rem;
+        }
+
+        60% {
+            right: 0rem;
+        }
+
+        80% {
+            right: 48rem;
+        }
+
+        100% {
+            right: 48rem;
+        }
+    }
+
+    @keyframes review3 {
+        0% {
+            right: -48rem;
+        }
+
+        20% {
+            right: -48rem;
+        }
+
+        40% {
+            right: -48rem;
+        }
+
+        60% {
+            right: -48rem;
+        }
+
+        80% {
+            right: 0rem;
+        }
+
+        100% {
+            right: 0rem;
+        }
+    }
+
+    @keyframes review4 {
+        0% {
+            right: -48rem;
+        }
+
+        25% {
+            right: -48rem;
+        }
+
+        50% {
+            right: -48rem;
+        }
+
+        100% {
+            right: -48rem;
+        }
+    }
+
+
+    /* Count Insights */
+    .review-insights {
+        /* margin-top: 5rem; */
+        margin: auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .review-insights .count-insights .count {
+        /* font-size: 2.5rem; */
+        text-align: center;
+    }
+
+    .review-insights .count-insights .count-title {
+        /* font-size: 1rem; */
+        text-align: center;
+    }
+
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .review-carousel {
+        width: 100%;
+    }
+
+    /*  */
+    .review-insights {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .count-insights {
+        width: 100%;
+    }
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .review-insights {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+        /* column-gap: 20px; */
+    }
+
+    .count-insights {
+        width: 50%;
+    }
+
+    .review-insights .count-insights .count {
+        /* font-size: 2rem; */
+    }
+
+    .review-insights .count-insights .count-title {
+        /* font-size: 0.8rem; */
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .review-insights {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+        /* column-gap: 20px; */
+    }
+
+    .count-insights {
+        width: 50%;
+    }
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 992px) {}

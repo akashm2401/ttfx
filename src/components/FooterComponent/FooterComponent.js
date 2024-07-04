@@ -1,5 +1,5 @@
 import React from "react";
-import "./FooterComponent.css";
+import "./FooterComponent.scss";
 import { Link } from "react-router-dom";
 
 export default function FooterComponent() {
@@ -13,7 +13,7 @@ export default function FooterComponent() {
   const message = "Hello";
 
   return (
-    <>
+    <div className="footer">
       <div className="pt-5 footer-container">
         <div className="container">
           <div className="footer-container-main">
@@ -118,6 +118,6 @@ export default function FooterComponent() {
           <p>&copy; 2024 True Trade Pro Ltd</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

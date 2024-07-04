@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import NavbarComponent from './components/NavbarComponent/NavbarComponent';
 import HomePage from './pages/HomePage/HomePage';
 import AboutPage from './pages/AboutPage/AboutPage';

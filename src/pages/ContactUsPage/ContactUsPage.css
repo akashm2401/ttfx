@@ -56,7 +56,7 @@
     text-align: right;
     padding: 0 0 5px;
     /* font-size: .875rem; */
-    line-height: 1.25rem;
+    /* line-height: 1.25rem; */
 }
 
 
@@ -68,7 +68,6 @@
     padding: 0;
     margin-bottom: 1.875rem;
     /* font-size: .875rem; */
-    line-height: 1.25rem;
 }
 
 .v2-col-sm-12 .row {

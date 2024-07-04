@@ -1,7 +1,6 @@
 import React from 'react';
-import './ReviewComponent.css'
+import './ReviewComponent.scss'
 import { useState, useRef, useEffect } from 'react';
-// import { querySelectorAll }
 import client1 from '../../assets/img/client1.jpeg';
 import client2 from '../../assets/img/client2.jfif'
 import client3 from '../../assets/img/client3.png';
@@ -62,7 +61,7 @@ export default function ReviewComponet() {
 
     return (
         <>
-            <div className="container">
+            <div className="container review-component">
                 <h4 className='text-center my-2'>WHAT USERS SAYS</h4>
                 <div className="review-carousel">
                     <button className="prev" onClick={goPrev}>&lt;</button>

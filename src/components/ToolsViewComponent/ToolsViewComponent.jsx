@@ -1,5 +1,5 @@
 import React from "react";
-import "./ToolsViewComponent.css";
+import "./ToolsViewComponent.scss";
 import { useNavigate } from "react-router-dom";
 
 export default function ToolsViewComponent() {
@@ -12,7 +12,7 @@ export default function ToolsViewComponent() {
 
   return (
     <>
-      <div className="container my-5">
+      <div className="tools-view container my-5">
         <div className="tools-heading">
           <h4 className="text-center">Trading Platforms</h4>
           <p className="text-center">

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./SolutionsPage.css";
+import "./SolutionsPage.scss";
 
 export default function SolutionsPage() {
   useEffect(() => {
@@ -53,7 +53,7 @@ export default function SolutionsPage() {
   };
 
   return (
-    <div>
+    <div className="product">
       <div className="product-container my-4 py-5">
         <h4 className="text-center mb-1">Downloads</h4>
         <p className="text-center mb-5">Please select your download</p>

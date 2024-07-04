@@ -1,5 +1,5 @@
 import React from "react";
-import "./FeaturesComponent.css";
+import "./FeaturesComponent.scss";
 import { Link } from "react-router-dom";
 import { useRef, useEffect } from "react";
 import feature1Img from "../../assets/img/fix.jpg";
@@ -72,7 +72,7 @@ export default function FeaturesComponent() {
     Object.keys(featureRefs).forEach((key) => {
       if (featureRefs[key].current) {
         const offsetTop = featureRefs[key].current.offsetTop;
-        console.log(`${key}: ${offsetTop}`);
+        // console.log(`${key}: ${offsetTop}`);
       }
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -88,7 +88,7 @@ export default function FeaturesComponent() {
   };
 
   return (
-    <>
+    <div className="feature-comp">
       <div className="headeing">
         <h4 className="text-center">Features</h4>
       </div>
@@ -274,6 +274,6 @@ export default function FeaturesComponent() {
           </div>
         </div> */}
       </div>
-    </>
+    </div>
   );
 }

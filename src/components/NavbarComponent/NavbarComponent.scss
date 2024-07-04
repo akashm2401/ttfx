@@ -1,0 +1,176 @@
+
+.navbar {
+    background-color: rgb(255, 255, 255) !important;
+    color: #1c2842;
+    height: 76px;
+    box-shadow: 1px 1px 16px #0000006e;
+}
+
+.navbar {
+
+    
+    #brand-logo {
+        display: inline-block;
+        padding: 10px 10px 10px;
+        margin-left: 30px;
+        height: 50px;
+    }
+
+    ul {
+        margin: 0 15px;
+    }
+    
+    .navbar a,
+    .nav-link {
+        box-shadow: revert;
+        color: #252671;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .nav-link:focus {
+        color: #FFFFFF;
+    }
+    
+    .navbar a:hover {
+        color: #6393CE;
+    }
+    
+    .active {
+        color: #ABABB9 !important;
+    }
+    
+    .nav-item {
+        margin-right: 1rem;
+    }
+    
+    .icon-toggler:active {
+        border: 10px #FFFFFF solid !important    ;
+    }
+    
+    .active {
+        font-weight: bold;
+        color: #6393CE !important; /* Customize as needed */
+    }   
+}
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-width: 320px) and (max-width: 479px){ 
+    .navbar {
+        z-index: 1;
+        height: auto;
+        padding: 15px;
+    } 
+
+    .navbar {
+
+        #brand-logo {
+            width: 10rem;
+            margin-left: 0;
+        }
+        
+        .navbar ul li {
+            /* border-bottom: 1px solid hsla(0, 0%, 100%, .1); */
+            border-bottom: 0.8px solid #d2cfcf;
+            padding-left: 5px;
+            padding-bottom: 0;
+        }
+        
+        .navbar a,
+        .nav-link {
+            font-size: 16px;
+        }
+    } 
+}
+
+/* SMARTPHONES LANDSCAPE */
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+
+    .navbar {
+        z-index: 1;
+        height: auto;
+        padding: 15px;
+    } 
+
+    .navbar {
+
+        #brand-logo{
+            margin-left: 0;
+        }
+        
+        .navbar ul li {
+            /* border-bottom: 1px solid hsla(0, 0%, 100%, .1); */
+            border-bottom: 0.8px solid #d2cfcf;
+            padding-left: 5px;
+            padding-bottom: 0;
+        }
+        
+        .navbar a,
+        .nav-link {
+            font-size: 16px;
+        }
+    }
+}
+
+/* TABLETS PORTRAIT */
+@media only screen and (min-width: 768px) and (max-width: 991px){ 
+    
+    .navbar {
+        z-index: 1;
+        height: auto;
+        padding: 15px;
+    } 
+    
+    .navbar {
+
+        #brand-logo {
+            margin-left: 0;
+        }
+        
+        .navbar ul li {
+            /* border-bottom: 1px solid hsla(0, 0%, 100%, .1); */
+            border-bottom: 0.8px solid #d2cfcf;
+            padding-left: 5px;
+            padding-bottom: 0;
+        }
+
+    .navbar a,
+    .nav-link {
+        font-size: 16px;
+    }
+}
+    
+}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 992px){ 
+
+}
+  
+
+
+/* After chnages */
+.wp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+    z-index: 20;
+    background-color: transparent;
+    border: none;
+}
+
+.wp-button:hover{
+    background-color: transparent;
+}
+
+.wp-button i[data-title]:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    top: 50%;
+    /* left: 0; */
+    right: 100%;
+    width: max-content;
+    background-color: #111827;
+    border-radius: 4px;
+    padding: 2px;
+}
