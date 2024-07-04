@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./HomePage.scss";
-import CarouselComponent from "../../components/CarouselComponent/CarouselComponent";
+// import CarouselComponent from "../../components/CarouselComponent/CarouselComponent";
 import FeaturesComponent from "../../components/FeaturesComponent/FeaturesComponent";
 import ToolsViewComponent from "../../components/ToolsViewComponent/ToolsViewComponent";
 import ReviewComponet from "../../components/ReviewComponent/ReviewComponet";
@@ -26,9 +26,9 @@ export default function HomePage() {
     }
   }, [location]);
 
-  const gotToAbout = () => {
-    navigate("/about");
-  };
+  // const gotToAbout = () => {
+  //   navigate("/about");
+  // };
   return (
     <>
       <div className="home-page">
@@ -84,9 +84,9 @@ export default function HomePage() {
               reiciendis iusto quasi debitis.
             </p>
 
-            <button onClick={navigate('/about')} type="button" className="btn btn-outline-primary">
+            <Link to={"/about"} type="button" className="btn btn-outline-primary">
               Dicover True Trade Pro
-            </button>
+            </Link>
           </div>
         </div>
 
