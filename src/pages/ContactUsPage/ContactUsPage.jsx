@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import mapImage from "../../assets/img/map-loc.png";
 import "./ContactUsPage.scss";
 import { TbMap2 } from "react-icons/tb";
@@ -9,7 +9,7 @@ export default function ContactUsPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+
   return (
     <div className="contact-comp">
       <div className="container-fluid main-container">
@@ -41,22 +41,26 @@ export default function ContactUsPage() {
               <div className="col-12 ">
                 <h4 className="heading-add">Enquiries Only</h4>
                 <div className="row">
-                  <div className="col-5 heading-label">Email</div>
-                  {/* <dt>Email</dt> */}
-                  <div className="col-7  ">
+                  <div className="heading-label">Email
+                    &nbsp;
+                    {/* <dt>Email</dt> */}
+                    {/* <div className="col-7  "> */}
                     <a href="">
                       <strong>ps@saxomarkets.com</strong>
                     </a>
+                    {/* </div> */}
                   </div>
                 </div>
 
                 <div className="row">
-                  <div className="col-5  heading-label">Phone</div>
-                  <div className="col-7  ">
+                  <div className="heading-label">Phone
+                    &nbsp;
+                    {/* <div className="col-7  "> */}
                     <a href=""></a>
                     <a href="">
                       <strong>+65 6303 7788</strong>
                     </a>
+                    {/* </div> */}
                   </div>
                 </div>
                 <hr className="v2-divider v2-mav20"></hr>
@@ -85,7 +89,7 @@ export default function ContactUsPage() {
               <img
                 src={mapImage}
                 alt="Map"
-                style={{ width: "80%", height: "auto", marginBottom: '10px',  borderRadius: '30px 10px', textAlign: 'center'}}
+                style={{ width: "100%", height: "auto", marginBottom: '10px', borderRadius: '30px 10px', textAlign: 'center' }}
               />
               <a
                 href="https://maps.app.goo.gl/xcLfKw3jcDVJAc1e8"
