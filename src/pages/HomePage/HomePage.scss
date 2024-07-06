@@ -18,15 +18,14 @@
 //     padding: 3rem 0;
 //     color: #FFFFFF;
 //     /* font-size: 3rem; */
-//     font-family: "Averia Serif Libre", serif; 
+//     font-family: "Averia Serif Libre", serif;
 // }
 
 // .overlay-screen .info p{
 //     /* font-size: 1.2rem; */
 //     color: #FFFFFF;
-//     font-family: "Averia Serif Libre", serif; 
+//     font-family: "Averia Serif Libre", serif;
 // }
-
 
 // .btn-outline-primary{
 //     color: #FFFFFF;
@@ -48,7 +47,6 @@
 //     /* background-color: #1118277e; */
 //     /* opacity: 0.5; */
 // }
-
 
 // .home-about-section {
 //     display: flex;
@@ -87,7 +85,6 @@
 //     padding: 0.2rem 1rem;
 // }
 
-
 // /* After change 2 */
 // .main-screen-overlay {
 //     background-color: rgb(6, 6, 61);
@@ -114,7 +111,7 @@
 //     display: flex;
 //     justify-content: center;
 //     align-items: center;
-// } 
+// }
 
 // .main-screen .right img {
 //     height: 80%;
@@ -147,210 +144,221 @@
 //     text-transform: capitalize;
 // }
 
-
 // new css
 .home-page {
-    .main-screen-overlay {
-        background-color: rgb(6, 6, 61);
-        /* background-color; */
-        opacity: 1;
-        height: 100%;
-        width: 100%;
-    }
+  .main-screen-overlay {
+    background-color: rgb(6, 6, 61);
+    /* background-color; */
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+  }
 
-    .main-screen {
-        background-image: url('../../assets/img/homepagebaneercopy.jpg');
-        height: calc(100vh - 58px);
-        background-repeat: no-repeat;
-        background-size: cover;
-        color: #000000 !important;
-    }
+  .main-screen {
+    background-image: url("../../assets/img/homepagebaneercopy.jpg");
+    height: calc(100vh - 58px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000 !important;
+  }
 
-    .main-screen .right {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .main-screen .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .main-screen .right img {
-        height: 80%;
-        width: 90%;
-    }
+  .main-screen .right img {
+    height: 80%;
+    width: 90%;
+  }
 
-    .main-screen .left {
-        margin: auto;
-        display: flex;
-        justify-content: center;
-    }
+  .main-screen .left {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
 
-    .main-screen .left div {
-        margin: 150px 50px;
-    }
+  .main-screen .left div {
+    margin: 150px 50px;
+  }
 
-    .main-screen .left h4 {
-        color: #FFF;
-        font-weight: bold;
-        margin-bottom: 20px;
-        font-family: Inter, sans-serif;
-    }
+  .main-screen .left h4 {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: Inter, sans-serif;
+  }
 
-    .main-screen .left h2 {
-        color: #FFF;
-        font-size: 40px;
-    }
+  .main-screen .left h2 {
+    color: #fff;
+    font-size: 40px;
+  }
 
-    .main-screen .left p {
-        font-size: 20px;
-        color: #FFF;
-        margin: 10px 0;
-    }
+  .main-screen .left p {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
+  }
 
+  .btn-outline-primary {
+    color: #ffffff;
+    border-color: #ffffff;
+    padding: 5px 25px;
+  }
+
+  .btn-outline-primary:hover {
+    background-color: #111827;
+    border-color: #111827;
+  }
+
+  .home-about-section {
     .btn-outline-primary {
-        color: #FFFFFF;
-        border-color: #FFFFFF;
-        padding: 5px 25px;
+      color: #111827;
+      border-color: #111827;
+      padding: 5px 25px;
     }
 
     .btn-outline-primary:hover {
-        background-color: #111827;
-        border-color: #111827;
+      color: #fff;
     }
-
-    .home-about-section {
-        .btn-outline-primary {
-            color: #111827;
-            border-color: #111827;
-            padding: 5px 25px;
-        }
-
-        .btn-outline-primary:hover {
-            color: #FFF;
-        }
-    
-    }
+  }
 }
-
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    .home-page {
+  .home-page {
+    .overlay-screen {
+      min-height: auto;
+      height: max-content;
+    }
 
-        .overlay-screen {
-            min-height: auto;
-            height: max-content;
-        }
-        
-        .overlay-screen .info {
-            width: 100%;
-            margin-top: 0;
-        }
-        
-        .overlay-screen .info h2 {
-            padding: 1rem 0;
-        }
-        
-        .home-about-section {
-            flex-wrap: wrap;
-        }
-        
-        // .home-about-left-section img {
-        //     width: 100%;
-        // }
-        
-        .main-screen .left {
-            align-items: center;
-        }
-        
-        .main-screen .left div {
-            margin: 30px;
-        }
-        
-        .main-screen .left h2 {
-            font-size: 32px !important;
-        }
-        
-        .main-screen .left p {
-            font-size: 16px !important;
-            margin: 10px 0 !important;
-        }
-        
-        // .home-page {
-            .main-screen {
-                height: 100%;
-                // background-blend-mode: darken;
-                // box-shadow: inset 0 0 0 2000px rgba(255, 0, 150, 0.3);
-                box-shadow: inset 0 0 0 2000px rgb(47 48 75 / 50%);
-            }
-        // }
-        
-    } 
+    .overlay-screen .info {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    .overlay-screen .info h2 {
+      padding: 1rem 0;
+    }
+
+    .home-about-section {
+      flex-wrap: wrap;
+    }
+
+    // .home-about-left-section img {
+    //     width: 100%;
+    // }
+
+    .main-screen .left {
+      align-items: normal;
+    }
+
+    .main-screen .left div {
+      margin: 30px;
+    }
+
+    .main-screen .left h2 {
+      //   font-size: 32px !important;
+      font-size: 2.125rem;
+      line-height: 2.625rem;
+      font-weight: 400;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      letter-spacing: 1px;
+      line-height: 60px;
+    }
+
+    .main-screen .left p {
+      font-size: 16px !important;
+      margin: 30px 0 !important;
+      line-height: 40px;
+    }
+
+    // .home-page {
+    .main-screen {
+      //   height: 100%;
+      background-image: url("../../assets/images/bg_image.jpg");
+      color: #141a27 !important;
+      box-shadow: inset 0 0 0 2000px rgb(47 48 75 / 50%);
+      height: 100vh;
+    }
+    // }
+  }
 }
 
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .home-page {
-
-        .overlay-screen .info {
-            width: 100%;
-        }
-        
-        .overlay-screen .info h2 {
-            padding: 1rem 0;
-        }
-        
-        .home-about-section {
-            flex-wrap: wrap;
-        }
-        
-        .home-about-left-section img {
-            width: 100%;
-        }
-        
-        .main-screen-overlay {
-            height: max-content;
-        }
-        
-        .main-screen .left {
-            align-items: center;
-            height: max-content;
-        }
-        
-        .main-screen .left div {
-            margin: 30px;
-        }
-        
-        
-        
-        .main-screen .left p {
-            font-size: 16px;
-        }
-        
-        .main-screen {
-            height: 100%;
-            box-shadow: inset 0 0 0 2000px rgb(47 48 75 / 50%);
-        }
+  .home-page {
+    .overlay-screen .info {
+      width: 100%;
     }
+
+    .overlay-screen .info h2 {
+      padding: 1rem 0;
+    }
+
+    .home-about-section {
+      flex-wrap: wrap;
+    }
+
+    .home-about-left-section img {
+      width: 100%;
+    }
+
+    .main-screen-overlay {
+      height: max-content;
+    }
+
+    .main-screen .left {
+      align-items: center;
+      height: max-content;
+    }
+
+    .main-screen .left div {
+      margin: 30px;
+    }
+
+    .main-screen .left p {
+      font-size: 16px;
+    }
+
+    .main-screen {
+      //   height: 100%;
+      background-image: url("../../assets/images/bg_image.jpg");
+      color: #141a27 !important;
+      box-shadow: inset 0 0 0 2000px rgb(47 48 75 / 50%);
+      height: 100vh;
+    }
+  }
 }
-    
+
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-
-    .home-page {
-
-        /*  */
-        .home-about-section {
-            flex-wrap: wrap;
-        }
-        
-        .home-about-left-section img {
-            width: 100%;
-        }
-
-        .main-screen .left div {
-            margin: 200px 40px;
-        }
+  .home-page {
+    /*  */
+    .home-about-section {
+      flex-wrap: wrap;
     }
+
+    .home-about-left-section img {
+      width: 100%;
+    }
+
+    .main-screen .left div {
+      margin: 200px 40px;
+    }
+
+    .main-screen {
+      //   height: 100%;
+      background-image: url("../../assets/images/bg_image.jpg");
+      color: #141a27 !important;
+      box-shadow: inset 0 0 0 2000px rgb(47 48 75 / 50%);
+      height: 100vh;
+    }
+  }
 }
-    
-    /* TABLET LANDSCAPE / DESKTOP */
-@media only screen and (min-width: 992px) {}
+
+/* TABLET LANDSCAPE / DESKTOP */
+@media only screen and (min-width: 992px) {
+}

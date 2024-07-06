@@ -40,9 +40,9 @@ export default function HomePage() {
 
                 <p className="text-justify">
                   Our mission at true trade is to deliver a truly transparent
-                  trading venue, based on low cost transaction fees, 'zero' markup
-                  swap, the best raw pricing for all instruments and never take a
-                  position against our clients
+                  trading venue, based on low cost transaction fees, 'zero'
+                  markup swap, the best raw pricing for all instruments and
+                  never take a position against our clients
                 </p>
 
                 <Link to={"/about"} className="btn btn-sm btn-outline-primary">
@@ -56,9 +56,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="carousel-screen">
-          <div className="container-lg my-3">
-            {/* <CarouselComponent /> */}
-          </div>
+          <div className="container-lg my-3">{/* <CarouselComponent /> */}</div>
         </div>
         {/* <hr/> */}
         <div id="feature" className="my-5">
@@ -70,7 +68,11 @@ export default function HomePage() {
 
         <div className="row home-about-section container my-5">
           <div className="col-md-6 col-lg-6 mb-3 home-about-left-section">
-            <img style={{width: "100%", borderRadius: "8px"}} src={require("../../assets/img/about1.jpg")} alt="" />
+            <img
+              style={{ width: "100%", borderRadius: "8px" }}
+              src={require("../../assets/img/about1.jpg")}
+              alt=""
+            />
           </div>
           <div className="col-md-6 col-lg-6 home-about-right-section">
             <h4>About True Trade Pro</h4>
@@ -78,13 +80,17 @@ export default function HomePage() {
               Lorem ipsum dolor sit amet.
             </p>
             <p className="home-about-section-desc my-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident
-              et, quaerat nesciunt vero ipsum soluta tenetur. Voluptatem error
-              molestias iste? Est inventore veritatis sit officia placeat
-              reiciendis iusto quasi debitis.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Provident et, quaerat nesciunt vero ipsum soluta tenetur.
+              Voluptatem error molestias iste? Est inventore veritatis sit
+              officia placeat reiciendis iusto quasi debitis.
             </p>
 
-            <Link to={"/about"} type="button" className="btn btn-outline-primary">
+            <Link
+              to={"/about"}
+              type="button"
+              className="btn btn-outline-primary"
+            >
               Dicover True Trade Pro
             </Link>
           </div>
@@ -94,7 +100,6 @@ export default function HomePage() {
           <ReviewComponet />
         </div>
       </div>
-
     </>
   );
 }
