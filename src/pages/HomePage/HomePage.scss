@@ -293,6 +293,11 @@
       height: 100vh;
     }
     // }
+
+    .main-screen .right img {
+      height: 0%;
+      width: 0%;
+    }
   }
 }
 
@@ -338,6 +343,10 @@
       color: #141a27 !important;
       box-shadow: inset 0 0 0 2000px rgb(47 48 75 / 50%);
       height: 100vh;
+    }
+    .main-screen .right img {
+      height: 0%;
+      width: 0%;
     }
   }
 }
