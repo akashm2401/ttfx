@@ -91,13 +91,23 @@
       margin: 0 !important;
     }
 
+    .product-info-box .p-heading-line {
+      padding: 20px 3px 10px;
+    }
+
     .product-info-box p {
       text-align: justify;
+      padding: 3px 3px 3px;
     }
 
     .product-container .card-main .card {
       padding: 10px;
       margin-bottom: 20px;
+    }
+
+    .product-download-box-link button,
+    .product-download-box-name button {
+      margin-top: 10px;
     }
   }
 }
@@ -112,11 +122,21 @@
 
     .product-info-box p {
       text-align: justify;
+      padding: 3px 3px 3px;
+    }
+
+    .product-info-box .p-heading-line {
+      padding: 20px 3px 10px;
     }
 
     .product-container .card-main .card {
       padding: 10px;
       margin-bottom: 20px;
+    }
+
+    .product-download-box-link button,
+    .product-download-box-name button {
+      margin-top: 10px;
     }
   }
 }
