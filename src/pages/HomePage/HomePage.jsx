@@ -51,7 +51,7 @@ export default function HomePage() {
               </div>
             </div>
             <div className="right col-0 col-sm-3 col-lg-5 p-0 m-0">
-              {/* <img src={require('../../assets/images/img123-removebg-preview.png')} alt="" /> */}
+              <img src={require("../../assets/img/file.png")} alt="" />
             </div>
           </div>
         </div>

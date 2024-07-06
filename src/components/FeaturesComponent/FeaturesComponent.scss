@@ -4,6 +4,7 @@
     font-size: 32px;
     color: rgba(14, 7, 65, 0.8078431373);
   }
+  // #141a27
 
   .feature-summary .feature-summary-item .feature-summary-heading a {
     color: #4073d9;
@@ -45,6 +46,7 @@
     width: 100%;
     overflow: hidden !important;
     border-radius: 8px;
+    height: 400px;
   }
 
   .feature-box .feature-box-heading h5 {
@@ -63,7 +65,7 @@
   .feature-box .feature-box-description p {
     text-align: justify;
     // font-size: 1.1875rem;
-    line-height: 1.6875rem;
+    line-height: 2rem;
   }
 }
 

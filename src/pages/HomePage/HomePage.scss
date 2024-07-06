@@ -155,7 +155,16 @@
   }
 
   .main-screen {
-    background-image: url("../../assets/img/homepagebaneercopy.jpg");
+    background: linear-gradient(
+      90deg,
+      rgb(128, 132, 237) 47%,
+      rgb(102, 97, 164) 100%,
+      rgba(80, 188, 210, 1) 5%,
+
+      // rgba(98, 103, 223, 1) 0%,
+      // rgba(144, 139, 221, 1) 47%,
+      // rgba(80, 188, 210, 1) 100%
+    );
     height: calc(100vh - 58px);
     background-repeat: no-repeat;
     background-size: cover;
@@ -164,7 +173,7 @@
 
   .main-screen .right {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
   }
 
