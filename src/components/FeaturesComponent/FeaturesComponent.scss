@@ -1,181 +1,174 @@
 .feature-comp {
+  .headeing h4 {
+    /* font-size: 2rem; */
+    font-size: 32px;
+    color: rgba(14, 7, 65, 0.8078431373);
+  }
 
-    .headeing h4 {
-        /* font-size: 2rem; */
-        font-size: 32px;
-        color:rgba(14, 7, 65, 0.8078431373);
-    }
+  .feature-summary .feature-summary-item .feature-summary-heading a {
+    color: #4073d9;
+    text-decoration: none;
+    transition: color 0.15s cubic-bezier(0.645, 0.045, 0.355, 1);
+    font-weight: 700;
+    cursor: pointer;
+  }
 
-    .feature-summary .feature-summary-item .feature-summary-heading a {
-        color: #4073D9;
-        text-decoration: none;
-        transition: color .15s cubic-bezier(.645, .045, .355, 1);
-        font-weight: 700;
-        cursor: pointer;
-    }
+  .feature-summary .feature-summary-item .feature-summary-heading a:hover {
+    text-decoration: 1px underline #4073d9;
+  }
 
-    .feature-summary .feature-summary-item .feature-summary-heading a:hover {
-        text-decoration: 1px underline #4073D9;
-    }
+  .feature-summary .feature-summary-item .feature-summary-description {
+    /* font-size: 1rem; */
+  }
 
-    .feature-summary .feature-summary-item .feature-summary-description {
-        /* font-size: 1rem; */
-    }
+  .feature-box {
+    margin-block: 4rem;
+    // display: flex;
+    // column-gap: 5rem;
+  }
 
-    .feature-box {
-        margin-block: 4rem;
-        // display: flex;
-        // column-gap: 5rem;
-    }
+  .feature-box-reverse {
+    flex-direction: row-reverse;
+  }
 
-    .feature-box-reverse {
-        flex-direction: row-reverse;
-    }
+  .feature-box-left {
+    // width: 50%;
+  }
 
-    .feature-box-left {
-        // width: 50%;
-    }
+  .feature-box-right {
+    // width: 40%;
+    display: flex;
+    justify-items: center;
+  }
 
-    .feature-box-right {
-        // width: 40%;
-        display: flex;
-        justify-items: center;
-    }
+  .feature-box-right img {
+    width: 100%;
+    overflow: hidden !important;
+    border-radius: 8px;
+  }
 
-    .feature-box-right img {
-        width: 100%;
-        overflow: hidden !important;
-        border-radius: 8px;
-    }
+  .feature-box .feature-box-heading h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #141a27;
+  }
 
-    .feature-box .feature-box-heading h5 {
-        font-size: 24px;
-        font-weight: bold;
-        color: #141a27
-    }
+  .feature-box .feature-box-heading .feature-box-tagline {
+    font-size: 1.1875rem;
+    line-height: 2.1rem;
+    font-weight: 500;
+    color: #4073d9;
+  }
 
-    .feature-box .feature-box-heading .feature-box-tagline {
-        font-size: 28px; 
-        line-height: 3rem;
-        color: #141a27
-    }
-
-    .feature-box .feature-box-description p {
-        text-align: justify;
-        /* font-size: 1.1875rem; */
-        line-height: 1.6875rem
-    }
+  .feature-box .feature-box-description p {
+    text-align: justify;
+    // font-size: 1.1875rem;
+    line-height: 1.6875rem;
+  }
 }
-
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    .feature-summary {
-        flex-wrap: wrap;
-        row-gap: 1.5rem;
-    }
+  .feature-summary {
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+  }
 
-    .feature-summary .feature-summary-heading h6 {
-        text-align: center;
-        /* font-size: 2rem; */
-    }
+  .feature-summary .feature-summary-heading h6 {
+    text-align: center;
+    /* font-size: 2rem; */
+  }
 
+  .feature-summary .feature-summary-item .feature-summary-description {
+    /* font-size: 1.2rem; */
+    text-align: center;
+    padding: 0 10px;
+  }
 
-    .feature-summary .feature-summary-item .feature-summary-description {
-        /* font-size: 1.2rem; */
-        text-align: center;
-        padding: 0 10px;
-    }
+  .feature-box {
+    flex-wrap: wrap;
+  }
 
-    .feature-box {
-        flex-wrap: wrap;
-    }
+  .feature-box-left,
+  .feature-box-right {
+    width: 100%;
+  }
 
-    .feature-box-left,
-    .feature-box-right {
-        width: 100%;
-    }
+  .feature-box-heading {
+    margin: 0 !important;
+  }
 
-    .feature-box-heading {
-        margin: 0 !important;
-    }
-
-
-    .feature-box .feature-box-description {
-        line-height: 1.5rem;
-        margin-bottom: 20px;
-    }
+  .feature-box .feature-box-description {
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+  }
 }
-
-
 
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .feature-summary {
-        flex-wrap: wrap;
-        row-gap: 1.5rem;
-    }
+  .feature-summary {
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+  }
 
-    .feature-summary .feature-summary-heading h6 {
-        text-align: center;
-    }
+  .feature-summary .feature-summary-heading h6 {
+    text-align: center;
+  }
 
+  .feature-summary .feature-summary-item .feature-summary-description {
+    text-align: center;
+    padding: 0 10px;
+  }
 
-    .feature-summary .feature-summary-item .feature-summary-description {
-        text-align: center;
-        padding: 0 10px;
-    }
+  /* // */
 
-    /* // */
+  .feature-box {
+    flex-wrap: wrap;
+  }
 
-    .feature-box {
-        flex-wrap: wrap;
-    }
+  .feature-box-left,
+  .feature-box-right {
+    width: 100%;
+  }
 
-    .feature-box-left,
-    .feature-box-right {
-        width: 100%;
-    }
+  .feature-box-heading {
+    margin: 0 !important;
+  }
 
-    .feature-box-heading {
-        margin: 0 !important;
-    }
-
-    .feature-box .feature-box-description {
-        line-height: 1.5rem;
-        margin-bottom: 20px;
-    }
+  .feature-box .feature-box-description {
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+  }
 }
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .feature-box {
-        flex-wrap: wrap;
-    }
+  .feature-box {
+    flex-wrap: wrap;
+  }
 
-    .feature-box-left,
-    .feature-box-right {
-        width: 100%;
-    }
+  .feature-box-left,
+  .feature-box-right {
+    width: 100%;
+  }
 
-    .feature-box-heading {
-        margin: 0 !important;
-    }
+  .feature-box-heading {
+    margin: 0 !important;
+  }
 
-
-    .feature-box .feature-box-description {
-        line-height: 1.5rem;
-        margin-bottom: 20px;
-    }
+  .feature-box .feature-box-description {
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+  }
 }
 
 /* TABLET LANDSCAPE / DESKTOP */
-@media only screen and (min-width: 992px) {}
-
+@media only screen and (min-width: 992px) {
+}
 
 /* Fonts style fixes */
 .features-main h6,
 p {
-    /* font-size: ; */
-    /* font-style: Inter,sans-serif !important; */
+  /* font-size: ; */
+  /* font-style: Inter,sans-serif !important; */
 }
