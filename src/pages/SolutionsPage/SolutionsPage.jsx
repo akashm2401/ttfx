@@ -11,10 +11,11 @@ export default function SolutionsPage() {
       id: 101,
       name: "Clobber Demo",
       info: {
-        description: "Enter your name and fill details to get acces of demo.",
+        description:
+          "To get your 48-hour credentials, simply enter 'guest' as the username and press Enter.",
         linkTitle: "Demo",
         link: "https://demofix.ttprofx.com:2228/login/index.html",
-      }
+      },
     },
     {
       id: 102,
@@ -59,8 +60,8 @@ export default function SolutionsPage() {
         description: "Description",
         linkTitle: "Download here!",
         link: "https://download.mql5.com/cdn/mobile/mt4/android?server=TrueTradePro-Demo,TrueTradePro-Live",
-      }
-    }
+      },
+    },
   ];
 
   return (

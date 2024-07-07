@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./FooterComponent.scss";
 import { Link } from "react-router-dom";
+import { IoIosArrowDown } from "react-icons/io";
 
 export default function FooterComponent() {
-  
+  const [activeSections, setActiveSections] = useState([]);
+
+  function toggleSection(index) {
+    if (activeSections.includes(index)) {
+      setActiveSections(activeSections.filter((item) => item !== index));
+    } else {
+      setActiveSections([...activeSections, index]);
+    }
+  }
+
   function openWhatsApp(message, phoneNumber) {
     const whatsappMessage = `https://web.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
     window.open(whatsappMessage, "_blank");
@@ -18,81 +28,83 @@ export default function FooterComponent() {
         <div className="container">
           <div className="footer-container-main">
             <div className="footer-container-main-links">
-              <div className="footer-container-main-col">
-                <div className="footer-container-main-col-heading">
-                  <h4>Get Started</h4>
+              {[
+                {
+                  title: "Get Started",
+                  links: [
+                    { to: "/", text: "Home" },
+                    {
+                      to: "http://ttbo.ttprofx.com/#users.users.public-registration!groupId=-2365783785779775287",
+                      text: "New user registration",
+                    },
+                    { to: "/solutions", text: "Downloads" },
+                  ],
+                },
+                {
+                  title: "About us",
+                  links: [
+                    { to: "/about", text: "Company Information" },
+                    { to: "/contact-us", text: "Contact us" },
+                    { to: "/#review-break", text: "Reviews" },
+                  ],
+                },
+                {
+                  title: "Support",
+                  links: [
+                    { to: "/faq", text: "FAQ" },
+                    {
+                      to: "#",
+                      text: "Help desk",
+                      onClick: () => openWhatsApp(message, myPhoneNumber),
+                    },
+                  ],
+                },
+                {
+                  title: "Legal",
+                  links: [
+                    { to: "/legal/general-terms", text: "Terms of Service" },
+                    {
+                      to: "/legal/risk-disclosure-notice",
+                      text: "Risk Disclosure",
+                    },
+                  ],
+                },
+              ].map((section, index) => (
+                <div className="footer-container-main-col" key={index}>
+                  <div className="footer-container-main-col-heading">
+                    <h4>{section.title}</h4>
+                    <button
+                      className={`toggle-button ${
+                        activeSections.includes(index) ? "active" : ""
+                      }`}
+                      onClick={() => toggleSection(index)}
+                    >
+                      {activeSections.includes(index) ? (
+                        <IoIosArrowDown />
+                      ) : (
+                        <IoIosArrowDown />
+                      )}
+                    </button>
+                  </div>
+                  <div
+                    className={`footer-container-main-col-links ${
+                      activeSections.includes(index) ? "active" : ""
+                    }`}
+                  >
+                    <ul>
+                      {section.links.map((link, linkIndex) => (
+                        <li key={linkIndex}>
+                          {link.onClick ? (
+                            <Link onClick={link.onClick}>{link.text}</Link>
+                          ) : (
+                            <Link to={link.to}>{link.text}</Link>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-                <div className="footer-container-main-col-links">
-                  <ul>
-                    <li>
-                      <Link to={"/"}>Home</Link>
-                    </li>
-                    <li>
-                      <Link to={"http://ttbo.ttprofx.com/#users.users.public-registration!groupId=-2365783785779775287"}>New user registration</Link>
-                    </li>
-                    <li>
-                      <Link to={"/solutions"}>Downloads</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="footer-container-main-col">
-                <div className="footer-container-main-col-heading">
-                  <h4>About us</h4>
-                </div>
-                <div className="footer-container-main-col-links">
-                  <ul>
-                    <li>
-                      <Link to={"/about"}>Company Information</Link>
-                    </li>
-                    <li>
-                      <Link to={"/contact-us"}>Contact us</Link>
-                    </li>
-                    <li>
-                      <Link to={"/#review-break"}>Reviews</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="footer-container-main-col">
-                <div className="footer-container-main-col-heading">
-                  <h4>Support</h4>
-                </div>
-                <div className="footer-container-main-col-links">
-                  <ul>
-                    <li>
-                      <Link to={'/faq'}>FAQ</Link>
-                    </li>
-                    <li>
-                      <Link onClick={() => openWhatsApp(message, myPhoneNumber)}>Help desk</Link>
-                    </li>
-                    <li>
-                      <Link to={'http://ttbo.ttprofx.com/'}>Back Office</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div className="footer-container-main-col">
-                <div className="footer-container-main-col-heading">
-                  <h4>Legal</h4>
-                </div>
-                <div className="footer-container-main-col-links">
-                  <ul>
-                    <li>
-                      <Link to={"/legal/general-terms"}>Terms of Service</Link>
-                    </li>
-                    <li>
-                      <Link to={"/legal/risk-disclosure-notice"}>
-                        Risk Diclosure
-                      </Link>
-                    </li>
-                    {/* <li><Link>Privacy Policy</Link></li> */}
-                  </ul>
-                </div>
-              </div>
+              ))}
             </div>
 
             <div className="footer-container-main-info my-5">
