@@ -12,7 +12,7 @@ export default function ToolsViewComponent() {
 
   return (
     <>
-      <div className="tools-view container my-5">
+      <div className="tools-view container my-2">
         <div className="tools-heading">
           <h4 className="text-center">Trading Platforms</h4>
           <p className="text-center">

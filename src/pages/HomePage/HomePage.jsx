@@ -66,7 +66,7 @@ export default function HomePage() {
           <ToolsViewComponent />
         </div>
 
-        <div className="row home-about-section container my-5">
+        <div className="row home-about-section container my-2">
           <div className="col-md-6 col-lg-6 mb-3 home-about-left-section">
             <img
               style={{ width: "100%", borderRadius: "8px" }}
