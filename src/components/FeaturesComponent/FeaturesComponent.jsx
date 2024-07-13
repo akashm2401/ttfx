@@ -2,10 +2,11 @@ import React from "react";
 import "./FeaturesComponent.scss";
 import { Link } from "react-router-dom";
 import { useRef, useEffect } from "react";
-import feature1Img from "../../assets/img/fix.jpg";
-import feature2Img from "../../assets/img/customizable.jpg";
-import feature3Img from "../../assets/img/clo.jpg";
-import feature4Img from "../../assets/img/fast.jpg";
+// import feature1Img from "../../assets/img/fix.jpg";
+import feature1Img from "../../assets/img/Financial Information.jpg";
+import feature2Img from "../../assets/img/img2.jpg";
+import feature3Img from "../../assets/img/centrel limit order.jpg";
+import feature4Img from "../../assets/img/ultra low latency.jpg";
 
 export default function FeaturesComponent() {
   const featureRefs = {
@@ -25,7 +26,7 @@ export default function FeaturesComponent() {
                 revolutionized the trading environment, proving fundamental in
                 facilitating many of the electronic trading trends that have
                 emerged over the past decade.`,
-      imgPath: feature1Img
+      imgPath: feature1Img,
     },
     {
       id: "feature2",
@@ -38,7 +39,7 @@ export default function FeaturesComponent() {
                 next-generation technology. These initiatives shape a more
                 equitable and advanced future, ensuring that everyone benefits
                 from cutting-edge advancements and fair practices.`,
-      imgPath: feature2Img
+      imgPath: feature2Img,
     },
     {
       id: "feature3",
@@ -52,7 +53,7 @@ export default function FeaturesComponent() {
                 aggregates and displays all outstanding limit orders for a
                 particular asset at any given time, ensuring transparency and
                 efficiency in trading.`,
-      imgPath: feature3Img
+      imgPath: feature3Img,
     },
     {
       id: "feature4",
@@ -63,9 +64,9 @@ export default function FeaturesComponent() {
                 which are strategically located in major liquidity hubs. This
                 ensures consistently minimal latency, providing the best
                 possible fill on your orders for an optimal trading experience.`,
-      imgPath: feature4Img
-    }
-  ] 
+      imgPath: feature4Img,
+    },
+  ];
 
   useEffect(() => {
     // Ensure refs are not null before accessing their properties
@@ -113,16 +114,13 @@ export default function FeaturesComponent() {
           <div className="col-6 col-lg-3 feature-summary-item">
             <div className="feature-summary-heading">
               <h6>
-                <Link
-                  onClick={() => handleScrollToFeature("feature2")}
-                >
+                <Link onClick={() => handleScrollToFeature("feature2")}>
                   Customizable
                 </Link>
               </h6>
             </div>
             <div className="feature-summary-description">
-              100% Transparency Standards, Equal Opportunity 
-              Infrastructure, and
+              100% Transparency Standards, Equal Opportunity Infrastructure, and
               Next Generation Technology
             </div>
           </div>
@@ -130,9 +128,7 @@ export default function FeaturesComponent() {
           <div className="col-6 col-lg-3 feature-summary-item">
             <div className="feature-summary-heading">
               <h6>
-                <Link
-                  onClick={() => handleScrollToFeature("feature3")}
-                >
+                <Link onClick={() => handleScrollToFeature("feature3")}>
                   Central Limit Order Book
                 </Link>
               </h6>
@@ -159,32 +155,29 @@ export default function FeaturesComponent() {
           </div>
         </div>
 
-      {featuresData.map((feature, index) => (
-        <div key={index} 
-            ref={feature.featureRef} 
-            id={feature.id} 
-            className={`row feature-box mb-2 ${index%2!==0 ? "feature-box-reverse" : ""}`}>
-          <div className="col-md-6 col-lg-6 feature-box-left">
-            <div className="feature-box-heading my-2">
-              <h5>{feature.heading}</h5>
-              <p className="feature-box-tagline my-1">
-                {feature.tagLine}
-              </p>
+        {featuresData.map((feature, index) => (
+          <div
+            key={index}
+            ref={feature.featureRef}
+            id={feature.id}
+            className={`row feature-box mb-2 ${
+              index % 2 !== 0 ? "feature-box-reverse" : ""
+            }`}
+          >
+            <div className="col-md-6 col-lg-6 feature-box-left">
+              <div className="feature-box-heading my-2">
+                <h5>{feature.heading}</h5>
+                <p className="feature-box-tagline my-1">{feature.tagLine}</p>
+              </div>
+              <div className="feature-box-description">
+                <p>{feature.description}</p>
+              </div>
             </div>
-            <div className="feature-box-description">
-              <p>
-                {feature.description}
-              </p>
+            <div className="col-md-6 col-lg-6 feature-box-right">
+              <img src={feature.imgPath} alt="feature1" />
             </div>
           </div>
-          <div className="col-md-6 col-lg-6 feature-box-right">
-            <img
-              src={feature.imgPath}
-              alt="feature1"
-            />
-          </div>
-        </div>
-      ))}
+        ))}
 
         {/* <div
           ref={featureRefs.feature2}
