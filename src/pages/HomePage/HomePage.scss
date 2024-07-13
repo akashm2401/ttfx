@@ -1,149 +1,3 @@
-// .overlay-screen {
-//     min-height: calc(100vh - 58px);
-//     background-image: url('../../assets/img/home-screen.png');
-//     background-size: cover;
-//     opacity: 0.9;
-//     /* padding: 20px; */
-// }
-
-// .overlay-screen .info{
-//     padding-top: 3rem;
-//     width:  70%;
-//     margin: auto;
-//     padding-bottom: 20px;
-// }
-
-// .overlay-screen .info h2{
-//     /* font-size: ; */
-//     padding: 3rem 0;
-//     color: #FFFFFF;
-//     /* font-size: 3rem; */
-//     font-family: "Averia Serif Libre", serif;
-// }
-
-// .overlay-screen .info p{
-//     /* font-size: 1.2rem; */
-//     color: #FFFFFF;
-//     font-family: "Averia Serif Libre", serif;
-// }
-
-// .btn-outline-primary{
-//     color: #FFFFFF;
-//     border-color: #FFFFFF;
-//     /* font-weight: 600; */
-// }
-
-// .btn-outline-primary:hover {
-//     /* background-color: #0E0741; */
-//     background-color: #111827;
-//     /* border-color: #0E0741; */
-//     border-color: #111827;
-// }
-
-// .overlay-effect{
-//     width: 100%;
-//     height: 100%;
-//     background-color: #0e07414b;
-//     /* background-color: #1118277e; */
-//     /* opacity: 0.5; */
-// }
-
-// .home-about-section {
-//     display: flex;
-//     column-gap: 2rem;
-// }
-
-// .home-about-section .home-about-left-section img {
-//     border-radius: 10px;
-// }
-
-// .home-about-section .home-about-right-section {
-//     display: flex;
-//     flex-direction: column;
-//     /* align-items: center; */
-//     justify-content: center;
-// }
-
-// .home-about-section .home-about-right-section h4{
-//     /* font-size: 1rem; */
-//     color: #111827d7;
-// }
-
-// .home-about-section .home-about-right-section .home-about-section-tag-line{
-//     /* font-size: 2.5rem; */
-// }
-
-// .home-about-section .home-about-right-section .home-about-section-desc {
-//     /* font-size: 1.2rem; */
-//     text-align: justify;
-// }
-
-// .home-about-right-section button {
-//     color: #111827;
-//     border-color: #111827;
-//     width: max-content;
-//     padding: 0.2rem 1rem;
-// }
-
-// /* After change 2 */
-// .main-screen-overlay {
-//     background-color: rgb(6, 6, 61);
-//     /* background-color; */
-//     opacity: 1;
-//     height: 100%;
-//     width: 100%;
-// }
-// .main-screen {
-//     /* background-color: #001A77; */
-//     background-image: url('../../assets/img/homepagebaneercopy.jpg');
-//     height: calc(100vh - 58px);
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     color: #000000 !important;
-// }
-
-// .main-screen .right{
-//     /* background-image: url('../../assets/images/image5-removebg-preview.png');
-//     height: calc(100vh - 58px);
-//     background-repeat: no-repeat; */
-//     /* background-size: cover; */
-//     /* mix-blend-mode: multiply; */
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
-
-// .main-screen .right img {
-//     height: 80%;
-//     width: 90%;
-//     /* margin: auto; */
-// }
-
-// .main-screen .left{
-//     margin: auto;
-//     /* padding-inline: 40px; */
-//     display: flex;
-//     justify-content: center;
-//     /* align-items: center; */
-// }
-
-// .main-screen .left div{
-//     margin: 100px;
-//     /* margin-top: 80px; */
-// }
-
-// .main-screen .left h4{
-//     color: #FFF;
-//     /* font-size: 3rem; */
-//     font-weight: bold;
-//     margin-bottom: 20px;
-//     font-family: Inter, sans-serif;
-// }
-
-// .main-screen .left p:first-letter {
-//     text-transform: capitalize;
-// }
-
 // new css
 .home-page {
   .main-screen-overlay {
@@ -155,20 +9,10 @@
   }
 
   .main-screen {
-    background: linear-gradient(
-      90deg,
-      rgb(128, 132, 237) 47%,
-      rgb(102, 97, 164) 100%,
-      rgba(80, 188, 210, 1) 5%,
-
-      // rgba(98, 103, 223, 1) 0%,
-      // rgba(144, 139, 221, 1) 47%,
-      // rgba(80, 188, 210, 1) 100%
-    );
-    height: calc(100vh - 58px);
+    background-image: url("../../assets/updated_graphics/home.gif");
     background-repeat: no-repeat;
     background-size: cover;
-    color: #000000 !important;
+    background-position: center center;
   }
 
   .main-screen .right {
@@ -182,29 +26,29 @@
     width: 90%;
   }
 
-  .main-screen .left {
+  .main-screen {
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 
-  .main-screen .left div {
+  .main-screen div {
     margin: 150px 50px;
   }
 
-  .main-screen .left h4 {
+  .main-screen h4 {
     color: #fff;
     font-weight: bold;
     margin-bottom: 20px;
     font-family: Inter, sans-serif;
   }
 
-  .main-screen .left h2 {
+  .main-screen h2 {
     color: #fff;
     font-size: 40px;
   }
 
-  .main-screen .left p {
+  .main-screen p {
     font-size: 20px;
     color: #fff;
     margin: 10px 0;
@@ -255,19 +99,19 @@
       flex-wrap: wrap;
     }
 
-    // .home-about-left-section img {
+    // .home-about-section img {
     //     width: 100%;
     // }
 
-    .main-screen .left {
+    .main-screen {
       align-items: normal;
     }
 
-    .main-screen .left div {
+    .main-screen div {
       margin: 30px;
     }
 
-    .main-screen .left h2 {
+    .main-screen h2 {
       //   font-size: 32px !important;
       font-size: 2.125rem;
       line-height: 2.625rem;
@@ -278,7 +122,7 @@
       line-height: 60px;
     }
 
-    .main-screen .left p {
+    .main-screen p {
       font-size: 16px !important;
       margin: 30px 0 !important;
       line-height: 40px;
@@ -286,10 +130,10 @@
 
     // .home-page {
     .main-screen {
-      //   height: 100%;
-      background-image: url("../../assets/images/bg_image.jpg");
-      color: #141a27 !important;
-      box-shadow: inset 0 0 0 2000px rgb(47 48 75 / 50%);
+      background-image: url("../../assets/updated_graphics/Blue Global Business Forum Tech Video Background.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
       height: 100vh;
     }
     // }
@@ -322,7 +166,7 @@
       flex-wrap: wrap;
     }
 
-    .home-about-left-section img {
+    .home-about-section img {
       width: 100%;
     }
 
@@ -330,24 +174,24 @@
       height: max-content;
     }
 
-    .main-screen .left {
+    .main-screen {
       align-items: center;
       height: max-content;
     }
 
-    .main-screen .left div {
+    .main-screen div {
       margin: 30px;
     }
 
-    .main-screen .left p {
+    .main-screen p {
       font-size: 16px;
     }
 
     .main-screen {
-      //   height: 100%;
-      background-image: url("../../assets/images/bg_image.jpg");
-      color: #141a27 !important;
-      box-shadow: inset 0 0 0 2000px rgb(47 48 75 / 50%);
+      background-image: url("../../assets/updated_graphics/Blue Global Business Forum Tech Video Background.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
       height: 100vh;
     }
 
@@ -372,19 +216,19 @@
       flex-wrap: wrap;
     }
 
-    .home-about-left-section img {
+    .home-about-section img {
       width: 100%;
     }
 
-    .main-screen .left div {
+    .main-screen div {
       margin: 200px 40px;
     }
 
     .main-screen {
-      //   height: 100%;
-      background-image: url("../../assets/images/bg_image.jpg");
-      color: #141a27 !important;
-      box-shadow: inset 0 0 0 2000px rgb(47 48 75 / 50%);
+      background-image: url("../../assets/updated_graphics/Blue Global Business Forum Tech Video Background.gif");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
       height: 100vh;
     }
 

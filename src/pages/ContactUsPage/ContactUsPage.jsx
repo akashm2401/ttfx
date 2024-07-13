@@ -26,12 +26,9 @@ export default function ContactUsPage() {
             <div className="row">
               <div className="col-12  col-md-12">
                 <p>
-                  Office Suite 1652 Level16(A),
-                  Main Office Tower <br />
-                  Financial Park,
-                  Complex Labuan <br />
-                  Jalan Merdeka 87000,
-                  Labuan F.T
+                  Office Suite 1652 Level16(A), Main Office Tower <br />
+                  Financial Park, Complex Labuan <br />
+                  Jalan Merdeka 87000, Labuan F.T
                 </p>
               </div>
               {/* <div className="col-sm">
@@ -40,25 +37,25 @@ export default function ContactUsPage() {
 
               <div className="col-12 ">
                 <h4 className="heading-add">Enquiries Only</h4>
-                <div className="row">
-                  <div className="heading-label">Email
-                    &nbsp;
+                <div className="row py-1">
+                  <div className="heading-label">
+                    Email &nbsp;
                     {/* <dt>Email</dt> */}
                     {/* <div className="col-7  "> */}
                     <a href="">
-                      <strong>ps@saxomarkets.com</strong>
+                      <strong>support@ttprofx.com</strong>
                     </a>
                     {/* </div> */}
                   </div>
                 </div>
 
                 <div className="row">
-                  <div className="heading-label">Phone
-                    &nbsp;
+                  <div className="heading-label">
+                    Phone &nbsp;
                     {/* <div className="col-7  "> */}
                     <a href=""></a>
                     <a href="">
-                      <strong>+65 6303 7788</strong>
+                      <strong>+60196508002</strong>
                     </a>
                     {/* </div> */}
                   </div>
@@ -85,11 +82,20 @@ export default function ContactUsPage() {
 
           <div className="col-12 col-md-5 map-image-className">
             {/* <h2>Our Location</h2> */}
-            <div className="d-flex justify-content-center" style={{ position: "relative" }}>
+            <div
+              className="d-flex justify-content-center"
+              style={{ position: "relative" }}
+            >
               <img
                 src={mapImage}
                 alt="Map"
-                style={{ width: "100%", height: "auto", marginBottom: '10px', borderRadius: '30px 10px', textAlign: 'center' }}
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  marginBottom: "10px",
+                  borderRadius: "30px 10px",
+                  textAlign: "center",
+                }}
               />
               <a
                 href="https://maps.app.goo.gl/xcLfKw3jcDVJAc1e8"

@@ -33,8 +33,8 @@ export default function HomePage() {
     <>
       <div className="home-page">
         <div className="main-screen-overlay">
-          <div className="main-screen row p-0 m-0">
-            <div className="left col-12 col-sm-9 col-lg-7 p-0 m-0">
+          <div className="main-screen p-0 m-0">
+            <div className="col-12 col-sm-9 col-lg-7 p-0 m-0">
               <div className="">
                 <h2>Next Generation C.L.O.B.</h2>
 
@@ -50,9 +50,9 @@ export default function HomePage() {
                 </Link>
               </div>
             </div>
-            <div className="right col-0 col-sm-3 col-lg-5 p-0 m-0">
+            {/* <div className="right col-0 col-sm-3 col-lg-5 p-0 m-0">
               <img src={require("../../assets/img/file.png")} alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="carousel-screen">
@@ -70,7 +70,7 @@ export default function HomePage() {
           <div className="col-md-6 col-lg-6 mb-3 home-about-left-section">
             <img
               style={{ width: "100%", borderRadius: "8px" }}
-              src={require("../../assets/img/about1.jpg")}
+              src={require("../../assets/updated_graphics/about true trade.jpg")}
               alt=""
             />
           </div>
