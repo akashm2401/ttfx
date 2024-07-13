@@ -71,48 +71,38 @@
 
     .closed {
         display: none !important;
-    }
+    }   
 }
 
 /* SMARTPHONES PORTRAIT */
 @media only screen and (min-width: 320px) and (max-width: 479px) {
-    .legal-page-comp { 
+    .legal-page-comp {
 
         .legal-page-main-screen {
             width: 70%;
         }
-        
-    /* .legal-page-nav-btn-expand {
-        width: 30%;
-    } */
-    
-    .legal-info-container .heading h3 {
-        /* font-size: 1.5rem !important; */
-    }
 
-    .legal-info-container .heading h4 {
-        /* font-size: 1rem !important; */
-    }
-    
-    .legal-page-nav ul {
-        display: none;
-    }
-    
-    .legal-page-nav-btn-expand {
-        display: flex;
-        width: 100%;
-    }
+        .legal-page-nav ul {
+            display: none;
+            border-right: 1px solid #d5d2d2;
+        }
+
+        .legal-page-nav-btn-expand {
+            display: flex;
+            width: 100%;
+        }
     }
 }
 
 /* SMARTPHONES LANDSCAPE */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .legal-page-comp { 
+    .legal-page-comp {
 
         .legal-page-nav ul {
             display: none;
+            border-right: 1px solid #d5d2d2;
         }
-        
+
         .legal-page-nav-btn-expand {
             display: flex;
         }
@@ -121,12 +111,13 @@
 
 /* TABLETS PORTRAIT */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .legal-page-comp { 
+    .legal-page-comp {
 
         .legal-page-nav ul {
             display: none;
+            border-right: 1px solid #d5d2d2;
         }
-        
+
         .legal-page-nav-btn-expand {
             display: flex;
         }
