@@ -50,15 +50,19 @@
     text-align: justify;
   }
 
-  .product-download-box-link button,
-  .product-download-box-name button {
+  .product-download-box-link button, 
+  .product-download-box-link a,
+  .product-download-box-name button, 
+  .product-download-box-name a {
     color: #111827;
     border-color: #111827;
     padding: 2px 20px;
   }
 
   .product-download-box-link button:hover,
-  .product-download-box-name button:hover {
+  .product-download-box-link a:hover,
+  .product-download-box-name button:hover,
+  .product-download-box-name a:hover {
     color: #fff !important;
     background-color: #111827;
   }

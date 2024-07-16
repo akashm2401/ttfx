@@ -44,6 +44,9 @@ export default function ContactUsPage() {
                     {/* <div className="col-7  "> */}
                     <a href="">
                       <strong>support@ttprofx.com</strong>
+                    </a> <br/>
+                    <a href="" class='ms-5 ps-1'>
+                      <strong>devansh@ttprofx.com</strong>
                     </a>
                     {/* </div> */}
                   </div>

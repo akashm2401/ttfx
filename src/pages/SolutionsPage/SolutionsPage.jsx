@@ -28,7 +28,7 @@ export default function SolutionsPage() {
     },
     {
       id: 103,
-      name: "MT4 pcClient Termina",
+      name: "MT4 PC Client Termina",
       info: {
         description: "Description",
         linkTitle: "Download here!",
@@ -130,42 +130,42 @@ export default function SolutionsPage() {
                     MT4 PC Client Terminal
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">
+                    <a href="https://ttprofx.com/truetradepro4setup.exe" className="btn btn-sm btn-outline-primary">
                       Download
-                    </button>
+                    </a>
                   </div>
                 </div>
 
                 <div className="col-12 col-sm-6  mb-3">
                   <div className="product-download-box-name">
-                    MT4 PC Client Terminal
+                    MT4 iOS Terminal
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">
+                    <a href='https://download.mql5.com/cdn/mobile/mt4/ios?server=TrueTradePro-Demo,TrueTradePro-Live' className="btn btn-sm btn-outline-primary">
                       Download
-                    </button>
+                    </a>
                   </div>
                 </div>
 
                 <div className="col-12 col-sm-6  mb-3">
                   <div className="product-download-box-name">
-                    MT4 PC Client Terminal
+                    MT4 MacOS Terminal
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">
+                    <a href="https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/MetaTrader4.dmg" className="btn btn-sm btn-outline-primary">
                       Download
-                    </button>
+                    </a>
                   </div>
                 </div>
 
                 <div className="col-12 col-sm-6  mb-3">
                   <div className="product-download-box-name">
-                    MT4 PC Client Terminal
+                    MT4 Android Terminal
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">
+                    <a href='https://download.mql5.com/cdn/mobile/mt4/android?server=TrueTradePro-Demo,TrueTradePro-Live' className="btn btn-sm btn-outline-primary">
                       Download
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -277,9 +277,9 @@ export default function SolutionsPage() {
                     Client Application
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">
+                    <a href="https://ttprofx.com/Client%20Application%20%20CCDD%20Form-%20TTPROFX%20V1.0%20April%202023.pdf" className="btn btn-sm btn-outline-primary">
                       Download
-                    </button>
+                    </a>
                   </div>
                 </div>
 
@@ -288,9 +288,9 @@ export default function SolutionsPage() {
                     Customer Compliant
                   </div>
                   <div className="product-download-box-link">
-                    <button className="btn btn-sm btn-outline-primary">
+                    <a href='https://ttprofx.com/Complaint%20Form%201.1.pdf' className="btn btn-sm btn-outline-primary">
                       Download
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
