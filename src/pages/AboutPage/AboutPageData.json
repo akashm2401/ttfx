@@ -1,0 +1,68 @@
+{
+    "aboutPageImgContainerInfo": {
+        "title": "Lorem ipsum dolor sit amet consectetur.",
+        "paragraphs": [
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti magnam autem aliquam expedita fugit nemo, cumque illum tenetur necessitatibus repudiandae modi voluptatem cupiditate similique. Similique sequi odio vero velit repudiandae!",
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas nihil perspiciatis consequuntur cupiditate architecto dolor, labore eveniet saepe pariatur vel! Doloribus, est!"
+        ]
+    },
+    "aboutInfoContainer": {
+        "heading": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        "contents": [
+            {
+                "heading": "Navigate the global markets",
+                "text": "Everything you need to navigate the global markets is at your fingertips in the Saxo platforms. Choose from a wide choice of financial products and hundreds of different ways to trade and invest."
+            },
+            {
+                "heading": "Navigate the global markets",
+                "text": "Everything you need to navigate the global markets is at your fingertips in the Saxo platforms. Choose from a wide choice of financial products and hundreds of different ways to trade and invest."
+            },
+            {
+                "heading": "Navigate the global markets",
+                "text": "Everything you need to navigate the global markets is at your fingertips in the Saxo platforms. Choose from a wide choice of financial products and hundreds of different ways to trade and invest."
+            },
+            {
+                "heading": "Navigate the global markets",
+                "text": "Everything you need to navigate the global markets is at your fingertips in the Saxo platforms. Choose from a wide choice of financial products and hundreds of different ways to trade and invest."
+            }
+        ]
+    },
+    "aboutInsightsContainer": [
+        {
+            "number": "1,200,000",
+            "text": "Clients worldwide"
+        },
+        {
+            "number": "100+ bn",
+            "text": "USD client assets"
+        },
+        {
+            "number": "260,000",
+            "text": "Daily executed trades"
+        },
+        {
+            "number": "30+ years",
+            "text": "Experience in the industry"
+        }
+    ],
+    "aboutMembers": [
+        {
+            "name": "Michael Frey",
+            "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium optio sequi et ea accusamus aliquid cupiditate neque."
+        },
+        {
+            "name": "Michael Frey",
+            "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium optio sequi et ea accusamus aliquid cupiditate neque."
+        }, 
+        {
+            "name": "Michael Frey",
+            "info": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium optio sequi et ea accusamus aliquid cupiditate neque."
+        }
+    ],
+    "aboutMoreInfo": [
+        "The markets never stand still.",
+        "And neither do we",
+        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, necessitatibus eum. In nisi cumque expedita? Qui, similique enim nulla et aperiam vitae repudiandae molestias. Vel excepturi eos culpa temporibus ut.",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate mollitia quasi cum et odit ex amet voluptatibus eum, deleniti tenetur."
+    ]
+}
