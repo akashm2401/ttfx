@@ -4,12 +4,13 @@ import "./HomePage.scss";
 import FeaturesComponent from "../../components/FeaturesComponent/FeaturesComponent";
 import ToolsViewComponent from "../../components/ToolsViewComponent/ToolsViewComponent";
 import ReviewComponet from "../../components/ReviewComponent/ReviewComponet";
-import { useNavigate, Link, useLocation } from "react-router-dom";
+import SpinnerComponent from "../../components/SpinnerComponent/SpinnerComponent";
+import { Link, useLocation } from "react-router-dom";
 // import { useEffect } from 'react'
 
 export default function HomePage() {
   // const navigate = Navigate();
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   // const [data, setData] = useState([]);
   const [featureData, setFeatureData] = useState([]);
   const [mainContent, setMainContent] = useState({});
@@ -22,6 +23,7 @@ export default function HomePage() {
     window.scrollTo(0, 0);
   }, []);
 
+
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.substring(1));
@@ -30,6 +32,7 @@ export default function HomePage() {
       }
     }
   }, [location]);
+
 
   useEffect(() => {
     const fetchFeaturesData = async () => {
@@ -51,6 +54,12 @@ export default function HomePage() {
 
     fetchFeaturesData();
   }, [featureData]);
+
+
+  if (!featureData && !mainContent && !homePageAbout) {
+    return <div><SpinnerComponent /></div>;
+  }
+  
 
   return (
     <>
