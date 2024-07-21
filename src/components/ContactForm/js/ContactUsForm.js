@@ -45,7 +45,6 @@ const ContactUsForm = () => {
 
     if (!Object.values(newErrors).some((error) => error)) {
       // Submit form if no errors
-      console.log("Form submitted:", form);
     }
   };
 

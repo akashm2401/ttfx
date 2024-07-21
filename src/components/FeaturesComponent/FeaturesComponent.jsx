@@ -12,7 +12,6 @@ const FeaturesComponent = ({ features }) => {
 
   // Create a ref for each feature dynamically
   useEffect(() => {
-    console.log("featuresData::", featuresData);
     featureRefs.current = featuresData.reduce((acc, feature) => {
       acc[feature.id] = React.createRef();
       return acc;
