@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./AboutPage.scss";
-import data from './AboutPageData.json';
 import SpinnerComponent from '../../components/SpinnerComponent/SpinnerComponent';
 
 export default function AboutPage() {
@@ -9,11 +8,19 @@ export default function AboutPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  
+
   useEffect(() => {
-    // Simulate fetching data
-    setAboutData(data);
+    fetch("/data/aboutPageData.json")
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok " + response.statusText);
+        }
+        return response.json();
+      })
+      .then(data => setAboutData(data))
+      .catch(error => console.error("Error fetching features data:", error));
   }, []);
+
 
   if (!aboutData) {
     return <div><SpinnerComponent /></div>;
