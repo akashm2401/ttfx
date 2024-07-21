@@ -1,4 +1,8 @@
 {
+  "homePageMainContent": {
+    "title": "About True Trade Pro",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident et, quaerat nesciunt vero ipsum soluta tenetur. Voluptatem error molestias iste? Est inventore veritatis sitofficia placeat reiciendis iusto quasi debitis."
+  },
   "features": [
     {
       "id": "feature1",
@@ -28,5 +32,11 @@
       "description": "TRUE TRADE delivers ultra-low latency access from our servers, which are strategically located in major liquidity hubs. This ensures consistently minimal latency, providing the best possible fill on your orders for an optimal trading experience.",
       "imgPath": "fast.jpg"
     }
-  ]
+  ],
+  "homePageAbout": {
+    "title": "About True Trade Pro",
+    "subTtitle": "Lorem ipsum dolor sit amet.",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Provident et, quaerat nesciunt vero ipsum soluta tenetur.Voluptatem error molestias iste? Est inventore veritatis sit officia placeat reiciendis iusto quasi debitis.",
+    "buttonText": "Dicover True Trade Pro"
+  }
 }

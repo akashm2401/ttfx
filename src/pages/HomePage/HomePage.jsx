@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./HomePage.scss";
 // import CarouselComponent from "../../components/CarouselComponent/CarouselComponent";
 import FeaturesComponent from "../../components/FeaturesComponent/FeaturesComponent";
@@ -10,6 +10,11 @@ import { useNavigate, Link, useLocation } from "react-router-dom";
 export default function HomePage() {
   // const navigate = Navigate();
   const navigate = useNavigate();
+  // const [data, setData] = useState([]);
+  const [featureData, setFeatureData] = useState([]);
+  const [mainContent, setMainContent] = useState({});
+  const [homePageAbout, sethomePageAbout] = useState({});
+  const [status, setStatus] = useState("loading"); // loading, error, success
 
   const location = useLocation();
 
@@ -26,9 +31,27 @@ export default function HomePage() {
     }
   }, [location]);
 
-  // const gotToAbout = () => {
-  //   navigate("/about");
-  // };
+  useEffect(() => {
+    const fetchFeaturesData = async () => {
+      try {
+        const localResponse = await fetch("/data/homePage.json");
+        if (!localResponse.ok) {
+          throw new Error("Failed to fetch local data");
+        }
+        const localData = await localResponse.json();
+        setFeatureData(localData.features);
+        setMainContent(localData.homePageMainContent);
+        sethomePageAbout(localData.homePageAbout);
+        setStatus("success");
+      } catch (localError) {
+        console.error("Fetching local data failed:", localError);
+        setStatus("error");
+      }
+    };
+
+    fetchFeaturesData();
+  }, [featureData]);
+
   return (
     <>
       <div className="home-page">
@@ -36,23 +59,15 @@ export default function HomePage() {
           <div className="main-screen p-0 m-0">
             <div className="col-12 col-sm-9 col-lg-7 p-0 m-0">
               <div className="">
-                <h2>Next Generation C.L.O.B.</h2>
+                <h2>{mainContent.title}</h2>
 
-                <p className="text-justify">
-                  Our mission at true trade is to deliver a truly transparent
-                  trading venue, based on low cost transaction fees, 'zero'
-                  markup swap, the best raw pricing for all instruments and
-                  never take a position against our clients
-                </p>
+                <p className="text-justify">{mainContent.content}</p>
 
                 <Link to={"/about"} className="btn btn-sm btn-outline-primary">
                   Learn more
                 </Link>
               </div>
             </div>
-            {/* <div className="right col-0 col-sm-3 col-lg-5 p-0 m-0">
-              <img src={require("../../assets/img/file.png")} alt="" />
-            </div> */}
           </div>
         </div>
         <div className="carousel-screen">
@@ -60,7 +75,7 @@ export default function HomePage() {
         </div>
         {/* <hr/> */}
         <div id="feature" className="my-5">
-          <FeaturesComponent />
+          <FeaturesComponent features={featureData} />
         </div>
         <div id="tools-view">
           <ToolsViewComponent />
@@ -75,15 +90,12 @@ export default function HomePage() {
             />
           </div>
           <div className="col-md-6 col-lg-6 home-about-right-section">
-            <h4>About True Trade Pro</h4>
+            <h4>{homePageAbout.title}</h4>
             <p className="home-about-section-tag-line my-2">
-              Lorem ipsum dolor sit amet.
+              {homePageAbout.subTtitle}
             </p>
             <p className="home-about-section-desc my-3">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Provident et, quaerat nesciunt vero ipsum soluta tenetur.
-              Voluptatem error molestias iste? Est inventore veritatis sit
-              officia placeat reiciendis iusto quasi debitis.
+              {homePageAbout.content}
             </p>
 
             <Link
@@ -91,7 +103,7 @@ export default function HomePage() {
               type="button"
               className="btn btn-outline-primary"
             >
-              Dicover True Trade Pro
+              {homePageAbout.buttonText}
             </Link>
           </div>
         </div>

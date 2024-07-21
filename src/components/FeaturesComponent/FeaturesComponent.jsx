@@ -3,34 +3,16 @@ import "./FeaturesComponent.scss";
 import { Link } from "react-router-dom";
 import { getImage } from "../../utils/imageLoader";
 
-const FeaturesComponent = () => {
+const FeaturesComponent = ({ features }) => {
   // Dynamic refs using a map
   const featureRefs = useRef({});
 
-  const [featuresData, setFeaturesData] = useState([]);
-  const [status, setStatus] = useState("loading"); // loading, error, success
-
-  useEffect(() => {
-    const fetchFeaturesData = async () => {
-      try {
-        const localResponse = await fetch("/data/homePage.json");
-        if (!localResponse.ok) {
-          throw new Error("Failed to fetch local data");
-        }
-        const localData = await localResponse.json();
-        setFeaturesData(localData.features);
-        setStatus("success");
-      } catch (localError) {
-        console.error("Fetching local data failed:", localError);
-        setStatus("error");
-      }
-    };
-
-    fetchFeaturesData();
-  }, []);
+  const featuresData = features;
+  const [status, setStatus] = useState("success"); // loading, error, success
 
   // Create a ref for each feature dynamically
   useEffect(() => {
+    console.log("featuresData::", featuresData);
     featureRefs.current = featuresData.reduce((acc, feature) => {
       acc[feature.id] = React.createRef();
       return acc;
@@ -109,4 +91,4 @@ const FeaturesComponent = () => {
   );
 };
 
-export default React.memo(FeaturesComponent);
+export default FeaturesComponent;
