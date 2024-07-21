@@ -1,0 +1,32 @@
+{
+  "features": [
+    {
+      "id": "feature1",
+      "heading": "F.I.X. 4.2 / 4.4",
+      "tagLine": "Financial Information eXchange (FIX®) Protocol",
+      "description": "The Financial Information eXchange (FIX®) Protocol has revolutionized the trading environment, proving fundamental in facilitating many of the electronic trading trends that have emerged over the past decade.",
+      "imgPath": "F.I.X. 4.2.jpg"
+    },
+    {
+      "id": "feature2",
+      "heading": "Customizable",
+      "tagLine": "100% Transparency Standards, Equal Opportunity Infrastructure, and Next Generation Technology",
+      "description": "We are committed to pioneering 100% transparency standards, fostering equal opportunity infrastructure, and integrating next-generation technology. These initiatives shape a more equitable and advanced future, ensuring that everyone benefits from cutting-edge advancements and fair practices.",
+      "imgPath": "Customizable.jpg"
+    },
+    {
+      "id": "feature3",
+      "heading": "Central Limit Order Book",
+      "tagLine": "Understanding the Central Limit Order Book (CLOB)",
+      "description": "A Central Limit Order Book (CLOB) is a common trading system used in financial markets to match buy and sell orders for various financial instruments, such as stocks, bonds, commodities, and derivatives. This centralized electronic system aggregates and displays all outstanding limit orders for a particular asset at any given time, ensuring transparency and efficiency in trading.",
+      "imgPath": "Central Limit Order Book.jpg"
+    },
+    {
+      "id": "feature4",
+      "heading": "FAST",
+      "tagLine": "Ultra Low Latency Access for Optimal Trade Execution",
+      "description": "TRUE TRADE delivers ultra-low latency access from our servers, which are strategically located in major liquidity hubs. This ensures consistently minimal latency, providing the best possible fill on your orders for an optimal trading experience.",
+      "imgPath": "fast.jpg"
+    }
+  ]
+}
