@@ -45,7 +45,7 @@ export default function ContactUsPage() {
                     <a href="">
                       <strong>support@ttprofx.com</strong>
                     </a> <br/>
-                    <a href="" class='ms-5 ps-1'>
+                    <a href="" className='ms-5 ps-1'>
                       <strong>devansh@ttprofx.com</strong>
                     </a>
                     {/* </div> */}

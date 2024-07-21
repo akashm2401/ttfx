@@ -1,0 +1,45 @@
+{
+    "coverImage": "",
+    "heading": "Clients",
+    "intro": "True Trade prefers to work with its institutional clients as partners and provides clients with custom solutions tailored to client needs.",
+    "details": [
+        "Understanding that no client is the same, True Trade provides:",
+        "True Trade is for Institutional clients, specifically:"
+    ],
+    "features": [
+        "Custom liquidity solutions.",
+        "Complete trading anonymity from our liquidity providers.",
+        "Tier 1 Bank Liquidity.",
+        "Tailored pricing per instrument.",
+        "Flexible Order Management (VWAP, Top of Book, Partial fill)."
+    ],
+    "clients": [
+        "Professionals",
+        "Small to Mid-Market institutions",
+        "Brokers",
+        "Banks",
+        "Hedge funds & Money Managers"
+    ],
+    "categories": [
+        {
+            "title": "Professionals",
+            "description": "True Trade provides professional clients with flexibility within its API offering, competitive pricing and dedicated customer service. Additionally, MetaTrader 5 customers can use our proprietary bridge or integrate with available bridge providers."
+        },
+        {
+            "title": "Small to Mid-Market Institutions",
+            "description": "True Trade's offering will keep liquidity costs low parallel to growth with no compromise to quality of service. Where potential clients would experience delays in onboarding and integration with other providers True Trade has the expertise and infrastructure to onboard with utmost efficiency."
+        },
+        {
+            "title": "Brokers",
+            "description": "Having worked for Forex and CFD brokers for many years True Trade's management team understands the challenges these providers face. With competitive pricing, various trading solutions, and our matched principal model True Trade is the ideal partner for brokers."
+        },
+        {
+            "title": "Hedge Funds & Money Managers",
+            "description": "True Trade's highly sophisticated trading solutions and competitive pricing appeal to hedge funds and money managers. The ability to monitor trading in real time coupled with True Trade's dedicated customer service team benefit this market segment."
+        }
+    ],
+    "contact": {
+        "phone": "+44 (0) 20 8068 5220",
+        "message": "Request demo"
+    }
+}
