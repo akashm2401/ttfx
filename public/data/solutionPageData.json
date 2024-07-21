@@ -1,0 +1,113 @@
+{
+    "products": [
+        {
+            "id": 101,
+            "name": "Clobber Demo",
+            "info": {
+                "description": "To get your 48-hour credentials, simply enter 'guest' as the username and press Enter.",
+                "linkTitle": "Demo",
+                "link": "https://demofix.ttprofx.com:2228/login/index.html"
+            }
+        },
+        {
+            "id": 102,
+            "name": "Clobber Live",
+            "info": {
+                "description": "Acces the live clobber",
+                "linkTitle": "Live here!",
+                "link": "https://fix.ttprofx.com:2218/login/index.html"
+            }
+        },
+        {
+            "id": 103,
+            "name": "MT4 PC Client Termina",
+            "info": {
+                "description": "Description",
+                "linkTitle": "Download here!",
+                "link": "https://ttprofx.com/truetradepro4setup.exe"
+            }
+        },
+        {
+            "id": 104,
+            "name": "MT4 iOS Terminal",
+            "info": {
+                "description": "Description",
+                "linkTitle": "Download here!",
+                "link": "https://download.mql5.com/cdn/mobile/mt4/ios?server=TrueTradePro-Demo,TrueTradePro-Live"
+            }
+        },
+        {
+            "id": 105,
+            "name": "MT4 MacOS Terminal",
+            "info": {
+                "description": "Description ",
+                "linkTitle": "Download here!",
+                "link": "https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/MetaTrader4.dmg"
+            }
+        },
+        {
+            "id": 106,
+            "name": "MT4 Android Terminal",
+            "info": {
+                "description": "Description",
+                "linkTitle": "Download here!",
+                "link": "https://download.mql5.com/cdn/mobile/mt4/android?server=TrueTradePro-Demo,TrueTradePro-Live"
+            }
+        }
+    ],
+    "productsInfo": [
+        {
+            "title": "Mt4",
+            "icon": "star.png",
+            "heading": "Download the True Trade Pro MetaTrader Terminal",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quibusdam deleniti numquam non. Tempora commodi a mollitia reiciendis tempore incidunt cumque atque autem totam ad labore eligendi similique in libero molestiae deserunt, voluptas hic? Vel aliquid voluptates nesciunt ratione sint? Accusamus, doloremque inventore. Exercitationem tenetur suscipit doloribus enim, sit nostrum?",
+            "downloads": [
+                {
+                    "name": "MT4 PC Client Terminal",
+                    "link": "https://ttprofx.com/truetradepro4setup.exe"
+                },
+                {
+                    "name": "MT4 iOS Terminal",
+                    "link": "https://download.mql5.com/cdn/mobile/mt4/ios?server=TrueTradePro-Demo,TrueTradePro-Live"
+                },
+                {
+                    "name": "MT4 MacOS Terminal",
+                    "link": "https://download.mql5.com/cdn/web/metaquotes.software.corp/mt4/MetaTrader4.dmg"
+                },
+                {
+                    "name": "MT4 Android Terminal",
+                    "link": "https://download.mql5.com/cdn/mobile/mt4/android?server=TrueTradePro-Demo,TrueTradePro-Live"
+                }
+            ]
+        },
+        {
+            "title": "Custom",
+            "icon": "pen.png",
+            "heading": "Download the True Trade Pro MetaTrader Terminal",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quibusdam deleniti numquam non. Tempora commodi a mollitia reiciendis tempore incidunt cumque atque autem totam ad labore eligendi similique in libero molestiae deserunt, voluptas hic? Vel aliquid voluptates nesciunt ratione sint? Accusamus, doloremque inventore. Exercitationem tenetur suscipit dolori  bus enim, sit nostrum?",
+            "downloads": [
+                {
+                    "name": "Web Trader",
+                    "link": "",
+                    "linkTo": ""
+                }
+            ]
+        },
+        {
+            "title": "Documents",
+            "icon": "iphone.png",
+            "heading": "Please see Documents for Download",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quibusdam deleniti numquam non. Tempora commodi a mollitia reiciendis tempore incidunt cumque atque autem totam ad labore eligendi similique in libero molestiae deserunt, voluptas hic? Vel aliquid voluptates nesciunt ratione sint? Accusamus, doloremque inventore. Exercitationem tenetur suscipit doloribus enim, sit nostrum?",
+            "downloads": [
+                {
+                    "name": "Client Application",
+                    "link": "https://ttprofx.com/Client%20Application%20%20CCDD%20Form-%20TTPROFX%20V1.0%20April%202023.pdf"
+                },
+                {
+                    "name": "Customer Compliant",
+                    "link": "https://ttprofx.com/Complaint%20Form%201.1.pdf"
+                }
+            ]
+        }
+    ]
+}
